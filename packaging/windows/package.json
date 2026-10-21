@@ -1,0 +1,13 @@
+{
+  "name": "pokemon-pokedex",
+  "version": "1.0.0",
+  "private": true,
+  "main": "main.js",
+  "dependencies": {
+    "node-global-key-listener": "^0.3.0"
+  },
+  "devDependencies": {
+    "electron": "^33.2.0",
+    "electron-packager": "^17.1.2"
+  }
+}
