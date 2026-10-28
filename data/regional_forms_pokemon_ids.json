@@ -1,0 +1,618 @@
+[
+  {
+    "species_id": 19,
+    "name_zh": "小拉达",
+    "form": "rattata-alola",
+    "region": "阿罗拉",
+    "poke_id": 10091,
+    "types": [
+      "dark",
+      "normal"
+    ]
+  },
+  {
+    "species_id": 20,
+    "name_zh": "拉达",
+    "form": "raticate-alola",
+    "region": "阿罗拉",
+    "poke_id": 10092,
+    "types": [
+      "dark",
+      "normal"
+    ]
+  },
+  {
+    "species_id": 26,
+    "name_zh": "雷丘",
+    "form": "raichu-alola",
+    "region": "阿罗拉",
+    "poke_id": 10100,
+    "types": [
+      "electric",
+      "psychic"
+    ]
+  },
+  {
+    "species_id": 27,
+    "name_zh": "穿山鼠",
+    "form": "sandshrew-alola",
+    "region": "阿罗拉",
+    "poke_id": 10101,
+    "types": [
+      "ice",
+      "steel"
+    ]
+  },
+  {
+    "species_id": 28,
+    "name_zh": "穿山王",
+    "form": "sandslash-alola",
+    "region": "阿罗拉",
+    "poke_id": 10102,
+    "types": [
+      "ice",
+      "steel"
+    ]
+  },
+  {
+    "species_id": 37,
+    "name_zh": "六尾",
+    "form": "vulpix-alola",
+    "region": "阿罗拉",
+    "poke_id": 10103,
+    "types": [
+      "ice"
+    ]
+  },
+  {
+    "species_id": 38,
+    "name_zh": "九尾",
+    "form": "ninetales-alola",
+    "region": "阿罗拉",
+    "poke_id": 10104,
+    "types": [
+      "ice",
+      "fairy"
+    ]
+  },
+  {
+    "species_id": 50,
+    "name_zh": "地鼠",
+    "form": "diglett-alola",
+    "region": "阿罗拉",
+    "poke_id": 10105,
+    "types": [
+      "ground",
+      "steel"
+    ]
+  },
+  {
+    "species_id": 51,
+    "name_zh": "三地鼠",
+    "form": "dugtrio-alola",
+    "region": "阿罗拉",
+    "poke_id": 10106,
+    "types": [
+      "ground",
+      "steel"
+    ]
+  },
+  {
+    "species_id": 52,
+    "name_zh": "喵喵",
+    "form": "meowth-alola",
+    "region": "阿罗拉",
+    "poke_id": 10107,
+    "types": [
+      "dark"
+    ]
+  },
+  {
+    "species_id": 52,
+    "name_zh": "喵喵",
+    "form": "meowth-galar",
+    "region": "伽勒尔",
+    "poke_id": 10161,
+    "types": [
+      "steel"
+    ]
+  },
+  {
+    "species_id": 53,
+    "name_zh": "猫老大",
+    "form": "persian-alola",
+    "region": "阿罗拉",
+    "poke_id": 10108,
+    "types": [
+      "dark"
+    ]
+  },
+  {
+    "species_id": 58,
+    "name_zh": "卡蒂狗",
+    "form": "growlithe-hisui",
+    "region": "洗翠",
+    "poke_id": 10229,
+    "types": [
+      "fire",
+      "rock"
+    ]
+  },
+  {
+    "species_id": 59,
+    "name_zh": "风速狗",
+    "form": "arcanine-hisui",
+    "region": "洗翠",
+    "poke_id": 10230,
+    "types": [
+      "fire",
+      "rock"
+    ]
+  },
+  {
+    "species_id": 74,
+    "name_zh": "小拳石",
+    "form": "geodude-alola",
+    "region": "阿罗拉",
+    "poke_id": 10109,
+    "types": [
+      "rock",
+      "electric"
+    ]
+  },
+  {
+    "species_id": 75,
+    "name_zh": "隆隆石",
+    "form": "graveler-alola",
+    "region": "阿罗拉",
+    "poke_id": 10110,
+    "types": [
+      "rock",
+      "electric"
+    ]
+  },
+  {
+    "species_id": 76,
+    "name_zh": "隆隆岩",
+    "form": "golem-alola",
+    "region": "阿罗拉",
+    "poke_id": 10111,
+    "types": [
+      "rock",
+      "electric"
+    ]
+  },
+  {
+    "species_id": 77,
+    "name_zh": "小火马",
+    "form": "ponyta-galar",
+    "region": "伽勒尔",
+    "poke_id": 10162,
+    "types": [
+      "psychic"
+    ]
+  },
+  {
+    "species_id": 78,
+    "name_zh": "烈焰马",
+    "form": "rapidash-galar",
+    "region": "伽勒尔",
+    "poke_id": 10163,
+    "types": [
+      "psychic",
+      "fairy"
+    ]
+  },
+  {
+    "species_id": 79,
+    "name_zh": "呆呆兽",
+    "form": "slowpoke-galar",
+    "region": "伽勒尔",
+    "poke_id": 10164,
+    "types": [
+      "psychic"
+    ]
+  },
+  {
+    "species_id": 80,
+    "name_zh": "呆壳兽",
+    "form": "slowbro-galar",
+    "region": "伽勒尔",
+    "poke_id": 10165,
+    "types": [
+      "poison",
+      "psychic"
+    ]
+  },
+  {
+    "species_id": 83,
+    "name_zh": "大葱鸭",
+    "form": "farfetchd-galar",
+    "region": "伽勒尔",
+    "poke_id": 10166,
+    "types": [
+      "fighting"
+    ]
+  },
+  {
+    "species_id": 88,
+    "name_zh": "臭泥",
+    "form": "grimer-alola",
+    "region": "阿罗拉",
+    "poke_id": 10112,
+    "types": [
+      "poison",
+      "dark"
+    ]
+  },
+  {
+    "species_id": 89,
+    "name_zh": "臭臭泥",
+    "form": "muk-alola",
+    "region": "阿罗拉",
+    "poke_id": 10113,
+    "types": [
+      "poison",
+      "dark"
+    ]
+  },
+  {
+    "species_id": 100,
+    "name_zh": "霹雳电球",
+    "form": "voltorb-hisui",
+    "region": "洗翠",
+    "poke_id": 10231,
+    "types": [
+      "electric",
+      "grass"
+    ]
+  },
+  {
+    "species_id": 101,
+    "name_zh": "顽皮雷弹",
+    "form": "electrode-hisui",
+    "region": "洗翠",
+    "poke_id": 10232,
+    "types": [
+      "electric",
+      "grass"
+    ]
+  },
+  {
+    "species_id": 103,
+    "name_zh": "椰蛋树",
+    "form": "exeggutor-alola",
+    "region": "阿罗拉",
+    "poke_id": 10114,
+    "types": [
+      "grass",
+      "dragon"
+    ]
+  },
+  {
+    "species_id": 105,
+    "name_zh": "嘎啦嘎啦",
+    "form": "marowak-alola",
+    "region": "阿罗拉",
+    "poke_id": 10115,
+    "types": [
+      "fire",
+      "ghost"
+    ]
+  },
+  {
+    "species_id": 110,
+    "name_zh": "双弹瓦斯",
+    "form": "weezing-galar",
+    "region": "伽勒尔",
+    "poke_id": 10167,
+    "types": [
+      "poison",
+      "fairy"
+    ]
+  },
+  {
+    "species_id": 122,
+    "name_zh": "魔墙人偶",
+    "form": "mr-mime-galar",
+    "region": "伽勒尔",
+    "poke_id": 10168,
+    "types": [
+      "ice",
+      "psychic"
+    ]
+  },
+  {
+    "species_id": 128,
+    "name_zh": "肯泰罗",
+    "form": "tauros-paldea-combat-breed",
+    "region": "帕底亚",
+    "poke_id": 10250,
+    "types": [
+      "fighting"
+    ]
+  },
+  {
+    "species_id": 128,
+    "name_zh": "肯泰罗",
+    "form": "tauros-paldea-blaze-breed",
+    "region": "帕底亚",
+    "poke_id": 10251,
+    "types": [
+      "fighting",
+      "fire"
+    ]
+  },
+  {
+    "species_id": 128,
+    "name_zh": "肯泰罗",
+    "form": "tauros-paldea-aqua-breed",
+    "region": "帕底亚",
+    "poke_id": 10252,
+    "types": [
+      "fighting",
+      "water"
+    ]
+  },
+  {
+    "species_id": 144,
+    "name_zh": "急冻鸟",
+    "form": "articuno-galar",
+    "region": "伽勒尔",
+    "poke_id": 10169,
+    "types": [
+      "psychic",
+      "flying"
+    ]
+  },
+  {
+    "species_id": 145,
+    "name_zh": "闪电鸟",
+    "form": "zapdos-galar",
+    "region": "伽勒尔",
+    "poke_id": 10170,
+    "types": [
+      "fighting",
+      "flying"
+    ]
+  },
+  {
+    "species_id": 146,
+    "name_zh": "火焰鸟",
+    "form": "moltres-galar",
+    "region": "伽勒尔",
+    "poke_id": 10171,
+    "types": [
+      "dark",
+      "flying"
+    ]
+  },
+  {
+    "species_id": 157,
+    "name_zh": "火暴兽",
+    "form": "typhlosion-hisui",
+    "region": "洗翠",
+    "poke_id": 10233,
+    "types": [
+      "fire",
+      "ghost"
+    ]
+  },
+  {
+    "species_id": 194,
+    "name_zh": "乌波",
+    "form": "wooper-paldea",
+    "region": "帕底亚",
+    "poke_id": 10253,
+    "types": [
+      "poison",
+      "ground"
+    ]
+  },
+  {
+    "species_id": 199,
+    "name_zh": "呆呆王",
+    "form": "slowking-galar",
+    "region": "伽勒尔",
+    "poke_id": 10172,
+    "types": [
+      "poison",
+      "psychic"
+    ]
+  },
+  {
+    "species_id": 211,
+    "name_zh": "千针鱼",
+    "form": "qwilfish-hisui",
+    "region": "洗翠",
+    "poke_id": 10234,
+    "types": [
+      "dark",
+      "poison"
+    ]
+  },
+  {
+    "species_id": 215,
+    "name_zh": "狃拉",
+    "form": "sneasel-hisui",
+    "region": "洗翠",
+    "poke_id": 10235,
+    "types": [
+      "fighting",
+      "poison"
+    ]
+  },
+  {
+    "species_id": 222,
+    "name_zh": "太阳珊瑚",
+    "form": "corsola-galar",
+    "region": "伽勒尔",
+    "poke_id": 10173,
+    "types": [
+      "ghost"
+    ]
+  },
+  {
+    "species_id": 263,
+    "name_zh": "蛇纹熊",
+    "form": "zigzagoon-galar",
+    "region": "伽勒尔",
+    "poke_id": 10174,
+    "types": [
+      "dark",
+      "normal"
+    ]
+  },
+  {
+    "species_id": 264,
+    "name_zh": "直冲熊",
+    "form": "linoone-galar",
+    "region": "伽勒尔",
+    "poke_id": 10175,
+    "types": [
+      "dark",
+      "normal"
+    ]
+  },
+  {
+    "species_id": 503,
+    "name_zh": "大剑鬼",
+    "form": "samurott-hisui",
+    "region": "洗翠",
+    "poke_id": 10236,
+    "types": [
+      "water",
+      "dark"
+    ]
+  },
+  {
+    "species_id": 549,
+    "name_zh": "裙儿小姐",
+    "form": "lilligant-hisui",
+    "region": "洗翠",
+    "poke_id": 10237,
+    "types": [
+      "grass",
+      "fighting"
+    ]
+  },
+  {
+    "species_id": 554,
+    "name_zh": "火红不倒翁",
+    "form": "darumaka-galar",
+    "region": "伽勒尔",
+    "poke_id": 10176,
+    "types": [
+      "ice"
+    ]
+  },
+  {
+    "species_id": 555,
+    "name_zh": "达摩狒狒",
+    "form": "darmanitan-galar-standard",
+    "region": "伽勒尔",
+    "poke_id": 10177,
+    "types": [
+      "ice"
+    ]
+  },
+  {
+    "species_id": 562,
+    "name_zh": "哭哭面具",
+    "form": "yamask-galar",
+    "region": "伽勒尔",
+    "poke_id": 10179,
+    "types": [
+      "ground",
+      "ghost"
+    ]
+  },
+  {
+    "species_id": 570,
+    "name_zh": "索罗亚",
+    "form": "zorua-hisui",
+    "region": "洗翠",
+    "poke_id": 10238,
+    "types": [
+      "normal",
+      "ghost"
+    ]
+  },
+  {
+    "species_id": 571,
+    "name_zh": "索罗亚克",
+    "form": "zoroark-hisui",
+    "region": "洗翠",
+    "poke_id": 10239,
+    "types": [
+      "normal",
+      "ghost"
+    ]
+  },
+  {
+    "species_id": 618,
+    "name_zh": "泥巴鱼",
+    "form": "stunfisk-galar",
+    "region": "伽勒尔",
+    "poke_id": 10180,
+    "types": [
+      "ground",
+      "steel"
+    ]
+  },
+  {
+    "species_id": 628,
+    "name_zh": "勇士雄鹰",
+    "form": "braviary-hisui",
+    "region": "洗翠",
+    "poke_id": 10240,
+    "types": [
+      "psychic",
+      "flying"
+    ]
+  },
+  {
+    "species_id": 705,
+    "name_zh": "黏美儿",
+    "form": "sliggoo-hisui",
+    "region": "洗翠",
+    "poke_id": 10241,
+    "types": [
+      "steel",
+      "dragon"
+    ]
+  },
+  {
+    "species_id": 706,
+    "name_zh": "黏美龙",
+    "form": "goodra-hisui",
+    "region": "洗翠",
+    "poke_id": 10242,
+    "types": [
+      "steel",
+      "dragon"
+    ]
+  },
+  {
+    "species_id": 713,
+    "name_zh": "冰岩怪",
+    "form": "avalugg-hisui",
+    "region": "洗翠",
+    "poke_id": 10243,
+    "types": [
+      "ice",
+      "rock"
+    ]
+  },
+  {
+    "species_id": 724,
+    "name_zh": "狙射树枭",
+    "form": "decidueye-hisui",
+    "region": "洗翠",
+    "poke_id": 10244,
+    "types": [
+      "grass",
+      "fighting"
+    ]
+  }
+]

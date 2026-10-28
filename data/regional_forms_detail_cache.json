@@ -1,0 +1,1359 @@
+{
+  "10091": {
+    "id": 10091,
+    "species_id": 19,
+    "form": "rattata-alola",
+    "region": "阿罗拉",
+    "base_zh": "小拉达",
+    "types": [
+      "dark",
+      "normal"
+    ],
+    "stats": {
+      "hp": 30,
+      "attack": 56,
+      "defense": 35,
+      "special-attack": 25,
+      "special-defense": 35,
+      "speed": 72
+    },
+    "total": 253,
+    "capture_rate": 255,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Rattata"
+  },
+  "10092": {
+    "id": 10092,
+    "species_id": 20,
+    "form": "raticate-alola",
+    "region": "阿罗拉",
+    "base_zh": "拉达",
+    "types": [
+      "dark",
+      "normal"
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 71,
+      "defense": 70,
+      "special-attack": 40,
+      "special-defense": 80,
+      "speed": 77
+    },
+    "total": 413,
+    "capture_rate": 127,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Raticate"
+  },
+  "10100": {
+    "id": 10100,
+    "species_id": 26,
+    "form": "raichu-alola",
+    "region": "阿罗拉",
+    "base_zh": "雷丘",
+    "types": [
+      "electric",
+      "psychic"
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 85,
+      "defense": 50,
+      "special-attack": 95,
+      "special-defense": 85,
+      "speed": 110
+    },
+    "total": 485,
+    "capture_rate": 75,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Raichu"
+  },
+  "10101": {
+    "id": 10101,
+    "species_id": 27,
+    "form": "sandshrew-alola",
+    "region": "阿罗拉",
+    "base_zh": "穿山鼠",
+    "types": [
+      "ice",
+      "steel"
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 75,
+      "defense": 90,
+      "special-attack": 10,
+      "special-defense": 35,
+      "speed": 40
+    },
+    "total": 300,
+    "capture_rate": 255,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Sandshrew"
+  },
+  "10102": {
+    "id": 10102,
+    "species_id": 28,
+    "form": "sandslash-alola",
+    "region": "阿罗拉",
+    "base_zh": "穿山王",
+    "types": [
+      "ice",
+      "steel"
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 100,
+      "defense": 120,
+      "special-attack": 25,
+      "special-defense": 65,
+      "speed": 65
+    },
+    "total": 450,
+    "capture_rate": 90,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Sandslash"
+  },
+  "10103": {
+    "id": 10103,
+    "species_id": 37,
+    "form": "vulpix-alola",
+    "region": "阿罗拉",
+    "base_zh": "六尾",
+    "types": [
+      "ice"
+    ],
+    "stats": {
+      "hp": 38,
+      "attack": 41,
+      "defense": 40,
+      "special-attack": 50,
+      "special-defense": 65,
+      "speed": 65
+    },
+    "total": 299,
+    "capture_rate": 190,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Vulpix"
+  },
+  "10104": {
+    "id": 10104,
+    "species_id": 38,
+    "form": "ninetales-alola",
+    "region": "阿罗拉",
+    "base_zh": "九尾",
+    "types": [
+      "ice",
+      "fairy"
+    ],
+    "stats": {
+      "hp": 73,
+      "attack": 67,
+      "defense": 75,
+      "special-attack": 81,
+      "special-defense": 100,
+      "speed": 109
+    },
+    "total": 505,
+    "capture_rate": 75,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Ninetales"
+  },
+  "10105": {
+    "id": 10105,
+    "species_id": 50,
+    "form": "diglett-alola",
+    "region": "阿罗拉",
+    "base_zh": "地鼠",
+    "types": [
+      "ground",
+      "steel"
+    ],
+    "stats": {
+      "hp": 10,
+      "attack": 55,
+      "defense": 30,
+      "special-attack": 35,
+      "special-defense": 45,
+      "speed": 90
+    },
+    "total": 265,
+    "capture_rate": 255,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Diglett"
+  },
+  "10106": {
+    "id": 10106,
+    "species_id": 51,
+    "form": "dugtrio-alola",
+    "region": "阿罗拉",
+    "base_zh": "三地鼠",
+    "types": [
+      "ground",
+      "steel"
+    ],
+    "stats": {
+      "hp": 35,
+      "attack": 100,
+      "defense": 60,
+      "special-attack": 50,
+      "special-defense": 70,
+      "speed": 110
+    },
+    "total": 425,
+    "capture_rate": 50,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Dugtrio"
+  },
+  "10107": {
+    "id": 10107,
+    "species_id": 52,
+    "form": "meowth-alola",
+    "region": "阿罗拉",
+    "base_zh": "喵喵",
+    "types": [
+      "dark"
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 35,
+      "defense": 35,
+      "special-attack": 50,
+      "special-defense": 40,
+      "speed": 90
+    },
+    "total": 290,
+    "capture_rate": 255,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Meowth"
+  },
+  "10108": {
+    "id": 10108,
+    "species_id": 53,
+    "form": "persian-alola",
+    "region": "阿罗拉",
+    "base_zh": "猫老大",
+    "types": [
+      "dark"
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 60,
+      "defense": 60,
+      "special-attack": 75,
+      "special-defense": 65,
+      "speed": 115
+    },
+    "total": 440,
+    "capture_rate": 90,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Persian"
+  },
+  "10109": {
+    "id": 10109,
+    "species_id": 74,
+    "form": "geodude-alola",
+    "region": "阿罗拉",
+    "base_zh": "小拳石",
+    "types": [
+      "rock",
+      "electric"
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 80,
+      "defense": 100,
+      "special-attack": 30,
+      "special-defense": 30,
+      "speed": 20
+    },
+    "total": 300,
+    "capture_rate": 255,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Geodude"
+  },
+  "10110": {
+    "id": 10110,
+    "species_id": 75,
+    "form": "graveler-alola",
+    "region": "阿罗拉",
+    "base_zh": "隆隆石",
+    "types": [
+      "rock",
+      "electric"
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 95,
+      "defense": 115,
+      "special-attack": 45,
+      "special-defense": 45,
+      "speed": 35
+    },
+    "total": 390,
+    "capture_rate": 120,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Graveler"
+  },
+  "10111": {
+    "id": 10111,
+    "species_id": 76,
+    "form": "golem-alola",
+    "region": "阿罗拉",
+    "base_zh": "隆隆岩",
+    "types": [
+      "rock",
+      "electric"
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 120,
+      "defense": 130,
+      "special-attack": 55,
+      "special-defense": 65,
+      "speed": 45
+    },
+    "total": 495,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Golem"
+  },
+  "10112": {
+    "id": 10112,
+    "species_id": 88,
+    "form": "grimer-alola",
+    "region": "阿罗拉",
+    "base_zh": "臭泥",
+    "types": [
+      "poison",
+      "dark"
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 80,
+      "defense": 50,
+      "special-attack": 40,
+      "special-defense": 50,
+      "speed": 25
+    },
+    "total": 325,
+    "capture_rate": 190,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Grimer"
+  },
+  "10113": {
+    "id": 10113,
+    "species_id": 89,
+    "form": "muk-alola",
+    "region": "阿罗拉",
+    "base_zh": "臭臭泥",
+    "types": [
+      "poison",
+      "dark"
+    ],
+    "stats": {
+      "hp": 105,
+      "attack": 105,
+      "defense": 75,
+      "special-attack": 65,
+      "special-defense": 100,
+      "speed": 50
+    },
+    "total": 500,
+    "capture_rate": 75,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Muk"
+  },
+  "10114": {
+    "id": 10114,
+    "species_id": 103,
+    "form": "exeggutor-alola",
+    "region": "阿罗拉",
+    "base_zh": "椰蛋树",
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 105,
+      "defense": 85,
+      "special-attack": 125,
+      "special-defense": 75,
+      "speed": 45
+    },
+    "total": 530,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Exeggutor"
+  },
+  "10115": {
+    "id": 10115,
+    "species_id": 105,
+    "form": "marowak-alola",
+    "region": "阿罗拉",
+    "base_zh": "嘎啦嘎啦",
+    "types": [
+      "fire",
+      "ghost"
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 80,
+      "defense": 110,
+      "special-attack": 50,
+      "special-defense": 80,
+      "speed": 45
+    },
+    "total": 425,
+    "capture_rate": 75,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Marowak"
+  },
+  "10161": {
+    "id": 10161,
+    "species_id": 52,
+    "form": "meowth-galar",
+    "region": "伽勒尔",
+    "base_zh": "喵喵",
+    "types": [
+      "steel"
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 55,
+      "special-attack": 40,
+      "special-defense": 40,
+      "speed": 40
+    },
+    "total": 290,
+    "capture_rate": 255,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Meowth"
+  },
+  "10162": {
+    "id": 10162,
+    "species_id": 77,
+    "form": "ponyta-galar",
+    "region": "伽勒尔",
+    "base_zh": "小火马",
+    "types": [
+      "psychic"
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 85,
+      "defense": 55,
+      "special-attack": 65,
+      "special-defense": 65,
+      "speed": 90
+    },
+    "total": 410,
+    "capture_rate": 190,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Ponyta"
+  },
+  "10163": {
+    "id": 10163,
+    "species_id": 78,
+    "form": "rapidash-galar",
+    "region": "伽勒尔",
+    "base_zh": "烈焰马",
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 100,
+      "defense": 70,
+      "special-attack": 80,
+      "special-defense": 80,
+      "speed": 105
+    },
+    "total": 500,
+    "capture_rate": 60,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Rapidash"
+  },
+  "10164": {
+    "id": 10164,
+    "species_id": 79,
+    "form": "slowpoke-galar",
+    "region": "伽勒尔",
+    "base_zh": "呆呆兽",
+    "types": [
+      "psychic"
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 65,
+      "defense": 65,
+      "special-attack": 40,
+      "special-defense": 40,
+      "speed": 15
+    },
+    "total": 315,
+    "capture_rate": 190,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Slowpoke"
+  },
+  "10165": {
+    "id": 10165,
+    "species_id": 80,
+    "form": "slowbro-galar",
+    "region": "伽勒尔",
+    "base_zh": "呆壳兽",
+    "types": [
+      "poison",
+      "psychic"
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 100,
+      "defense": 95,
+      "special-attack": 100,
+      "special-defense": 70,
+      "speed": 30
+    },
+    "total": 490,
+    "capture_rate": 75,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Slowbro"
+  },
+  "10166": {
+    "id": 10166,
+    "species_id": 83,
+    "form": "farfetchd-galar",
+    "region": "伽勒尔",
+    "base_zh": "大葱鸭",
+    "types": [
+      "fighting"
+    ],
+    "stats": {
+      "hp": 52,
+      "attack": 95,
+      "defense": 55,
+      "special-attack": 58,
+      "special-defense": 62,
+      "speed": 55
+    },
+    "total": 377,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Farfetch’d"
+  },
+  "10167": {
+    "id": 10167,
+    "species_id": 110,
+    "form": "weezing-galar",
+    "region": "伽勒尔",
+    "base_zh": "双弹瓦斯",
+    "types": [
+      "poison",
+      "fairy"
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 90,
+      "defense": 120,
+      "special-attack": 85,
+      "special-defense": 70,
+      "speed": 60
+    },
+    "total": 490,
+    "capture_rate": 60,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Weezing"
+  },
+  "10168": {
+    "id": 10168,
+    "species_id": 122,
+    "form": "mr-mime-galar",
+    "region": "伽勒尔",
+    "base_zh": "魔墙人偶",
+    "types": [
+      "ice",
+      "psychic"
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "special-attack": 90,
+      "special-defense": 90,
+      "speed": 100
+    },
+    "total": 460,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Mr. Mime"
+  },
+  "10169": {
+    "id": 10169,
+    "species_id": 144,
+    "form": "articuno-galar",
+    "region": "伽勒尔",
+    "base_zh": "急冻鸟",
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 85,
+      "defense": 85,
+      "special-attack": 125,
+      "special-defense": 100,
+      "speed": 95
+    },
+    "total": 580,
+    "capture_rate": 3,
+    "is_legendary": true,
+    "is_mythical": false,
+    "species_name_en": "Articuno"
+  },
+  "10170": {
+    "id": 10170,
+    "species_id": 145,
+    "form": "zapdos-galar",
+    "region": "伽勒尔",
+    "base_zh": "闪电鸟",
+    "types": [
+      "fighting",
+      "flying"
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 125,
+      "defense": 90,
+      "special-attack": 85,
+      "special-defense": 90,
+      "speed": 100
+    },
+    "total": 580,
+    "capture_rate": 3,
+    "is_legendary": true,
+    "is_mythical": false,
+    "species_name_en": "Zapdos"
+  },
+  "10171": {
+    "id": 10171,
+    "species_id": 146,
+    "form": "moltres-galar",
+    "region": "伽勒尔",
+    "base_zh": "火焰鸟",
+    "types": [
+      "dark",
+      "flying"
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 85,
+      "defense": 90,
+      "special-attack": 100,
+      "special-defense": 125,
+      "speed": 90
+    },
+    "total": 580,
+    "capture_rate": 3,
+    "is_legendary": true,
+    "is_mythical": false,
+    "species_name_en": "Moltres"
+  },
+  "10172": {
+    "id": 10172,
+    "species_id": 199,
+    "form": "slowking-galar",
+    "region": "伽勒尔",
+    "base_zh": "呆呆王",
+    "types": [
+      "poison",
+      "psychic"
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 65,
+      "defense": 80,
+      "special-attack": 110,
+      "special-defense": 110,
+      "speed": 30
+    },
+    "total": 490,
+    "capture_rate": 70,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Slowking"
+  },
+  "10173": {
+    "id": 10173,
+    "species_id": 222,
+    "form": "corsola-galar",
+    "region": "伽勒尔",
+    "base_zh": "太阳珊瑚",
+    "types": [
+      "ghost"
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 55,
+      "defense": 100,
+      "special-attack": 65,
+      "special-defense": 100,
+      "speed": 30
+    },
+    "total": 410,
+    "capture_rate": 60,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Corsola"
+  },
+  "10174": {
+    "id": 10174,
+    "species_id": 263,
+    "form": "zigzagoon-galar",
+    "region": "伽勒尔",
+    "base_zh": "蛇纹熊",
+    "types": [
+      "dark",
+      "normal"
+    ],
+    "stats": {
+      "hp": 38,
+      "attack": 30,
+      "defense": 41,
+      "special-attack": 30,
+      "special-defense": 41,
+      "speed": 60
+    },
+    "total": 240,
+    "capture_rate": 255,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Zigzagoon"
+  },
+  "10175": {
+    "id": 10175,
+    "species_id": 264,
+    "form": "linoone-galar",
+    "region": "伽勒尔",
+    "base_zh": "直冲熊",
+    "types": [
+      "dark",
+      "normal"
+    ],
+    "stats": {
+      "hp": 78,
+      "attack": 70,
+      "defense": 61,
+      "special-attack": 50,
+      "special-defense": 61,
+      "speed": 100
+    },
+    "total": 420,
+    "capture_rate": 90,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Linoone"
+  },
+  "10176": {
+    "id": 10176,
+    "species_id": 554,
+    "form": "darumaka-galar",
+    "region": "伽勒尔",
+    "base_zh": "火红不倒翁",
+    "types": [
+      "ice"
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 90,
+      "defense": 45,
+      "special-attack": 15,
+      "special-defense": 45,
+      "speed": 50
+    },
+    "total": 315,
+    "capture_rate": 120,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Darumaka"
+  },
+  "10177": {
+    "id": 10177,
+    "species_id": 555,
+    "form": "darmanitan-galar-standard",
+    "region": "伽勒尔",
+    "base_zh": "达摩狒狒",
+    "types": [
+      "ice"
+    ],
+    "stats": {
+      "hp": 105,
+      "attack": 140,
+      "defense": 55,
+      "special-attack": 30,
+      "special-defense": 55,
+      "speed": 95
+    },
+    "total": 480,
+    "capture_rate": 60,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Darmanitan"
+  },
+  "10179": {
+    "id": 10179,
+    "species_id": 562,
+    "form": "yamask-galar",
+    "region": "伽勒尔",
+    "base_zh": "哭哭面具",
+    "types": [
+      "ground",
+      "ghost"
+    ],
+    "stats": {
+      "hp": 38,
+      "attack": 55,
+      "defense": 85,
+      "special-attack": 30,
+      "special-defense": 65,
+      "speed": 30
+    },
+    "total": 303,
+    "capture_rate": 190,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Yamask"
+  },
+  "10180": {
+    "id": 10180,
+    "species_id": 618,
+    "form": "stunfisk-galar",
+    "region": "伽勒尔",
+    "base_zh": "泥巴鱼",
+    "types": [
+      "ground",
+      "steel"
+    ],
+    "stats": {
+      "hp": 109,
+      "attack": 81,
+      "defense": 99,
+      "special-attack": 66,
+      "special-defense": 84,
+      "speed": 32
+    },
+    "total": 471,
+    "capture_rate": 75,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Stunfisk"
+  },
+  "10229": {
+    "id": 10229,
+    "species_id": 58,
+    "form": "growlithe-hisui",
+    "region": "洗翠",
+    "base_zh": "卡蒂狗",
+    "types": [
+      "fire",
+      "rock"
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 45,
+      "special-attack": 65,
+      "special-defense": 50,
+      "speed": 55
+    },
+    "total": 350,
+    "capture_rate": 190,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Growlithe"
+  },
+  "10230": {
+    "id": 10230,
+    "species_id": 59,
+    "form": "arcanine-hisui",
+    "region": "洗翠",
+    "base_zh": "风速狗",
+    "types": [
+      "fire",
+      "rock"
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 115,
+      "defense": 80,
+      "special-attack": 95,
+      "special-defense": 80,
+      "speed": 90
+    },
+    "total": 555,
+    "capture_rate": 75,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Arcanine"
+  },
+  "10231": {
+    "id": 10231,
+    "species_id": 100,
+    "form": "voltorb-hisui",
+    "region": "洗翠",
+    "base_zh": "霹雳电球",
+    "types": [
+      "electric",
+      "grass"
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 30,
+      "defense": 50,
+      "special-attack": 55,
+      "special-defense": 55,
+      "speed": 100
+    },
+    "total": 330,
+    "capture_rate": 190,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Voltorb"
+  },
+  "10232": {
+    "id": 10232,
+    "species_id": 101,
+    "form": "electrode-hisui",
+    "region": "洗翠",
+    "base_zh": "顽皮雷弹",
+    "types": [
+      "electric",
+      "grass"
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 50,
+      "defense": 70,
+      "special-attack": 80,
+      "special-defense": 80,
+      "speed": 150
+    },
+    "total": 490,
+    "capture_rate": 60,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Electrode"
+  },
+  "10233": {
+    "id": 10233,
+    "species_id": 157,
+    "form": "typhlosion-hisui",
+    "region": "洗翠",
+    "base_zh": "火暴兽",
+    "types": [
+      "fire",
+      "ghost"
+    ],
+    "stats": {
+      "hp": 73,
+      "attack": 84,
+      "defense": 78,
+      "special-attack": 119,
+      "special-defense": 85,
+      "speed": 95
+    },
+    "total": 534,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Typhlosion"
+  },
+  "10234": {
+    "id": 10234,
+    "species_id": 211,
+    "form": "qwilfish-hisui",
+    "region": "洗翠",
+    "base_zh": "千针鱼",
+    "types": [
+      "dark",
+      "poison"
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 95,
+      "defense": 85,
+      "special-attack": 55,
+      "special-defense": 55,
+      "speed": 85
+    },
+    "total": 440,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Qwilfish"
+  },
+  "10235": {
+    "id": 10235,
+    "species_id": 215,
+    "form": "sneasel-hisui",
+    "region": "洗翠",
+    "base_zh": "狃拉",
+    "types": [
+      "fighting",
+      "poison"
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 95,
+      "defense": 55,
+      "special-attack": 35,
+      "special-defense": 75,
+      "speed": 115
+    },
+    "total": 430,
+    "capture_rate": 60,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Sneasel"
+  },
+  "10236": {
+    "id": 10236,
+    "species_id": 503,
+    "form": "samurott-hisui",
+    "region": "洗翠",
+    "base_zh": "大剑鬼",
+    "types": [
+      "water",
+      "dark"
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 108,
+      "defense": 80,
+      "special-attack": 100,
+      "special-defense": 65,
+      "speed": 85
+    },
+    "total": 528,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Samurott"
+  },
+  "10237": {
+    "id": 10237,
+    "species_id": 549,
+    "form": "lilligant-hisui",
+    "region": "洗翠",
+    "base_zh": "裙儿小姐",
+    "types": [
+      "grass",
+      "fighting"
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 105,
+      "defense": 75,
+      "special-attack": 50,
+      "special-defense": 75,
+      "speed": 105
+    },
+    "total": 480,
+    "capture_rate": 75,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Lilligant"
+  },
+  "10238": {
+    "id": 10238,
+    "species_id": 570,
+    "form": "zorua-hisui",
+    "region": "洗翠",
+    "base_zh": "索罗亚",
+    "types": [
+      "normal",
+      "ghost"
+    ],
+    "stats": {
+      "hp": 35,
+      "attack": 60,
+      "defense": 40,
+      "special-attack": 85,
+      "special-defense": 40,
+      "speed": 70
+    },
+    "total": 330,
+    "capture_rate": 75,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Zorua"
+  },
+  "10239": {
+    "id": 10239,
+    "species_id": 571,
+    "form": "zoroark-hisui",
+    "region": "洗翠",
+    "base_zh": "索罗亚克",
+    "types": [
+      "normal",
+      "ghost"
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 100,
+      "defense": 60,
+      "special-attack": 125,
+      "special-defense": 60,
+      "speed": 110
+    },
+    "total": 510,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Zoroark"
+  },
+  "10240": {
+    "id": 10240,
+    "species_id": 628,
+    "form": "braviary-hisui",
+    "region": "洗翠",
+    "base_zh": "勇士雄鹰",
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "stats": {
+      "hp": 110,
+      "attack": 83,
+      "defense": 70,
+      "special-attack": 112,
+      "special-defense": 70,
+      "speed": 65
+    },
+    "total": 510,
+    "capture_rate": 60,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Braviary"
+  },
+  "10241": {
+    "id": 10241,
+    "species_id": 705,
+    "form": "sliggoo-hisui",
+    "region": "洗翠",
+    "base_zh": "黏美儿",
+    "types": [
+      "steel",
+      "dragon"
+    ],
+    "stats": {
+      "hp": 58,
+      "attack": 75,
+      "defense": 83,
+      "special-attack": 83,
+      "special-defense": 113,
+      "speed": 40
+    },
+    "total": 452,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Sliggoo"
+  },
+  "10242": {
+    "id": 10242,
+    "species_id": 706,
+    "form": "goodra-hisui",
+    "region": "洗翠",
+    "base_zh": "黏美龙",
+    "types": [
+      "steel",
+      "dragon"
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 100,
+      "defense": 100,
+      "special-attack": 110,
+      "special-defense": 150,
+      "speed": 60
+    },
+    "total": 600,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Goodra"
+  },
+  "10243": {
+    "id": 10243,
+    "species_id": 713,
+    "form": "avalugg-hisui",
+    "region": "洗翠",
+    "base_zh": "冰岩怪",
+    "types": [
+      "ice",
+      "rock"
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 127,
+      "defense": 184,
+      "special-attack": 34,
+      "special-defense": 36,
+      "speed": 38
+    },
+    "total": 514,
+    "capture_rate": 55,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Avalugg"
+  },
+  "10244": {
+    "id": 10244,
+    "species_id": 724,
+    "form": "decidueye-hisui",
+    "region": "洗翠",
+    "base_zh": "狙射树枭",
+    "types": [
+      "grass",
+      "fighting"
+    ],
+    "stats": {
+      "hp": 88,
+      "attack": 112,
+      "defense": 80,
+      "special-attack": 95,
+      "special-defense": 95,
+      "speed": 60
+    },
+    "total": 530,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Decidueye"
+  },
+  "10250": {
+    "id": 10250,
+    "species_id": 128,
+    "form": "tauros-paldea-combat-breed",
+    "region": "帕底亚",
+    "base_zh": "肯泰罗",
+    "types": [
+      "fighting"
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 110,
+      "defense": 105,
+      "special-attack": 30,
+      "special-defense": 70,
+      "speed": 100
+    },
+    "total": 490,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Tauros"
+  },
+  "10251": {
+    "id": 10251,
+    "species_id": 128,
+    "form": "tauros-paldea-blaze-breed",
+    "region": "帕底亚",
+    "base_zh": "肯泰罗",
+    "types": [
+      "fighting",
+      "fire"
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 110,
+      "defense": 105,
+      "special-attack": 30,
+      "special-defense": 70,
+      "speed": 100
+    },
+    "total": 490,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Tauros"
+  },
+  "10252": {
+    "id": 10252,
+    "species_id": 128,
+    "form": "tauros-paldea-aqua-breed",
+    "region": "帕底亚",
+    "base_zh": "肯泰罗",
+    "types": [
+      "fighting",
+      "water"
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 110,
+      "defense": 105,
+      "special-attack": 30,
+      "special-defense": 70,
+      "speed": 100
+    },
+    "total": 490,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Tauros"
+  },
+  "10253": {
+    "id": 10253,
+    "species_id": 194,
+    "form": "wooper-paldea",
+    "region": "帕底亚",
+    "base_zh": "乌波",
+    "types": [
+      "poison",
+      "ground"
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 45,
+      "defense": 45,
+      "special-attack": 25,
+      "special-defense": 25,
+      "speed": 15
+    },
+    "total": 210,
+    "capture_rate": 255,
+    "is_legendary": false,
+    "is_mythical": false,
+    "species_name_en": "Wooper"
+  }
+}

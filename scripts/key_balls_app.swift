@@ -76,7 +76,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
   func refresh() {
     statusLabel?.stringValue = "已按 \(presses) 次"
     if listening {
-      detailLabel?.stringValue = "每 10 秒内只要按过键，图鉴里的高级球加 20。只看有没有按，不记录按了什么。关闭这个窗口就会停止计数。图鉴页面需要开着，或之后再打开，球数会补上。"
+      detailLabel?.stringValue = "每 10 秒内只要按过键，图鉴里的精灵球加 10。只看有没有按，不记录按了什么。关闭这个窗口就会停止计数。图鉴页面需要开着，或之后再打开，球数会补上。"
     } else {
       detailLabel?.stringValue = "还不能读取按键。请到 系统设置 → 隐私与安全性 → 辅助功能，允许「按键获球」，然后重新打开这个启动器。"
     }

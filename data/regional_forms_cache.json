@@ -1,0 +1,6507 @@
+{
+  "1": {
+    "id": 1,
+    "name_zh": "妙蛙种子",
+    "name_en": "Bulbasaur",
+    "regional": []
+  },
+  "2": {
+    "id": 2,
+    "name_zh": "妙蛙草",
+    "name_en": "Ivysaur",
+    "regional": []
+  },
+  "3": {
+    "id": 3,
+    "name_zh": "妙蛙花",
+    "name_en": "Venusaur",
+    "regional": []
+  },
+  "4": {
+    "id": 4,
+    "name_zh": "小火龙",
+    "name_en": "Charmander",
+    "regional": []
+  },
+  "5": {
+    "id": 5,
+    "name_zh": "火恐龙",
+    "name_en": "Charmeleon",
+    "regional": []
+  },
+  "6": {
+    "id": 6,
+    "name_zh": "喷火龙",
+    "name_en": "Charizard",
+    "regional": []
+  },
+  "7": {
+    "id": 7,
+    "name_zh": "杰尼龟",
+    "name_en": "Squirtle",
+    "regional": []
+  },
+  "8": {
+    "id": 8,
+    "name_zh": "卡咪龟",
+    "name_en": "Wartortle",
+    "regional": []
+  },
+  "9": {
+    "id": 9,
+    "name_zh": "水箭龟",
+    "name_en": "Blastoise",
+    "regional": []
+  },
+  "10": {
+    "id": 10,
+    "name_zh": "绿毛虫",
+    "name_en": "Caterpie",
+    "regional": []
+  },
+  "11": {
+    "id": 11,
+    "name_zh": "铁甲蛹",
+    "name_en": "Metapod",
+    "regional": []
+  },
+  "12": {
+    "id": 12,
+    "name_zh": "巴大蝶",
+    "name_en": "Butterfree",
+    "regional": []
+  },
+  "13": {
+    "id": 13,
+    "name_zh": "独角虫",
+    "name_en": "Weedle",
+    "regional": []
+  },
+  "14": {
+    "id": 14,
+    "name_zh": "铁壳蛹",
+    "name_en": "Kakuna",
+    "regional": []
+  },
+  "15": {
+    "id": 15,
+    "name_zh": "大针蜂",
+    "name_en": "Beedrill",
+    "regional": []
+  },
+  "16": {
+    "id": 16,
+    "name_zh": "波波",
+    "name_en": "Pidgey",
+    "regional": []
+  },
+  "17": {
+    "id": 17,
+    "name_zh": "比比鸟",
+    "name_en": "Pidgeotto",
+    "regional": []
+  },
+  "18": {
+    "id": 18,
+    "name_zh": "大比鸟",
+    "name_en": "Pidgeot",
+    "regional": []
+  },
+  "19": {
+    "id": 19,
+    "name_zh": "小拉达",
+    "name_en": "Rattata",
+    "regional": [
+      {
+        "form": "rattata-alola",
+        "region": "阿罗拉",
+        "is_default": false
+      }
+    ]
+  },
+  "20": {
+    "id": 20,
+    "name_zh": "拉达",
+    "name_en": "Raticate",
+    "regional": [
+      {
+        "form": "raticate-alola",
+        "region": "阿罗拉",
+        "is_default": false
+      },
+      {
+        "form": "raticate-totem-alola",
+        "region": "阿罗拉",
+        "is_default": false
+      }
+    ]
+  },
+  "21": {
+    "id": 21,
+    "name_zh": "烈雀",
+    "name_en": "Spearow",
+    "regional": []
+  },
+  "22": {
+    "id": 22,
+    "name_zh": "大嘴雀",
+    "name_en": "Fearow",
+    "regional": []
+  },
+  "23": {
+    "id": 23,
+    "name_zh": "阿柏蛇",
+    "name_en": "Ekans",
+    "regional": []
+  },
+  "24": {
+    "id": 24,
+    "name_zh": "阿柏怪",
+    "name_en": "Arbok",
+    "regional": []
+  },
+  "25": {
+    "id": 25,
+    "name_zh": "皮卡丘",
+    "name_en": "Pikachu",
+    "regional": [
+      {
+        "form": "pikachu-alola-cap",
+        "region": "阿罗拉",
+        "is_default": false
+      }
+    ]
+  },
+  "26": {
+    "id": 26,
+    "name_zh": "雷丘",
+    "name_en": "Raichu",
+    "regional": [
+      {
+        "form": "raichu-alola",
+        "region": "阿罗拉",
+        "is_default": false
+      }
+    ]
+  },
+  "27": {
+    "id": 27,
+    "name_zh": "穿山鼠",
+    "name_en": "Sandshrew",
+    "regional": [
+      {
+        "form": "sandshrew-alola",
+        "region": "阿罗拉",
+        "is_default": false
+      }
+    ]
+  },
+  "28": {
+    "id": 28,
+    "name_zh": "穿山王",
+    "name_en": "Sandslash",
+    "regional": [
+      {
+        "form": "sandslash-alola",
+        "region": "阿罗拉",
+        "is_default": false
+      }
+    ]
+  },
+  "29": {
+    "id": 29,
+    "name_zh": "尼多兰",
+    "name_en": "Nidoran♀",
+    "regional": []
+  },
+  "30": {
+    "id": 30,
+    "name_zh": "尼多娜",
+    "name_en": "Nidorina",
+    "regional": []
+  },
+  "31": {
+    "id": 31,
+    "name_zh": "尼多后",
+    "name_en": "Nidoqueen",
+    "regional": []
+  },
+  "32": {
+    "id": 32,
+    "name_zh": "尼多朗",
+    "name_en": "Nidoran♂",
+    "regional": []
+  },
+  "33": {
+    "id": 33,
+    "name_zh": "尼多力诺",
+    "name_en": "Nidorino",
+    "regional": []
+  },
+  "34": {
+    "id": 34,
+    "name_zh": "尼多王",
+    "name_en": "Nidoking",
+    "regional": []
+  },
+  "35": {
+    "id": 35,
+    "name_zh": "皮皮",
+    "name_en": "Clefairy",
+    "regional": []
+  },
+  "36": {
+    "id": 36,
+    "name_zh": "皮可西",
+    "name_en": "Clefable",
+    "regional": []
+  },
+  "37": {
+    "id": 37,
+    "name_zh": "六尾",
+    "name_en": "Vulpix",
+    "regional": [
+      {
+        "form": "vulpix-alola",
+        "region": "阿罗拉",
+        "is_default": false
+      }
+    ]
+  },
+  "38": {
+    "id": 38,
+    "name_zh": "九尾",
+    "name_en": "Ninetales",
+    "regional": [
+      {
+        "form": "ninetales-alola",
+        "region": "阿罗拉",
+        "is_default": false
+      }
+    ]
+  },
+  "39": {
+    "id": 39,
+    "name_zh": "胖丁",
+    "name_en": "Jigglypuff",
+    "regional": []
+  },
+  "40": {
+    "id": 40,
+    "name_zh": "胖可丁",
+    "name_en": "Wigglytuff",
+    "regional": []
+  },
+  "41": {
+    "id": 41,
+    "name_zh": "超音蝠",
+    "name_en": "Zubat",
+    "regional": []
+  },
+  "42": {
+    "id": 42,
+    "name_zh": "大嘴蝠",
+    "name_en": "Golbat",
+    "regional": []
+  },
+  "43": {
+    "id": 43,
+    "name_zh": "走路草",
+    "name_en": "Oddish",
+    "regional": []
+  },
+  "44": {
+    "id": 44,
+    "name_zh": "臭臭花",
+    "name_en": "Gloom",
+    "regional": []
+  },
+  "45": {
+    "id": 45,
+    "name_zh": "霸王花",
+    "name_en": "Vileplume",
+    "regional": []
+  },
+  "46": {
+    "id": 46,
+    "name_zh": "派拉斯",
+    "name_en": "Paras",
+    "regional": []
+  },
+  "47": {
+    "id": 47,
+    "name_zh": "派拉斯特",
+    "name_en": "Parasect",
+    "regional": []
+  },
+  "48": {
+    "id": 48,
+    "name_zh": "毛球",
+    "name_en": "Venonat",
+    "regional": []
+  },
+  "49": {
+    "id": 49,
+    "name_zh": "摩鲁蛾",
+    "name_en": "Venomoth",
+    "regional": []
+  },
+  "50": {
+    "id": 50,
+    "name_zh": "地鼠",
+    "name_en": "Diglett",
+    "regional": [
+      {
+        "form": "diglett-alola",
+        "region": "阿罗拉",
+        "is_default": false
+      }
+    ]
+  },
+  "51": {
+    "id": 51,
+    "name_zh": "三地鼠",
+    "name_en": "Dugtrio",
+    "regional": [
+      {
+        "form": "dugtrio-alola",
+        "region": "阿罗拉",
+        "is_default": false
+      }
+    ]
+  },
+  "52": {
+    "id": 52,
+    "name_zh": "喵喵",
+    "name_en": "Meowth",
+    "regional": [
+      {
+        "form": "meowth-alola",
+        "region": "阿罗拉",
+        "is_default": false
+      },
+      {
+        "form": "meowth-galar",
+        "region": "伽勒尔",
+        "is_default": false
+      }
+    ]
+  },
+  "53": {
+    "id": 53,
+    "name_zh": "猫老大",
+    "name_en": "Persian",
+    "regional": [
+      {
+        "form": "persian-alola",
+        "region": "阿罗拉",
+        "is_default": false
+      }
+    ]
+  },
+  "54": {
+    "id": 54,
+    "name_zh": "可达鸭",
+    "name_en": "Psyduck",
+    "regional": []
+  },
+  "55": {
+    "id": 55,
+    "name_zh": "哥达鸭",
+    "name_en": "Golduck",
+    "regional": []
+  },
+  "56": {
+    "id": 56,
+    "name_zh": "猴怪",
+    "name_en": "Mankey",
+    "regional": []
+  },
+  "57": {
+    "id": 57,
+    "name_zh": "火暴猴",
+    "name_en": "Primeape",
+    "regional": []
+  },
+  "58": {
+    "id": 58,
+    "name_zh": "卡蒂狗",
+    "name_en": "Growlithe",
+    "regional": [
+      {
+        "form": "growlithe-hisui",
+        "region": "洗翠",
+        "is_default": false
+      }
+    ]
+  },
+  "59": {
+    "id": 59,
+    "name_zh": "风速狗",
+    "name_en": "Arcanine",
+    "regional": [
+      {
+        "form": "arcanine-hisui",
+        "region": "洗翠",
+        "is_default": false
+      }
+    ]
+  },
+  "60": {
+    "id": 60,
+    "name_zh": "蚊香蝌蚪",
+    "name_en": "Poliwag",
+    "regional": []
+  },
+  "61": {
+    "id": 61,
+    "name_zh": "蚊香君",
+    "name_en": "Poliwhirl",
+    "regional": []
+  },
+  "62": {
+    "id": 62,
+    "name_zh": "蚊香泳士",
+    "name_en": "Poliwrath",
+    "regional": []
+  },
+  "63": {
+    "id": 63,
+    "name_zh": "凯西",
+    "name_en": "Abra",
+    "regional": []
+  },
+  "64": {
+    "id": 64,
+    "name_zh": "勇基拉",
+    "name_en": "Kadabra",
+    "regional": []
+  },
+  "65": {
+    "id": 65,
+    "name_zh": "胡地",
+    "name_en": "Alakazam",
+    "regional": []
+  },
+  "66": {
+    "id": 66,
+    "name_zh": "腕力",
+    "name_en": "Machop",
+    "regional": []
+  },
+  "67": {
+    "id": 67,
+    "name_zh": "豪力",
+    "name_en": "Machoke",
+    "regional": []
+  },
+  "68": {
+    "id": 68,
+    "name_zh": "怪力",
+    "name_en": "Machamp",
+    "regional": []
+  },
+  "69": {
+    "id": 69,
+    "name_zh": "喇叭芽",
+    "name_en": "Bellsprout",
+    "regional": []
+  },
+  "70": {
+    "id": 70,
+    "name_zh": "口呆花",
+    "name_en": "Weepinbell",
+    "regional": []
+  },
+  "71": {
+    "id": 71,
+    "name_zh": "大食花",
+    "name_en": "Victreebel",
+    "regional": []
+  },
+  "72": {
+    "id": 72,
+    "name_zh": "玛瑙水母",
+    "name_en": "Tentacool",
+    "regional": []
+  },
+  "73": {
+    "id": 73,
+    "name_zh": "毒刺水母",
+    "name_en": "Tentacruel",
+    "regional": []
+  },
+  "74": {
+    "id": 74,
+    "name_zh": "小拳石",
+    "name_en": "Geodude",
+    "regional": [
+      {
+        "form": "geodude-alola",
+        "region": "阿罗拉",
+        "is_default": false
+      }
+    ]
+  },
+  "75": {
+    "id": 75,
+    "name_zh": "隆隆石",
+    "name_en": "Graveler",
+    "regional": [
+      {
+        "form": "graveler-alola",
+        "region": "阿罗拉",
+        "is_default": false
+      }
+    ]
+  },
+  "76": {
+    "id": 76,
+    "name_zh": "隆隆岩",
+    "name_en": "Golem",
+    "regional": [
+      {
+        "form": "golem-alola",
+        "region": "阿罗拉",
+        "is_default": false
+      }
+    ]
+  },
+  "77": {
+    "id": 77,
+    "name_zh": "小火马",
+    "name_en": "Ponyta",
+    "regional": [
+      {
+        "form": "ponyta-galar",
+        "region": "伽勒尔",
+        "is_default": false
+      }
+    ]
+  },
+  "78": {
+    "id": 78,
+    "name_zh": "烈焰马",
+    "name_en": "Rapidash",
+    "regional": [
+      {
+        "form": "rapidash-galar",
+        "region": "伽勒尔",
+        "is_default": false
+      }
+    ]
+  },
+  "79": {
+    "id": 79,
+    "name_zh": "呆呆兽",
+    "name_en": "Slowpoke",
+    "regional": [
+      {
+        "form": "slowpoke-galar",
+        "region": "伽勒尔",
+        "is_default": false
+      }
+    ]
+  },
+  "80": {
+    "id": 80,
+    "name_zh": "呆壳兽",
+    "name_en": "Slowbro",
+    "regional": [
+      {
+        "form": "slowbro-galar",
+        "region": "伽勒尔",
+        "is_default": false
+      }
+    ]
+  },
+  "81": {
+    "id": 81,
+    "name_zh": "小磁怪",
+    "name_en": "Magnemite",
+    "regional": []
+  },
+  "82": {
+    "id": 82,
+    "name_zh": "三合一磁怪",
+    "name_en": "Magneton",
+    "regional": []
+  },
+  "83": {
+    "id": 83,
+    "name_zh": "大葱鸭",
+    "name_en": "Farfetch’d",
+    "regional": [
+      {
+        "form": "farfetchd-galar",
+        "region": "伽勒尔",
+        "is_default": false
+      }
+    ]
+  },
+  "84": {
+    "id": 84,
+    "name_zh": "嘟嘟",
+    "name_en": "Doduo",
+    "regional": []
+  },
+  "85": {
+    "id": 85,
+    "name_zh": "嘟嘟利",
+    "name_en": "Dodrio",
+    "regional": []
+  },
+  "86": {
+    "id": 86,
+    "name_zh": "小海狮",
+    "name_en": "Seel",
+    "regional": []
+  },
+  "87": {
+    "id": 87,
+    "name_zh": "白海狮",
+    "name_en": "Dewgong",
+    "regional": []
+  },
+  "88": {
+    "id": 88,
+    "name_zh": "臭泥",
+    "name_en": "Grimer",
+    "regional": [
+      {
+        "form": "grimer-alola",
+        "region": "阿罗拉",
+        "is_default": false
+      }
+    ]
+  },
+  "89": {
+    "id": 89,
+    "name_zh": "臭臭泥",
+    "name_en": "Muk",
+    "regional": [
+      {
+        "form": "muk-alola",
+        "region": "阿罗拉",
+        "is_default": false
+      }
+    ]
+  },
+  "90": {
+    "id": 90,
+    "name_zh": "大舌贝",
+    "name_en": "Shellder",
+    "regional": []
+  },
+  "91": {
+    "id": 91,
+    "name_zh": "刺甲贝",
+    "name_en": "Cloyster",
+    "regional": []
+  },
+  "92": {
+    "id": 92,
+    "name_zh": "鬼斯",
+    "name_en": "Gastly",
+    "regional": []
+  },
+  "93": {
+    "id": 93,
+    "name_zh": "鬼斯通",
+    "name_en": "Haunter",
+    "regional": []
+  },
+  "94": {
+    "id": 94,
+    "name_zh": "耿鬼",
+    "name_en": "Gengar",
+    "regional": []
+  },
+  "95": {
+    "id": 95,
+    "name_zh": "大岩蛇",
+    "name_en": "Onix",
+    "regional": []
+  },
+  "96": {
+    "id": 96,
+    "name_zh": "催眠貘",
+    "name_en": "Drowzee",
+    "regional": []
+  },
+  "97": {
+    "id": 97,
+    "name_zh": "引梦貘人",
+    "name_en": "Hypno",
+    "regional": []
+  },
+  "98": {
+    "id": 98,
+    "name_zh": "大钳蟹",
+    "name_en": "Krabby",
+    "regional": []
+  },
+  "99": {
+    "id": 99,
+    "name_zh": "巨钳蟹",
+    "name_en": "Kingler",
+    "regional": []
+  },
+  "100": {
+    "id": 100,
+    "name_zh": "霹雳电球",
+    "name_en": "Voltorb",
+    "regional": [
+      {
+        "form": "voltorb-hisui",
+        "region": "洗翠",
+        "is_default": false
+      }
+    ]
+  },
+  "101": {
+    "id": 101,
+    "name_zh": "顽皮雷弹",
+    "name_en": "Electrode",
+    "regional": [
+      {
+        "form": "electrode-hisui",
+        "region": "洗翠",
+        "is_default": false
+      }
+    ]
+  },
+  "102": {
+    "id": 102,
+    "name_zh": "蛋蛋",
+    "name_en": "Exeggcute",
+    "regional": []
+  },
+  "103": {
+    "id": 103,
+    "name_zh": "椰蛋树",
+    "name_en": "Exeggutor",
+    "regional": [
+      {
+        "form": "exeggutor-alola",
+        "region": "阿罗拉",
+        "is_default": false
+      }
+    ]
+  },
+  "104": {
+    "id": 104,
+    "name_zh": "卡拉卡拉",
+    "name_en": "Cubone",
+    "regional": []
+  },
+  "105": {
+    "id": 105,
+    "name_zh": "嘎啦嘎啦",
+    "name_en": "Marowak",
+    "regional": [
+      {
+        "form": "marowak-alola",
+        "region": "阿罗拉",
+        "is_default": false
+      }
+    ]
+  },
+  "106": {
+    "id": 106,
+    "name_zh": "飞腿郎",
+    "name_en": "Hitmonlee",
+    "regional": []
+  },
+  "107": {
+    "id": 107,
+    "name_zh": "快拳郎",
+    "name_en": "Hitmonchan",
+    "regional": []
+  },
+  "108": {
+    "id": 108,
+    "name_zh": "大舌头",
+    "name_en": "Lickitung",
+    "regional": []
+  },
+  "109": {
+    "id": 109,
+    "name_zh": "瓦斯弹",
+    "name_en": "Koffing",
+    "regional": []
+  },
+  "110": {
+    "id": 110,
+    "name_zh": "双弹瓦斯",
+    "name_en": "Weezing",
+    "regional": [
+      {
+        "form": "weezing-galar",
+        "region": "伽勒尔",
+        "is_default": false
+      }
+    ]
+  },
+  "111": {
+    "id": 111,
+    "name_zh": "独角犀牛",
+    "name_en": "Rhyhorn",
+    "regional": []
+  },
+  "112": {
+    "id": 112,
+    "name_zh": "钻角犀兽",
+    "name_en": "Rhydon",
+    "regional": []
+  },
+  "113": {
+    "id": 113,
+    "name_zh": "吉利蛋",
+    "name_en": "Chansey",
+    "regional": []
+  },
+  "114": {
+    "id": 114,
+    "name_zh": "蔓藤怪",
+    "name_en": "Tangela",
+    "regional": []
+  },
+  "115": {
+    "id": 115,
+    "name_zh": "袋兽",
+    "name_en": "Kangaskhan",
+    "regional": []
+  },
+  "116": {
+    "id": 116,
+    "name_zh": "墨海马",
+    "name_en": "Horsea",
+    "regional": []
+  },
+  "117": {
+    "id": 117,
+    "name_zh": "海刺龙",
+    "name_en": "Seadra",
+    "regional": []
+  },
+  "118": {
+    "id": 118,
+    "name_zh": "角金鱼",
+    "name_en": "Goldeen",
+    "regional": []
+  },
+  "119": {
+    "id": 119,
+    "name_zh": "金鱼王",
+    "name_en": "Seaking",
+    "regional": []
+  },
+  "120": {
+    "id": 120,
+    "name_zh": "海星星",
+    "name_en": "Staryu",
+    "regional": []
+  },
+  "121": {
+    "id": 121,
+    "name_zh": "宝石海星",
+    "name_en": "Starmie",
+    "regional": []
+  },
+  "122": {
+    "id": 122,
+    "name_zh": "魔墙人偶",
+    "name_en": "Mr. Mime",
+    "regional": [
+      {
+        "form": "mr-mime-galar",
+        "region": "伽勒尔",
+        "is_default": false
+      }
+    ]
+  },
+  "123": {
+    "id": 123,
+    "name_zh": "飞天螳螂",
+    "name_en": "Scyther",
+    "regional": []
+  },
+  "124": {
+    "id": 124,
+    "name_zh": "迷唇姐",
+    "name_en": "Jynx",
+    "regional": []
+  },
+  "125": {
+    "id": 125,
+    "name_zh": "电击兽",
+    "name_en": "Electabuzz",
+    "regional": []
+  },
+  "126": {
+    "id": 126,
+    "name_zh": "鸭嘴火兽",
+    "name_en": "Magmar",
+    "regional": []
+  },
+  "127": {
+    "id": 127,
+    "name_zh": "凯罗斯",
+    "name_en": "Pinsir",
+    "regional": []
+  },
+  "128": {
+    "id": 128,
+    "name_zh": "肯泰罗",
+    "name_en": "Tauros",
+    "regional": [
+      {
+        "form": "tauros-paldea-combat-breed",
+        "region": "帕底亚",
+        "is_default": false
+      },
+      {
+        "form": "tauros-paldea-blaze-breed",
+        "region": "帕底亚",
+        "is_default": false
+      },
+      {
+        "form": "tauros-paldea-aqua-breed",
+        "region": "帕底亚",
+        "is_default": false
+      }
+    ]
+  },
+  "129": {
+    "id": 129,
+    "name_zh": "鲤鱼王",
+    "name_en": "Magikarp",
+    "regional": []
+  },
+  "130": {
+    "id": 130,
+    "name_zh": "暴鲤龙",
+    "name_en": "Gyarados",
+    "regional": []
+  },
+  "131": {
+    "id": 131,
+    "name_zh": "拉普拉斯",
+    "name_en": "Lapras",
+    "regional": []
+  },
+  "132": {
+    "id": 132,
+    "name_zh": "百变怪",
+    "name_en": "Ditto",
+    "regional": []
+  },
+  "133": {
+    "id": 133,
+    "name_zh": "伊布",
+    "name_en": "Eevee",
+    "regional": []
+  },
+  "134": {
+    "id": 134,
+    "name_zh": "水伊布",
+    "name_en": "Vaporeon",
+    "regional": []
+  },
+  "135": {
+    "id": 135,
+    "name_zh": "雷伊布",
+    "name_en": "Jolteon",
+    "regional": []
+  },
+  "136": {
+    "id": 136,
+    "name_zh": "火伊布",
+    "name_en": "Flareon",
+    "regional": []
+  },
+  "137": {
+    "id": 137,
+    "name_zh": "多边兽",
+    "name_en": "Porygon",
+    "regional": []
+  },
+  "138": {
+    "id": 138,
+    "name_zh": "菊石兽",
+    "name_en": "Omanyte",
+    "regional": []
+  },
+  "139": {
+    "id": 139,
+    "name_zh": "多刺菊石兽",
+    "name_en": "Omastar",
+    "regional": []
+  },
+  "140": {
+    "id": 140,
+    "name_zh": "化石盔",
+    "name_en": "Kabuto",
+    "regional": []
+  },
+  "141": {
+    "id": 141,
+    "name_zh": "镰刀盔",
+    "name_en": "Kabutops",
+    "regional": []
+  },
+  "142": {
+    "id": 142,
+    "name_zh": "化石翼龙",
+    "name_en": "Aerodactyl",
+    "regional": []
+  },
+  "143": {
+    "id": 143,
+    "name_zh": "卡比兽",
+    "name_en": "Snorlax",
+    "regional": []
+  },
+  "144": {
+    "id": 144,
+    "name_zh": "急冻鸟",
+    "name_en": "Articuno",
+    "regional": [
+      {
+        "form": "articuno-galar",
+        "region": "伽勒尔",
+        "is_default": false
+      }
+    ]
+  },
+  "145": {
+    "id": 145,
+    "name_zh": "闪电鸟",
+    "name_en": "Zapdos",
+    "regional": [
+      {
+        "form": "zapdos-galar",
+        "region": "伽勒尔",
+        "is_default": false
+      }
+    ]
+  },
+  "146": {
+    "id": 146,
+    "name_zh": "火焰鸟",
+    "name_en": "Moltres",
+    "regional": [
+      {
+        "form": "moltres-galar",
+        "region": "伽勒尔",
+        "is_default": false
+      }
+    ]
+  },
+  "147": {
+    "id": 147,
+    "name_zh": "迷你龙",
+    "name_en": "Dratini",
+    "regional": []
+  },
+  "148": {
+    "id": 148,
+    "name_zh": "哈克龙",
+    "name_en": "Dragonair",
+    "regional": []
+  },
+  "149": {
+    "id": 149,
+    "name_zh": "快龙",
+    "name_en": "Dragonite",
+    "regional": []
+  },
+  "150": {
+    "id": 150,
+    "name_zh": "超梦",
+    "name_en": "Mewtwo",
+    "regional": []
+  },
+  "151": {
+    "id": 151,
+    "name_zh": "梦幻",
+    "name_en": "Mew",
+    "regional": []
+  },
+  "152": {
+    "id": 152,
+    "name_zh": "菊草叶",
+    "name_en": "Chikorita",
+    "regional": []
+  },
+  "153": {
+    "id": 153,
+    "name_zh": "月桂叶",
+    "name_en": "Bayleef",
+    "regional": []
+  },
+  "154": {
+    "id": 154,
+    "name_zh": "大竺葵",
+    "name_en": "Meganium",
+    "regional": []
+  },
+  "155": {
+    "id": 155,
+    "name_zh": "火球鼠",
+    "name_en": "Cyndaquil",
+    "regional": []
+  },
+  "156": {
+    "id": 156,
+    "name_zh": "火岩鼠",
+    "name_en": "Quilava",
+    "regional": []
+  },
+  "157": {
+    "id": 157,
+    "name_zh": "火暴兽",
+    "name_en": "Typhlosion",
+    "regional": [
+      {
+        "form": "typhlosion-hisui",
+        "region": "洗翠",
+        "is_default": false
+      }
+    ]
+  },
+  "158": {
+    "id": 158,
+    "name_zh": "小锯鳄",
+    "name_en": "Totodile",
+    "regional": []
+  },
+  "159": {
+    "id": 159,
+    "name_zh": "蓝鳄",
+    "name_en": "Croconaw",
+    "regional": []
+  },
+  "160": {
+    "id": 160,
+    "name_zh": "大力鳄",
+    "name_en": "Feraligatr",
+    "regional": []
+  },
+  "161": {
+    "id": 161,
+    "name_zh": "尾立",
+    "name_en": "Sentret",
+    "regional": []
+  },
+  "162": {
+    "id": 162,
+    "name_zh": "大尾立",
+    "name_en": "Furret",
+    "regional": []
+  },
+  "163": {
+    "id": 163,
+    "name_zh": "咕咕",
+    "name_en": "Hoothoot",
+    "regional": []
+  },
+  "164": {
+    "id": 164,
+    "name_zh": "猫头夜鹰",
+    "name_en": "Noctowl",
+    "regional": []
+  },
+  "165": {
+    "id": 165,
+    "name_zh": "芭瓢虫",
+    "name_en": "Ledyba",
+    "regional": []
+  },
+  "166": {
+    "id": 166,
+    "name_zh": "安瓢虫",
+    "name_en": "Ledian",
+    "regional": []
+  },
+  "167": {
+    "id": 167,
+    "name_zh": "圆丝蛛",
+    "name_en": "Spinarak",
+    "regional": []
+  },
+  "168": {
+    "id": 168,
+    "name_zh": "阿利多斯",
+    "name_en": "Ariados",
+    "regional": []
+  },
+  "169": {
+    "id": 169,
+    "name_zh": "叉字蝠",
+    "name_en": "Crobat",
+    "regional": []
+  },
+  "170": {
+    "id": 170,
+    "name_zh": "灯笼鱼",
+    "name_en": "Chinchou",
+    "regional": []
+  },
+  "171": {
+    "id": 171,
+    "name_zh": "电灯怪",
+    "name_en": "Lanturn",
+    "regional": []
+  },
+  "172": {
+    "id": 172,
+    "name_zh": "皮丘",
+    "name_en": "Pichu",
+    "regional": []
+  },
+  "173": {
+    "id": 173,
+    "name_zh": "皮宝宝",
+    "name_en": "Cleffa",
+    "regional": []
+  },
+  "174": {
+    "id": 174,
+    "name_zh": "宝宝丁",
+    "name_en": "Igglybuff",
+    "regional": []
+  },
+  "175": {
+    "id": 175,
+    "name_zh": "波克比",
+    "name_en": "Togepi",
+    "regional": []
+  },
+  "176": {
+    "id": 176,
+    "name_zh": "波克基古",
+    "name_en": "Togetic",
+    "regional": []
+  },
+  "177": {
+    "id": 177,
+    "name_zh": "天然雀",
+    "name_en": "Natu",
+    "regional": []
+  },
+  "178": {
+    "id": 178,
+    "name_zh": "天然鸟",
+    "name_en": "Xatu",
+    "regional": []
+  },
+  "179": {
+    "id": 179,
+    "name_zh": "咩利羊",
+    "name_en": "Mareep",
+    "regional": []
+  },
+  "180": {
+    "id": 180,
+    "name_zh": "茸茸羊",
+    "name_en": "Flaaffy",
+    "regional": []
+  },
+  "181": {
+    "id": 181,
+    "name_zh": "电龙",
+    "name_en": "Ampharos",
+    "regional": []
+  },
+  "182": {
+    "id": 182,
+    "name_zh": "美丽花",
+    "name_en": "Bellossom",
+    "regional": []
+  },
+  "183": {
+    "id": 183,
+    "name_zh": "玛力露",
+    "name_en": "Marill",
+    "regional": []
+  },
+  "184": {
+    "id": 184,
+    "name_zh": "玛力露丽",
+    "name_en": "Azumarill",
+    "regional": []
+  },
+  "185": {
+    "id": 185,
+    "name_zh": "树才怪",
+    "name_en": "Sudowoodo",
+    "regional": []
+  },
+  "186": {
+    "id": 186,
+    "name_zh": "蚊香蛙皇",
+    "name_en": "Politoed",
+    "regional": []
+  },
+  "187": {
+    "id": 187,
+    "name_zh": "毽子草",
+    "name_en": "Hoppip",
+    "regional": []
+  },
+  "188": {
+    "id": 188,
+    "name_zh": "毽子花",
+    "name_en": "Skiploom",
+    "regional": []
+  },
+  "189": {
+    "id": 189,
+    "name_zh": "毽子棉",
+    "name_en": "Jumpluff",
+    "regional": []
+  },
+  "190": {
+    "id": 190,
+    "name_zh": "长尾怪手",
+    "name_en": "Aipom",
+    "regional": []
+  },
+  "191": {
+    "id": 191,
+    "name_zh": "向日种子",
+    "name_en": "Sunkern",
+    "regional": []
+  },
+  "192": {
+    "id": 192,
+    "name_zh": "向日花怪",
+    "name_en": "Sunflora",
+    "regional": []
+  },
+  "193": {
+    "id": 193,
+    "name_zh": "蜻蜻蜓",
+    "name_en": "Yanma",
+    "regional": []
+  },
+  "194": {
+    "id": 194,
+    "name_zh": "乌波",
+    "name_en": "Wooper",
+    "regional": [
+      {
+        "form": "wooper-paldea",
+        "region": "帕底亚",
+        "is_default": false
+      }
+    ]
+  },
+  "195": {
+    "id": 195,
+    "name_zh": "沼王",
+    "name_en": "Quagsire",
+    "regional": []
+  },
+  "196": {
+    "id": 196,
+    "name_zh": "太阳伊布",
+    "name_en": "Espeon",
+    "regional": []
+  },
+  "197": {
+    "id": 197,
+    "name_zh": "月亮伊布",
+    "name_en": "Umbreon",
+    "regional": []
+  },
+  "198": {
+    "id": 198,
+    "name_zh": "黑暗鸦",
+    "name_en": "Murkrow",
+    "regional": []
+  },
+  "199": {
+    "id": 199,
+    "name_zh": "呆呆王",
+    "name_en": "Slowking",
+    "regional": [
+      {
+        "form": "slowking-galar",
+        "region": "伽勒尔",
+        "is_default": false
+      }
+    ]
+  },
+  "200": {
+    "id": 200,
+    "name_zh": "梦妖",
+    "name_en": "Misdreavus",
+    "regional": []
+  },
+  "201": {
+    "id": 201,
+    "name_zh": "未知图腾",
+    "name_en": "Unown",
+    "regional": []
+  },
+  "202": {
+    "id": 202,
+    "name_zh": "果然翁",
+    "name_en": "Wobbuffet",
+    "regional": []
+  },
+  "203": {
+    "id": 203,
+    "name_zh": "麒麟奇",
+    "name_en": "Girafarig",
+    "regional": []
+  },
+  "204": {
+    "id": 204,
+    "name_zh": "榛果球",
+    "name_en": "Pineco",
+    "regional": []
+  },
+  "205": {
+    "id": 205,
+    "name_zh": "佛烈托斯",
+    "name_en": "Forretress",
+    "regional": []
+  },
+  "206": {
+    "id": 206,
+    "name_zh": "土龙弟弟",
+    "name_en": "Dunsparce",
+    "regional": []
+  },
+  "207": {
+    "id": 207,
+    "name_zh": "天蝎",
+    "name_en": "Gligar",
+    "regional": []
+  },
+  "208": {
+    "id": 208,
+    "name_zh": "大钢蛇",
+    "name_en": "Steelix",
+    "regional": []
+  },
+  "209": {
+    "id": 209,
+    "name_zh": "布鲁",
+    "name_en": "Snubbull",
+    "regional": []
+  },
+  "210": {
+    "id": 210,
+    "name_zh": "布鲁皇",
+    "name_en": "Granbull",
+    "regional": []
+  },
+  "211": {
+    "id": 211,
+    "name_zh": "千针鱼",
+    "name_en": "Qwilfish",
+    "regional": [
+      {
+        "form": "qwilfish-hisui",
+        "region": "洗翠",
+        "is_default": false
+      }
+    ]
+  },
+  "212": {
+    "id": 212,
+    "name_zh": "巨钳螳螂",
+    "name_en": "Scizor",
+    "regional": []
+  },
+  "213": {
+    "id": 213,
+    "name_zh": "壶壶",
+    "name_en": "Shuckle",
+    "regional": []
+  },
+  "214": {
+    "id": 214,
+    "name_zh": "赫拉克罗斯",
+    "name_en": "Heracross",
+    "regional": []
+  },
+  "215": {
+    "id": 215,
+    "name_zh": "狃拉",
+    "name_en": "Sneasel",
+    "regional": [
+      {
+        "form": "sneasel-hisui",
+        "region": "洗翠",
+        "is_default": false
+      }
+    ]
+  },
+  "216": {
+    "id": 216,
+    "name_zh": "熊宝宝",
+    "name_en": "Teddiursa",
+    "regional": []
+  },
+  "217": {
+    "id": 217,
+    "name_zh": "圈圈熊",
+    "name_en": "Ursaring",
+    "regional": []
+  },
+  "218": {
+    "id": 218,
+    "name_zh": "熔岩虫",
+    "name_en": "Slugma",
+    "regional": []
+  },
+  "219": {
+    "id": 219,
+    "name_zh": "熔岩蜗牛",
+    "name_en": "Magcargo",
+    "regional": []
+  },
+  "220": {
+    "id": 220,
+    "name_zh": "小山猪",
+    "name_en": "Swinub",
+    "regional": []
+  },
+  "221": {
+    "id": 221,
+    "name_zh": "长毛猪",
+    "name_en": "Piloswine",
+    "regional": []
+  },
+  "222": {
+    "id": 222,
+    "name_zh": "太阳珊瑚",
+    "name_en": "Corsola",
+    "regional": [
+      {
+        "form": "corsola-galar",
+        "region": "伽勒尔",
+        "is_default": false
+      }
+    ]
+  },
+  "223": {
+    "id": 223,
+    "name_zh": "铁炮鱼",
+    "name_en": "Remoraid",
+    "regional": []
+  },
+  "224": {
+    "id": 224,
+    "name_zh": "章鱼桶",
+    "name_en": "Octillery",
+    "regional": []
+  },
+  "225": {
+    "id": 225,
+    "name_zh": "信使鸟",
+    "name_en": "Delibird",
+    "regional": []
+  },
+  "226": {
+    "id": 226,
+    "name_zh": "巨翅飞鱼",
+    "name_en": "Mantine",
+    "regional": []
+  },
+  "227": {
+    "id": 227,
+    "name_zh": "盔甲鸟",
+    "name_en": "Skarmory",
+    "regional": []
+  },
+  "228": {
+    "id": 228,
+    "name_zh": "戴鲁比",
+    "name_en": "Houndour",
+    "regional": []
+  },
+  "229": {
+    "id": 229,
+    "name_zh": "黑鲁加",
+    "name_en": "Houndoom",
+    "regional": []
+  },
+  "230": {
+    "id": 230,
+    "name_zh": "刺龙王",
+    "name_en": "Kingdra",
+    "regional": []
+  },
+  "231": {
+    "id": 231,
+    "name_zh": "小小象",
+    "name_en": "Phanpy",
+    "regional": []
+  },
+  "232": {
+    "id": 232,
+    "name_zh": "顿甲",
+    "name_en": "Donphan",
+    "regional": []
+  },
+  "233": {
+    "id": 233,
+    "name_zh": "多边兽２型",
+    "name_en": "Porygon2",
+    "regional": []
+  },
+  "234": {
+    "id": 234,
+    "name_zh": "惊角鹿",
+    "name_en": "Stantler",
+    "regional": []
+  },
+  "235": {
+    "id": 235,
+    "name_zh": "图图犬",
+    "name_en": "Smeargle",
+    "regional": []
+  },
+  "236": {
+    "id": 236,
+    "name_zh": "无畏小子",
+    "name_en": "Tyrogue",
+    "regional": []
+  },
+  "237": {
+    "id": 237,
+    "name_zh": "战舞郎",
+    "name_en": "Hitmontop",
+    "regional": []
+  },
+  "238": {
+    "id": 238,
+    "name_zh": "迷唇娃",
+    "name_en": "Smoochum",
+    "regional": []
+  },
+  "239": {
+    "id": 239,
+    "name_zh": "电击怪",
+    "name_en": "Elekid",
+    "regional": []
+  },
+  "240": {
+    "id": 240,
+    "name_zh": "鸭嘴宝宝",
+    "name_en": "Magby",
+    "regional": []
+  },
+  "241": {
+    "id": 241,
+    "name_zh": "大奶罐",
+    "name_en": "Miltank",
+    "regional": []
+  },
+  "242": {
+    "id": 242,
+    "name_zh": "幸福蛋",
+    "name_en": "Blissey",
+    "regional": []
+  },
+  "243": {
+    "id": 243,
+    "name_zh": "雷公",
+    "name_en": "Raikou",
+    "regional": []
+  },
+  "244": {
+    "id": 244,
+    "name_zh": "炎帝",
+    "name_en": "Entei",
+    "regional": []
+  },
+  "245": {
+    "id": 245,
+    "name_zh": "水君",
+    "name_en": "Suicune",
+    "regional": []
+  },
+  "246": {
+    "id": 246,
+    "name_zh": "幼基拉斯",
+    "name_en": "Larvitar",
+    "regional": []
+  },
+  "247": {
+    "id": 247,
+    "name_zh": "沙基拉斯",
+    "name_en": "Pupitar",
+    "regional": []
+  },
+  "248": {
+    "id": 248,
+    "name_zh": "班基拉斯",
+    "name_en": "Tyranitar",
+    "regional": []
+  },
+  "249": {
+    "id": 249,
+    "name_zh": "洛奇亚",
+    "name_en": "Lugia",
+    "regional": []
+  },
+  "250": {
+    "id": 250,
+    "name_zh": "凤王",
+    "name_en": "Ho-Oh",
+    "regional": []
+  },
+  "251": {
+    "id": 251,
+    "name_zh": "时拉比",
+    "name_en": "Celebi",
+    "regional": []
+  },
+  "252": {
+    "id": 252,
+    "name_zh": "木守宫",
+    "name_en": "Treecko",
+    "regional": []
+  },
+  "253": {
+    "id": 253,
+    "name_zh": "森林蜥蜴",
+    "name_en": "Grovyle",
+    "regional": []
+  },
+  "254": {
+    "id": 254,
+    "name_zh": "蜥蜴王",
+    "name_en": "Sceptile",
+    "regional": []
+  },
+  "255": {
+    "id": 255,
+    "name_zh": "火稚鸡",
+    "name_en": "Torchic",
+    "regional": []
+  },
+  "256": {
+    "id": 256,
+    "name_zh": "力壮鸡",
+    "name_en": "Combusken",
+    "regional": []
+  },
+  "257": {
+    "id": 257,
+    "name_zh": "火焰鸡",
+    "name_en": "Blaziken",
+    "regional": []
+  },
+  "258": {
+    "id": 258,
+    "name_zh": "水跃鱼",
+    "name_en": "Mudkip",
+    "regional": []
+  },
+  "259": {
+    "id": 259,
+    "name_zh": "沼跃鱼",
+    "name_en": "Marshtomp",
+    "regional": []
+  },
+  "260": {
+    "id": 260,
+    "name_zh": "巨沼怪",
+    "name_en": "Swampert",
+    "regional": []
+  },
+  "261": {
+    "id": 261,
+    "name_zh": "土狼犬",
+    "name_en": "Poochyena",
+    "regional": []
+  },
+  "262": {
+    "id": 262,
+    "name_zh": "大狼犬",
+    "name_en": "Mightyena",
+    "regional": []
+  },
+  "263": {
+    "id": 263,
+    "name_zh": "蛇纹熊",
+    "name_en": "Zigzagoon",
+    "regional": [
+      {
+        "form": "zigzagoon-galar",
+        "region": "伽勒尔",
+        "is_default": false
+      }
+    ]
+  },
+  "264": {
+    "id": 264,
+    "name_zh": "直冲熊",
+    "name_en": "Linoone",
+    "regional": [
+      {
+        "form": "linoone-galar",
+        "region": "伽勒尔",
+        "is_default": false
+      }
+    ]
+  },
+  "265": {
+    "id": 265,
+    "name_zh": "刺尾虫",
+    "name_en": "Wurmple",
+    "regional": []
+  },
+  "266": {
+    "id": 266,
+    "name_zh": "甲壳茧",
+    "name_en": "Silcoon",
+    "regional": []
+  },
+  "267": {
+    "id": 267,
+    "name_zh": "狩猎凤蝶",
+    "name_en": "Beautifly",
+    "regional": []
+  },
+  "268": {
+    "id": 268,
+    "name_zh": "盾甲茧",
+    "name_en": "Cascoon",
+    "regional": []
+  },
+  "269": {
+    "id": 269,
+    "name_zh": "毒粉蛾",
+    "name_en": "Dustox",
+    "regional": []
+  },
+  "270": {
+    "id": 270,
+    "name_zh": "莲叶童子",
+    "name_en": "Lotad",
+    "regional": []
+  },
+  "271": {
+    "id": 271,
+    "name_zh": "莲帽小童",
+    "name_en": "Lombre",
+    "regional": []
+  },
+  "272": {
+    "id": 272,
+    "name_zh": "乐天河童",
+    "name_en": "Ludicolo",
+    "regional": []
+  },
+  "273": {
+    "id": 273,
+    "name_zh": "橡实果",
+    "name_en": "Seedot",
+    "regional": []
+  },
+  "274": {
+    "id": 274,
+    "name_zh": "长鼻叶",
+    "name_en": "Nuzleaf",
+    "regional": []
+  },
+  "275": {
+    "id": 275,
+    "name_zh": "狡猾天狗",
+    "name_en": "Shiftry",
+    "regional": []
+  },
+  "276": {
+    "id": 276,
+    "name_zh": "傲骨燕",
+    "name_en": "Taillow",
+    "regional": []
+  },
+  "277": {
+    "id": 277,
+    "name_zh": "大王燕",
+    "name_en": "Swellow",
+    "regional": []
+  },
+  "278": {
+    "id": 278,
+    "name_zh": "长翅鸥",
+    "name_en": "Wingull",
+    "regional": []
+  },
+  "279": {
+    "id": 279,
+    "name_zh": "大嘴鸥",
+    "name_en": "Pelipper",
+    "regional": []
+  },
+  "280": {
+    "id": 280,
+    "name_zh": "拉鲁拉丝",
+    "name_en": "Ralts",
+    "regional": []
+  },
+  "281": {
+    "id": 281,
+    "name_zh": "奇鲁莉安",
+    "name_en": "Kirlia",
+    "regional": []
+  },
+  "282": {
+    "id": 282,
+    "name_zh": "沙奈朵",
+    "name_en": "Gardevoir",
+    "regional": []
+  },
+  "283": {
+    "id": 283,
+    "name_zh": "溜溜糖球",
+    "name_en": "Surskit",
+    "regional": []
+  },
+  "284": {
+    "id": 284,
+    "name_zh": "雨翅蛾",
+    "name_en": "Masquerain",
+    "regional": []
+  },
+  "285": {
+    "id": 285,
+    "name_zh": "蘑蘑菇",
+    "name_en": "Shroomish",
+    "regional": []
+  },
+  "286": {
+    "id": 286,
+    "name_zh": "斗笠菇",
+    "name_en": "Breloom",
+    "regional": []
+  },
+  "287": {
+    "id": 287,
+    "name_zh": "懒人獭",
+    "name_en": "Slakoth",
+    "regional": []
+  },
+  "288": {
+    "id": 288,
+    "name_zh": "过动猿",
+    "name_en": "Vigoroth",
+    "regional": []
+  },
+  "289": {
+    "id": 289,
+    "name_zh": "请假王",
+    "name_en": "Slaking",
+    "regional": []
+  },
+  "290": {
+    "id": 290,
+    "name_zh": "土居忍士",
+    "name_en": "Nincada",
+    "regional": []
+  },
+  "291": {
+    "id": 291,
+    "name_zh": "铁面忍者",
+    "name_en": "Ninjask",
+    "regional": []
+  },
+  "292": {
+    "id": 292,
+    "name_zh": "脱壳忍者",
+    "name_en": "Shedinja",
+    "regional": []
+  },
+  "293": {
+    "id": 293,
+    "name_zh": "咕妞妞",
+    "name_en": "Whismur",
+    "regional": []
+  },
+  "294": {
+    "id": 294,
+    "name_zh": "吼爆弹",
+    "name_en": "Loudred",
+    "regional": []
+  },
+  "295": {
+    "id": 295,
+    "name_zh": "爆音怪",
+    "name_en": "Exploud",
+    "regional": []
+  },
+  "296": {
+    "id": 296,
+    "name_zh": "幕下力士",
+    "name_en": "Makuhita",
+    "regional": []
+  },
+  "297": {
+    "id": 297,
+    "name_zh": "铁掌力士",
+    "name_en": "Hariyama",
+    "regional": []
+  },
+  "298": {
+    "id": 298,
+    "name_zh": "露力丽",
+    "name_en": "Azurill",
+    "regional": []
+  },
+  "299": {
+    "id": 299,
+    "name_zh": "朝北鼻",
+    "name_en": "Nosepass",
+    "regional": []
+  },
+  "300": {
+    "id": 300,
+    "name_zh": "向尾喵",
+    "name_en": "Skitty",
+    "regional": []
+  },
+  "301": {
+    "id": 301,
+    "name_zh": "优雅猫",
+    "name_en": "Delcatty",
+    "regional": []
+  },
+  "302": {
+    "id": 302,
+    "name_zh": "勾魂眼",
+    "name_en": "Sableye",
+    "regional": []
+  },
+  "303": {
+    "id": 303,
+    "name_zh": "大嘴娃",
+    "name_en": "Mawile",
+    "regional": []
+  },
+  "304": {
+    "id": 304,
+    "name_zh": "可可多拉",
+    "name_en": "Aron",
+    "regional": []
+  },
+  "305": {
+    "id": 305,
+    "name_zh": "可多拉",
+    "name_en": "Lairon",
+    "regional": []
+  },
+  "306": {
+    "id": 306,
+    "name_zh": "波士可多拉",
+    "name_en": "Aggron",
+    "regional": []
+  },
+  "307": {
+    "id": 307,
+    "name_zh": "玛沙那",
+    "name_en": "Meditite",
+    "regional": []
+  },
+  "308": {
+    "id": 308,
+    "name_zh": "恰雷姆",
+    "name_en": "Medicham",
+    "regional": []
+  },
+  "309": {
+    "id": 309,
+    "name_zh": "落雷兽",
+    "name_en": "Electrike",
+    "regional": []
+  },
+  "310": {
+    "id": 310,
+    "name_zh": "雷电兽",
+    "name_en": "Manectric",
+    "regional": []
+  },
+  "311": {
+    "id": 311,
+    "name_zh": "正电拍拍",
+    "name_en": "Plusle",
+    "regional": []
+  },
+  "312": {
+    "id": 312,
+    "name_zh": "負电拍拍",
+    "name_en": "Minun",
+    "regional": []
+  },
+  "313": {
+    "id": 313,
+    "name_zh": "电萤虫",
+    "name_en": "Volbeat",
+    "regional": []
+  },
+  "314": {
+    "id": 314,
+    "name_zh": "甜甜萤",
+    "name_en": "Illumise",
+    "regional": []
+  },
+  "315": {
+    "id": 315,
+    "name_zh": "毒蔷薇",
+    "name_en": "Roselia",
+    "regional": []
+  },
+  "316": {
+    "id": 316,
+    "name_zh": "溶食兽",
+    "name_en": "Gulpin",
+    "regional": []
+  },
+  "317": {
+    "id": 317,
+    "name_zh": "吞食兽",
+    "name_en": "Swalot",
+    "regional": []
+  },
+  "318": {
+    "id": 318,
+    "name_zh": "利牙鱼",
+    "name_en": "Carvanha",
+    "regional": []
+  },
+  "319": {
+    "id": 319,
+    "name_zh": "巨牙鲨",
+    "name_en": "Sharpedo",
+    "regional": []
+  },
+  "320": {
+    "id": 320,
+    "name_zh": "吼吼鲸",
+    "name_en": "Wailmer",
+    "regional": []
+  },
+  "321": {
+    "id": 321,
+    "name_zh": "吼鲸王",
+    "name_en": "Wailord",
+    "regional": []
+  },
+  "322": {
+    "id": 322,
+    "name_zh": "呆火驼",
+    "name_en": "Numel",
+    "regional": []
+  },
+  "323": {
+    "id": 323,
+    "name_zh": "喷火驼",
+    "name_en": "Camerupt",
+    "regional": []
+  },
+  "324": {
+    "id": 324,
+    "name_zh": "煤炭龟",
+    "name_en": "Torkoal",
+    "regional": []
+  },
+  "325": {
+    "id": 325,
+    "name_zh": "跳跳猪",
+    "name_en": "Spoink",
+    "regional": []
+  },
+  "326": {
+    "id": 326,
+    "name_zh": "噗噗猪",
+    "name_en": "Grumpig",
+    "regional": []
+  },
+  "327": {
+    "id": 327,
+    "name_zh": "晃晃斑",
+    "name_en": "Spinda",
+    "regional": []
+  },
+  "328": {
+    "id": 328,
+    "name_zh": "大颚蚁",
+    "name_en": "Trapinch",
+    "regional": []
+  },
+  "329": {
+    "id": 329,
+    "name_zh": "超音波幼虫",
+    "name_en": "Vibrava",
+    "regional": []
+  },
+  "330": {
+    "id": 330,
+    "name_zh": "沙漠蜻蜓",
+    "name_en": "Flygon",
+    "regional": []
+  },
+  "331": {
+    "id": 331,
+    "name_zh": "刺球仙人掌",
+    "name_en": "Cacnea",
+    "regional": []
+  },
+  "332": {
+    "id": 332,
+    "name_zh": "梦歌仙人掌",
+    "name_en": "Cacturne",
+    "regional": []
+  },
+  "333": {
+    "id": 333,
+    "name_zh": "青绵鸟",
+    "name_en": "Swablu",
+    "regional": []
+  },
+  "334": {
+    "id": 334,
+    "name_zh": "七夕青鸟",
+    "name_en": "Altaria",
+    "regional": []
+  },
+  "335": {
+    "id": 335,
+    "name_zh": "猫鼬斩",
+    "name_en": "Zangoose",
+    "regional": []
+  },
+  "336": {
+    "id": 336,
+    "name_zh": "饭匙蛇",
+    "name_en": "Seviper",
+    "regional": []
+  },
+  "337": {
+    "id": 337,
+    "name_zh": "月石",
+    "name_en": "Lunatone",
+    "regional": []
+  },
+  "338": {
+    "id": 338,
+    "name_zh": "太阳岩",
+    "name_en": "Solrock",
+    "regional": []
+  },
+  "339": {
+    "id": 339,
+    "name_zh": "泥泥鳅",
+    "name_en": "Barboach",
+    "regional": []
+  },
+  "340": {
+    "id": 340,
+    "name_zh": "鲶鱼王",
+    "name_en": "Whiscash",
+    "regional": []
+  },
+  "341": {
+    "id": 341,
+    "name_zh": "龙虾小兵",
+    "name_en": "Corphish",
+    "regional": []
+  },
+  "342": {
+    "id": 342,
+    "name_zh": "铁螯龙虾",
+    "name_en": "Crawdaunt",
+    "regional": []
+  },
+  "343": {
+    "id": 343,
+    "name_zh": "天秤偶",
+    "name_en": "Baltoy",
+    "regional": []
+  },
+  "344": {
+    "id": 344,
+    "name_zh": "念力土偶",
+    "name_en": "Claydol",
+    "regional": []
+  },
+  "345": {
+    "id": 345,
+    "name_zh": "触手百合",
+    "name_en": "Lileep",
+    "regional": []
+  },
+  "346": {
+    "id": 346,
+    "name_zh": "摇篮百合",
+    "name_en": "Cradily",
+    "regional": []
+  },
+  "347": {
+    "id": 347,
+    "name_zh": "太古羽虫",
+    "name_en": "Anorith",
+    "regional": []
+  },
+  "348": {
+    "id": 348,
+    "name_zh": "太古盔甲",
+    "name_en": "Armaldo",
+    "regional": []
+  },
+  "349": {
+    "id": 349,
+    "name_zh": "丑丑鱼",
+    "name_en": "Feebas",
+    "regional": []
+  },
+  "350": {
+    "id": 350,
+    "name_zh": "美纳斯",
+    "name_en": "Milotic",
+    "regional": []
+  },
+  "351": {
+    "id": 351,
+    "name_zh": "飘浮泡泡",
+    "name_en": "Castform",
+    "regional": []
+  },
+  "352": {
+    "id": 352,
+    "name_zh": "变隐龙",
+    "name_en": "Kecleon",
+    "regional": []
+  },
+  "353": {
+    "id": 353,
+    "name_zh": "怨影娃娃",
+    "name_en": "Shuppet",
+    "regional": []
+  },
+  "354": {
+    "id": 354,
+    "name_zh": "诅咒娃娃",
+    "name_en": "Banette",
+    "regional": []
+  },
+  "355": {
+    "id": 355,
+    "name_zh": "夜巡灵",
+    "name_en": "Duskull",
+    "regional": []
+  },
+  "356": {
+    "id": 356,
+    "name_zh": "彷徨夜灵",
+    "name_en": "Dusclops",
+    "regional": []
+  },
+  "357": {
+    "id": 357,
+    "name_zh": "热带龙",
+    "name_en": "Tropius",
+    "regional": []
+  },
+  "358": {
+    "id": 358,
+    "name_zh": "风铃铃",
+    "name_en": "Chimecho",
+    "regional": []
+  },
+  "359": {
+    "id": 359,
+    "name_zh": "阿勃梭鲁",
+    "name_en": "Absol",
+    "regional": []
+  },
+  "360": {
+    "id": 360,
+    "name_zh": "小果然",
+    "name_en": "Wynaut",
+    "regional": []
+  },
+  "361": {
+    "id": 361,
+    "name_zh": "雪童子",
+    "name_en": "Snorunt",
+    "regional": []
+  },
+  "362": {
+    "id": 362,
+    "name_zh": "冰鬼护",
+    "name_en": "Glalie",
+    "regional": []
+  },
+  "363": {
+    "id": 363,
+    "name_zh": "海豹球",
+    "name_en": "Spheal",
+    "regional": []
+  },
+  "364": {
+    "id": 364,
+    "name_zh": "海魔狮",
+    "name_en": "Sealeo",
+    "regional": []
+  },
+  "365": {
+    "id": 365,
+    "name_zh": "帝牙海狮",
+    "name_en": "Walrein",
+    "regional": []
+  },
+  "366": {
+    "id": 366,
+    "name_zh": "珍珠贝",
+    "name_en": "Clamperl",
+    "regional": []
+  },
+  "367": {
+    "id": 367,
+    "name_zh": "猎斑鱼",
+    "name_en": "Huntail",
+    "regional": []
+  },
+  "368": {
+    "id": 368,
+    "name_zh": "樱花鱼",
+    "name_en": "Gorebyss",
+    "regional": []
+  },
+  "369": {
+    "id": 369,
+    "name_zh": "古空棘鱼",
+    "name_en": "Relicanth",
+    "regional": []
+  },
+  "370": {
+    "id": 370,
+    "name_zh": "爱心鱼",
+    "name_en": "Luvdisc",
+    "regional": []
+  },
+  "371": {
+    "id": 371,
+    "name_zh": "宝贝龙",
+    "name_en": "Bagon",
+    "regional": []
+  },
+  "372": {
+    "id": 372,
+    "name_zh": "甲壳龙",
+    "name_en": "Shelgon",
+    "regional": []
+  },
+  "373": {
+    "id": 373,
+    "name_zh": "暴飞龙",
+    "name_en": "Salamence",
+    "regional": []
+  },
+  "374": {
+    "id": 374,
+    "name_zh": "铁哑铃",
+    "name_en": "Beldum",
+    "regional": []
+  },
+  "375": {
+    "id": 375,
+    "name_zh": "金属怪",
+    "name_en": "Metang",
+    "regional": []
+  },
+  "376": {
+    "id": 376,
+    "name_zh": "巨金怪",
+    "name_en": "Metagross",
+    "regional": []
+  },
+  "377": {
+    "id": 377,
+    "name_zh": "雷吉洛克",
+    "name_en": "Regirock",
+    "regional": []
+  },
+  "378": {
+    "id": 378,
+    "name_zh": "雷吉艾斯",
+    "name_en": "Regice",
+    "regional": []
+  },
+  "379": {
+    "id": 379,
+    "name_zh": "雷吉斯奇鲁",
+    "name_en": "Registeel",
+    "regional": []
+  },
+  "380": {
+    "id": 380,
+    "name_zh": "拉帝亚斯",
+    "name_en": "Latias",
+    "regional": []
+  },
+  "381": {
+    "id": 381,
+    "name_zh": "拉帝欧斯",
+    "name_en": "Latios",
+    "regional": []
+  },
+  "382": {
+    "id": 382,
+    "name_zh": "盖欧卡",
+    "name_en": "Kyogre",
+    "regional": []
+  },
+  "383": {
+    "id": 383,
+    "name_zh": "固拉多",
+    "name_en": "Groudon",
+    "regional": []
+  },
+  "384": {
+    "id": 384,
+    "name_zh": "烈空坐",
+    "name_en": "Rayquaza",
+    "regional": []
+  },
+  "385": {
+    "id": 385,
+    "name_zh": "基拉祈",
+    "name_en": "Jirachi",
+    "regional": []
+  },
+  "386": {
+    "id": 386,
+    "name_zh": "代欧奇希斯",
+    "name_en": "Deoxys",
+    "regional": []
+  },
+  "387": {
+    "id": 387,
+    "name_zh": "草苗龟",
+    "name_en": "Turtwig",
+    "regional": []
+  },
+  "388": {
+    "id": 388,
+    "name_zh": "树林龟",
+    "name_en": "Grotle",
+    "regional": []
+  },
+  "389": {
+    "id": 389,
+    "name_zh": "土台龟",
+    "name_en": "Torterra",
+    "regional": []
+  },
+  "390": {
+    "id": 390,
+    "name_zh": "小火焰猴",
+    "name_en": "Chimchar",
+    "regional": []
+  },
+  "391": {
+    "id": 391,
+    "name_zh": "猛火猴",
+    "name_en": "Monferno",
+    "regional": []
+  },
+  "392": {
+    "id": 392,
+    "name_zh": "烈焰猴",
+    "name_en": "Infernape",
+    "regional": []
+  },
+  "393": {
+    "id": 393,
+    "name_zh": "波加曼",
+    "name_en": "Piplup",
+    "regional": []
+  },
+  "394": {
+    "id": 394,
+    "name_zh": "波皇子",
+    "name_en": "Prinplup",
+    "regional": []
+  },
+  "395": {
+    "id": 395,
+    "name_zh": "帝王拿波",
+    "name_en": "Empoleon",
+    "regional": []
+  },
+  "396": {
+    "id": 396,
+    "name_zh": "姆克儿",
+    "name_en": "Starly",
+    "regional": []
+  },
+  "397": {
+    "id": 397,
+    "name_zh": "姆克鸟",
+    "name_en": "Staravia",
+    "regional": []
+  },
+  "398": {
+    "id": 398,
+    "name_zh": "姆克鹰",
+    "name_en": "Staraptor",
+    "regional": []
+  },
+  "399": {
+    "id": 399,
+    "name_zh": "大牙狸",
+    "name_en": "Bidoof",
+    "regional": []
+  },
+  "400": {
+    "id": 400,
+    "name_zh": "大尾狸",
+    "name_en": "Bibarel",
+    "regional": []
+  },
+  "401": {
+    "id": 401,
+    "name_zh": "圆法师",
+    "name_en": "Kricketot",
+    "regional": []
+  },
+  "402": {
+    "id": 402,
+    "name_zh": "音箱蟀",
+    "name_en": "Kricketune",
+    "regional": []
+  },
+  "403": {
+    "id": 403,
+    "name_zh": "小猫怪",
+    "name_en": "Shinx",
+    "regional": []
+  },
+  "404": {
+    "id": 404,
+    "name_zh": "勒克猫",
+    "name_en": "Luxio",
+    "regional": []
+  },
+  "405": {
+    "id": 405,
+    "name_zh": "伦琴猫",
+    "name_en": "Luxray",
+    "regional": []
+  },
+  "406": {
+    "id": 406,
+    "name_zh": "含羞苞",
+    "name_en": "Budew",
+    "regional": []
+  },
+  "407": {
+    "id": 407,
+    "name_zh": "罗丝雷朵",
+    "name_en": "Roserade",
+    "regional": []
+  },
+  "408": {
+    "id": 408,
+    "name_zh": "头盖龙",
+    "name_en": "Cranidos",
+    "regional": []
+  },
+  "409": {
+    "id": 409,
+    "name_zh": "战槌龙",
+    "name_en": "Rampardos",
+    "regional": []
+  },
+  "410": {
+    "id": 410,
+    "name_zh": "盾甲龙",
+    "name_en": "Shieldon",
+    "regional": []
+  },
+  "411": {
+    "id": 411,
+    "name_zh": "护城龙",
+    "name_en": "Bastiodon",
+    "regional": []
+  },
+  "412": {
+    "id": 412,
+    "name_zh": "结草儿",
+    "name_en": "Burmy",
+    "regional": []
+  },
+  "413": {
+    "id": 413,
+    "name_zh": "结草贵妇",
+    "name_en": "Wormadam",
+    "regional": []
+  },
+  "414": {
+    "id": 414,
+    "name_zh": "绅士蛾",
+    "name_en": "Mothim",
+    "regional": []
+  },
+  "415": {
+    "id": 415,
+    "name_zh": "三蜜蜂",
+    "name_en": "Combee",
+    "regional": []
+  },
+  "416": {
+    "id": 416,
+    "name_zh": "蜂女王",
+    "name_en": "Vespiquen",
+    "regional": []
+  },
+  "417": {
+    "id": 417,
+    "name_zh": "帕奇利兹",
+    "name_en": "Pachirisu",
+    "regional": []
+  },
+  "418": {
+    "id": 418,
+    "name_zh": "泳圈鼬",
+    "name_en": "Buizel",
+    "regional": []
+  },
+  "419": {
+    "id": 419,
+    "name_zh": "浮潜鼬",
+    "name_en": "Floatzel",
+    "regional": []
+  },
+  "420": {
+    "id": 420,
+    "name_zh": "樱花宝",
+    "name_en": "Cherubi",
+    "regional": []
+  },
+  "421": {
+    "id": 421,
+    "name_zh": "樱花儿",
+    "name_en": "Cherrim",
+    "regional": []
+  },
+  "422": {
+    "id": 422,
+    "name_zh": "无壳海兔",
+    "name_en": "Shellos",
+    "regional": []
+  },
+  "423": {
+    "id": 423,
+    "name_zh": "海兔兽",
+    "name_en": "Gastrodon",
+    "regional": []
+  },
+  "424": {
+    "id": 424,
+    "name_zh": "双尾怪手",
+    "name_en": "Ambipom",
+    "regional": []
+  },
+  "425": {
+    "id": 425,
+    "name_zh": "飘飘球",
+    "name_en": "Drifloon",
+    "regional": []
+  },
+  "426": {
+    "id": 426,
+    "name_zh": "随风球",
+    "name_en": "Drifblim",
+    "regional": []
+  },
+  "427": {
+    "id": 427,
+    "name_zh": "卷卷耳",
+    "name_en": "Buneary",
+    "regional": []
+  },
+  "428": {
+    "id": 428,
+    "name_zh": "长耳兔",
+    "name_en": "Lopunny",
+    "regional": []
+  },
+  "429": {
+    "id": 429,
+    "name_zh": "梦妖魔",
+    "name_en": "Mismagius",
+    "regional": []
+  },
+  "430": {
+    "id": 430,
+    "name_zh": "乌鸦头头",
+    "name_en": "Honchkrow",
+    "regional": []
+  },
+  "431": {
+    "id": 431,
+    "name_zh": "魅力喵",
+    "name_en": "Glameow",
+    "regional": []
+  },
+  "432": {
+    "id": 432,
+    "name_zh": "东施喵",
+    "name_en": "Purugly",
+    "regional": []
+  },
+  "433": {
+    "id": 433,
+    "name_zh": "铃铛响",
+    "name_en": "Chingling",
+    "regional": []
+  },
+  "434": {
+    "id": 434,
+    "name_zh": "臭鼬噗",
+    "name_en": "Stunky",
+    "regional": []
+  },
+  "435": {
+    "id": 435,
+    "name_zh": "坦克臭鼬",
+    "name_en": "Skuntank",
+    "regional": []
+  },
+  "436": {
+    "id": 436,
+    "name_zh": "铜镜怪",
+    "name_en": "Bronzor",
+    "regional": []
+  },
+  "437": {
+    "id": 437,
+    "name_zh": "青铜钟",
+    "name_en": "Bronzong",
+    "regional": []
+  },
+  "438": {
+    "id": 438,
+    "name_zh": "盆才怪",
+    "name_en": "Bonsly",
+    "regional": []
+  },
+  "439": {
+    "id": 439,
+    "name_zh": "魔尼尼",
+    "name_en": "Mime Jr.",
+    "regional": []
+  },
+  "440": {
+    "id": 440,
+    "name_zh": "小福蛋",
+    "name_en": "Happiny",
+    "regional": []
+  },
+  "441": {
+    "id": 441,
+    "name_zh": "聒噪鸟",
+    "name_en": "Chatot",
+    "regional": []
+  },
+  "442": {
+    "id": 442,
+    "name_zh": "花岩怪",
+    "name_en": "Spiritomb",
+    "regional": []
+  },
+  "443": {
+    "id": 443,
+    "name_zh": "圆陆鲨",
+    "name_en": "Gible",
+    "regional": []
+  },
+  "444": {
+    "id": 444,
+    "name_zh": "尖牙陆鲨",
+    "name_en": "Gabite",
+    "regional": []
+  },
+  "445": {
+    "id": 445,
+    "name_zh": "烈咬陆鲨",
+    "name_en": "Garchomp",
+    "regional": []
+  },
+  "446": {
+    "id": 446,
+    "name_zh": "小卡比兽",
+    "name_en": "Munchlax",
+    "regional": []
+  },
+  "447": {
+    "id": 447,
+    "name_zh": "利欧路",
+    "name_en": "Riolu",
+    "regional": []
+  },
+  "448": {
+    "id": 448,
+    "name_zh": "路卡利欧",
+    "name_en": "Lucario",
+    "regional": []
+  },
+  "449": {
+    "id": 449,
+    "name_zh": "沙河马",
+    "name_en": "Hippopotas",
+    "regional": []
+  },
+  "450": {
+    "id": 450,
+    "name_zh": "河马兽",
+    "name_en": "Hippowdon",
+    "regional": []
+  },
+  "451": {
+    "id": 451,
+    "name_zh": "钳尾蝎",
+    "name_en": "Skorupi",
+    "regional": []
+  },
+  "452": {
+    "id": 452,
+    "name_zh": "龙王蝎",
+    "name_en": "Drapion",
+    "regional": []
+  },
+  "453": {
+    "id": 453,
+    "name_zh": "不良蛙",
+    "name_en": "Croagunk",
+    "regional": []
+  },
+  "454": {
+    "id": 454,
+    "name_zh": "毒骷蛙",
+    "name_en": "Toxicroak",
+    "regional": []
+  },
+  "455": {
+    "id": 455,
+    "name_zh": "尖牙笼",
+    "name_en": "Carnivine",
+    "regional": []
+  },
+  "456": {
+    "id": 456,
+    "name_zh": "荧光鱼",
+    "name_en": "Finneon",
+    "regional": []
+  },
+  "457": {
+    "id": 457,
+    "name_zh": "霓虹鱼",
+    "name_en": "Lumineon",
+    "regional": []
+  },
+  "458": {
+    "id": 458,
+    "name_zh": "小球飞鱼",
+    "name_en": "Mantyke",
+    "regional": []
+  },
+  "459": {
+    "id": 459,
+    "name_zh": "雪笠怪",
+    "name_en": "Snover",
+    "regional": []
+  },
+  "460": {
+    "id": 460,
+    "name_zh": "暴雪王",
+    "name_en": "Abomasnow",
+    "regional": []
+  },
+  "461": {
+    "id": 461,
+    "name_zh": "玛狃拉",
+    "name_en": "Weavile",
+    "regional": []
+  },
+  "462": {
+    "id": 462,
+    "name_zh": "自爆磁怪",
+    "name_en": "Magnezone",
+    "regional": []
+  },
+  "463": {
+    "id": 463,
+    "name_zh": "大舌舔",
+    "name_en": "Lickilicky",
+    "regional": []
+  },
+  "464": {
+    "id": 464,
+    "name_zh": "超甲狂犀",
+    "name_en": "Rhyperior",
+    "regional": []
+  },
+  "465": {
+    "id": 465,
+    "name_zh": "巨蔓藤",
+    "name_en": "Tangrowth",
+    "regional": []
+  },
+  "466": {
+    "id": 466,
+    "name_zh": "电击魔兽",
+    "name_en": "Electivire",
+    "regional": []
+  },
+  "467": {
+    "id": 467,
+    "name_zh": "鸭嘴炎兽",
+    "name_en": "Magmortar",
+    "regional": []
+  },
+  "468": {
+    "id": 468,
+    "name_zh": "波克基斯",
+    "name_en": "Togekiss",
+    "regional": []
+  },
+  "469": {
+    "id": 469,
+    "name_zh": "远古巨蜓",
+    "name_en": "Yanmega",
+    "regional": []
+  },
+  "470": {
+    "id": 470,
+    "name_zh": "叶伊布",
+    "name_en": "Leafeon",
+    "regional": []
+  },
+  "471": {
+    "id": 471,
+    "name_zh": "冰伊布",
+    "name_en": "Glaceon",
+    "regional": []
+  },
+  "472": {
+    "id": 472,
+    "name_zh": "天蝎王",
+    "name_en": "Gliscor",
+    "regional": []
+  },
+  "473": {
+    "id": 473,
+    "name_zh": "象牙猪",
+    "name_en": "Mamoswine",
+    "regional": []
+  },
+  "474": {
+    "id": 474,
+    "name_zh": "多边兽乙型",
+    "name_en": "Porygon-Z",
+    "regional": []
+  },
+  "475": {
+    "id": 475,
+    "name_zh": "艾路雷朵",
+    "name_en": "Gallade",
+    "regional": []
+  },
+  "476": {
+    "id": 476,
+    "name_zh": "大朝北鼻",
+    "name_en": "Probopass",
+    "regional": []
+  },
+  "477": {
+    "id": 477,
+    "name_zh": "黑夜魔灵",
+    "name_en": "Dusknoir",
+    "regional": []
+  },
+  "478": {
+    "id": 478,
+    "name_zh": "雪妖女",
+    "name_en": "Froslass",
+    "regional": []
+  },
+  "479": {
+    "id": 479,
+    "name_zh": "洛托姆",
+    "name_en": "Rotom",
+    "regional": []
+  },
+  "480": {
+    "id": 480,
+    "name_zh": "由克希",
+    "name_en": "Uxie",
+    "regional": []
+  },
+  "481": {
+    "id": 481,
+    "name_zh": "艾姆利多",
+    "name_en": "Mesprit",
+    "regional": []
+  },
+  "482": {
+    "id": 482,
+    "name_zh": "亚克诺姆",
+    "name_en": "Azelf",
+    "regional": []
+  },
+  "483": {
+    "id": 483,
+    "name_zh": "帝牙卢卡",
+    "name_en": "Dialga",
+    "regional": []
+  },
+  "484": {
+    "id": 484,
+    "name_zh": "帕路奇亚",
+    "name_en": "Palkia",
+    "regional": []
+  },
+  "485": {
+    "id": 485,
+    "name_zh": "席多蓝恩",
+    "name_en": "Heatran",
+    "regional": []
+  },
+  "486": {
+    "id": 486,
+    "name_zh": "雷吉奇卡斯",
+    "name_en": "Regigigas",
+    "regional": []
+  },
+  "487": {
+    "id": 487,
+    "name_zh": "骑拉帝纳",
+    "name_en": "Giratina",
+    "regional": []
+  },
+  "488": {
+    "id": 488,
+    "name_zh": "克雷色利亚",
+    "name_en": "Cresselia",
+    "regional": []
+  },
+  "489": {
+    "id": 489,
+    "name_zh": "霏欧纳",
+    "name_en": "Phione",
+    "regional": []
+  },
+  "490": {
+    "id": 490,
+    "name_zh": "玛纳霏",
+    "name_en": "Manaphy",
+    "regional": []
+  },
+  "491": {
+    "id": 491,
+    "name_zh": "达克莱伊",
+    "name_en": "Darkrai",
+    "regional": []
+  },
+  "492": {
+    "id": 492,
+    "name_zh": "谢米",
+    "name_en": "Shaymin",
+    "regional": []
+  },
+  "493": {
+    "id": 493,
+    "name_zh": "阿尔宙斯",
+    "name_en": "Arceus",
+    "regional": []
+  },
+  "494": {
+    "id": 494,
+    "name_zh": "比克提尼",
+    "name_en": "Victini",
+    "regional": []
+  },
+  "495": {
+    "id": 495,
+    "name_zh": "藤藤蛇",
+    "name_en": "Snivy",
+    "regional": []
+  },
+  "496": {
+    "id": 496,
+    "name_zh": "青藤蛇",
+    "name_en": "Servine",
+    "regional": []
+  },
+  "497": {
+    "id": 497,
+    "name_zh": "君主蛇",
+    "name_en": "Serperior",
+    "regional": []
+  },
+  "498": {
+    "id": 498,
+    "name_zh": "暖暖猪",
+    "name_en": "Tepig",
+    "regional": []
+  },
+  "499": {
+    "id": 499,
+    "name_zh": "炒炒猪",
+    "name_en": "Pignite",
+    "regional": []
+  },
+  "500": {
+    "id": 500,
+    "name_zh": "炎武王",
+    "name_en": "Emboar",
+    "regional": []
+  },
+  "501": {
+    "id": 501,
+    "name_zh": "水水獭",
+    "name_en": "Oshawott",
+    "regional": []
+  },
+  "502": {
+    "id": 502,
+    "name_zh": "双刃丸",
+    "name_en": "Dewott",
+    "regional": []
+  },
+  "503": {
+    "id": 503,
+    "name_zh": "大剑鬼",
+    "name_en": "Samurott",
+    "regional": [
+      {
+        "form": "samurott-hisui",
+        "region": "洗翠",
+        "is_default": false
+      }
+    ]
+  },
+  "504": {
+    "id": 504,
+    "name_zh": "探探鼠",
+    "name_en": "Patrat",
+    "regional": []
+  },
+  "505": {
+    "id": 505,
+    "name_zh": "步哨鼠",
+    "name_en": "Watchog",
+    "regional": []
+  },
+  "506": {
+    "id": 506,
+    "name_zh": "小约克",
+    "name_en": "Lillipup",
+    "regional": []
+  },
+  "507": {
+    "id": 507,
+    "name_zh": "哈约克",
+    "name_en": "Herdier",
+    "regional": []
+  },
+  "508": {
+    "id": 508,
+    "name_zh": "长毛狗",
+    "name_en": "Stoutland",
+    "regional": []
+  },
+  "509": {
+    "id": 509,
+    "name_zh": "扒手猫",
+    "name_en": "Purrloin",
+    "regional": []
+  },
+  "510": {
+    "id": 510,
+    "name_zh": "酷豹",
+    "name_en": "Liepard",
+    "regional": []
+  },
+  "511": {
+    "id": 511,
+    "name_zh": "花椰猴",
+    "name_en": "Pansage",
+    "regional": []
+  },
+  "512": {
+    "id": 512,
+    "name_zh": "花椰猿",
+    "name_en": "Simisage",
+    "regional": []
+  },
+  "513": {
+    "id": 513,
+    "name_zh": "爆香猴",
+    "name_en": "Pansear",
+    "regional": []
+  },
+  "514": {
+    "id": 514,
+    "name_zh": "爆香猿",
+    "name_en": "Simisear",
+    "regional": []
+  },
+  "515": {
+    "id": 515,
+    "name_zh": "冷水猴",
+    "name_en": "Panpour",
+    "regional": []
+  },
+  "516": {
+    "id": 516,
+    "name_zh": "冷水猿",
+    "name_en": "Simipour",
+    "regional": []
+  },
+  "517": {
+    "id": 517,
+    "name_zh": "食梦梦",
+    "name_en": "Munna",
+    "regional": []
+  },
+  "518": {
+    "id": 518,
+    "name_zh": "梦梦蚀",
+    "name_en": "Musharna",
+    "regional": []
+  },
+  "519": {
+    "id": 519,
+    "name_zh": "豆豆鸽",
+    "name_en": "Pidove",
+    "regional": []
+  },
+  "520": {
+    "id": 520,
+    "name_zh": "咕咕鸽",
+    "name_en": "Tranquill",
+    "regional": []
+  },
+  "521": {
+    "id": 521,
+    "name_zh": "高傲雉鸡",
+    "name_en": "Unfezant",
+    "regional": []
+  },
+  "522": {
+    "id": 522,
+    "name_zh": "斑斑马",
+    "name_en": "Blitzle",
+    "regional": []
+  },
+  "523": {
+    "id": 523,
+    "name_zh": "雷电斑马",
+    "name_en": "Zebstrika",
+    "regional": []
+  },
+  "524": {
+    "id": 524,
+    "name_zh": "石丸子",
+    "name_en": "Roggenrola",
+    "regional": []
+  },
+  "525": {
+    "id": 525,
+    "name_zh": "地幔岩",
+    "name_en": "Boldore",
+    "regional": []
+  },
+  "526": {
+    "id": 526,
+    "name_zh": "庞岩怪",
+    "name_en": "Gigalith",
+    "regional": []
+  },
+  "527": {
+    "id": 527,
+    "name_zh": "滚滚蝙蝠",
+    "name_en": "Woobat",
+    "regional": []
+  },
+  "528": {
+    "id": 528,
+    "name_zh": "心蝙蝠",
+    "name_en": "Swoobat",
+    "regional": []
+  },
+  "529": {
+    "id": 529,
+    "name_zh": "螺钉地鼠",
+    "name_en": "Drilbur",
+    "regional": []
+  },
+  "530": {
+    "id": 530,
+    "name_zh": "龙头地鼠",
+    "name_en": "Excadrill",
+    "regional": []
+  },
+  "531": {
+    "id": 531,
+    "name_zh": "差不多娃娃",
+    "name_en": "Audino",
+    "regional": []
+  },
+  "532": {
+    "id": 532,
+    "name_zh": "搬运小匠",
+    "name_en": "Timburr",
+    "regional": []
+  },
+  "533": {
+    "id": 533,
+    "name_zh": "铁骨土人",
+    "name_en": "Gurdurr",
+    "regional": []
+  },
+  "534": {
+    "id": 534,
+    "name_zh": "修建老匠",
+    "name_en": "Conkeldurr",
+    "regional": []
+  },
+  "535": {
+    "id": 535,
+    "name_zh": "圆蝌蚪",
+    "name_en": "Tympole",
+    "regional": []
+  },
+  "536": {
+    "id": 536,
+    "name_zh": "蓝蟾蜍",
+    "name_en": "Palpitoad",
+    "regional": []
+  },
+  "537": {
+    "id": 537,
+    "name_zh": "蟾蜍王",
+    "name_en": "Seismitoad",
+    "regional": []
+  },
+  "538": {
+    "id": 538,
+    "name_zh": "投摔鬼",
+    "name_en": "Throh",
+    "regional": []
+  },
+  "539": {
+    "id": 539,
+    "name_zh": "打击鬼",
+    "name_en": "Sawk",
+    "regional": []
+  },
+  "540": {
+    "id": 540,
+    "name_zh": "虫宝包",
+    "name_en": "Sewaddle",
+    "regional": []
+  },
+  "541": {
+    "id": 541,
+    "name_zh": "宝包茧",
+    "name_en": "Swadloon",
+    "regional": []
+  },
+  "542": {
+    "id": 542,
+    "name_zh": "保姆虫",
+    "name_en": "Leavanny",
+    "regional": []
+  },
+  "543": {
+    "id": 543,
+    "name_zh": "百足蜈蚣",
+    "name_en": "Venipede",
+    "regional": []
+  },
+  "544": {
+    "id": 544,
+    "name_zh": "车轮球",
+    "name_en": "Whirlipede",
+    "regional": []
+  },
+  "545": {
+    "id": 545,
+    "name_zh": "蜈蚣王",
+    "name_en": "Scolipede",
+    "regional": []
+  },
+  "546": {
+    "id": 546,
+    "name_zh": "木棉球",
+    "name_en": "Cottonee",
+    "regional": []
+  },
+  "547": {
+    "id": 547,
+    "name_zh": "风妖精",
+    "name_en": "Whimsicott",
+    "regional": []
+  },
+  "548": {
+    "id": 548,
+    "name_zh": "百合根娃娃",
+    "name_en": "Petilil",
+    "regional": []
+  },
+  "549": {
+    "id": 549,
+    "name_zh": "裙儿小姐",
+    "name_en": "Lilligant",
+    "regional": [
+      {
+        "form": "lilligant-hisui",
+        "region": "洗翠",
+        "is_default": false
+      }
+    ]
+  },
+  "550": {
+    "id": 550,
+    "name_zh": "野蛮鲈鱼",
+    "name_en": "Basculin",
+    "regional": []
+  },
+  "551": {
+    "id": 551,
+    "name_zh": "黑眼鳄",
+    "name_en": "Sandile",
+    "regional": []
+  },
+  "552": {
+    "id": 552,
+    "name_zh": "混混鳄",
+    "name_en": "Krokorok",
+    "regional": []
+  },
+  "553": {
+    "id": 553,
+    "name_zh": "流氓鳄",
+    "name_en": "Krookodile",
+    "regional": []
+  },
+  "554": {
+    "id": 554,
+    "name_zh": "火红不倒翁",
+    "name_en": "Darumaka",
+    "regional": [
+      {
+        "form": "darumaka-galar",
+        "region": "伽勒尔",
+        "is_default": false
+      }
+    ]
+  },
+  "555": {
+    "id": 555,
+    "name_zh": "达摩狒狒",
+    "name_en": "Darmanitan",
+    "regional": [
+      {
+        "form": "darmanitan-galar-standard",
+        "region": "伽勒尔",
+        "is_default": false
+      },
+      {
+        "form": "darmanitan-galar-zen",
+        "region": "伽勒尔",
+        "is_default": false
+      }
+    ]
+  },
+  "556": {
+    "id": 556,
+    "name_zh": "沙铃仙人掌",
+    "name_en": "Maractus",
+    "regional": []
+  },
+  "557": {
+    "id": 557,
+    "name_zh": "石居蟹",
+    "name_en": "Dwebble",
+    "regional": []
+  },
+  "558": {
+    "id": 558,
+    "name_zh": "岩殿居蟹",
+    "name_en": "Crustle",
+    "regional": []
+  },
+  "559": {
+    "id": 559,
+    "name_zh": "滑滑小子",
+    "name_en": "Scraggy",
+    "regional": []
+  },
+  "560": {
+    "id": 560,
+    "name_zh": "头巾混混",
+    "name_en": "Scrafty",
+    "regional": []
+  },
+  "561": {
+    "id": 561,
+    "name_zh": "象征鸟",
+    "name_en": "Sigilyph",
+    "regional": []
+  },
+  "562": {
+    "id": 562,
+    "name_zh": "哭哭面具",
+    "name_en": "Yamask",
+    "regional": [
+      {
+        "form": "yamask-galar",
+        "region": "伽勒尔",
+        "is_default": false
+      }
+    ]
+  },
+  "563": {
+    "id": 563,
+    "name_zh": "迭失棺",
+    "name_en": "Cofagrigus",
+    "regional": []
+  },
+  "564": {
+    "id": 564,
+    "name_zh": "原盖海龟",
+    "name_en": "Tirtouga",
+    "regional": []
+  },
+  "565": {
+    "id": 565,
+    "name_zh": "肋骨海龟",
+    "name_en": "Carracosta",
+    "regional": []
+  },
+  "566": {
+    "id": 566,
+    "name_zh": "始祖小鸟",
+    "name_en": "Archen",
+    "regional": []
+  },
+  "567": {
+    "id": 567,
+    "name_zh": "始祖大鸟",
+    "name_en": "Archeops",
+    "regional": []
+  },
+  "568": {
+    "id": 568,
+    "name_zh": "破破袋",
+    "name_en": "Trubbish",
+    "regional": []
+  },
+  "569": {
+    "id": 569,
+    "name_zh": "灰尘山",
+    "name_en": "Garbodor",
+    "regional": []
+  },
+  "570": {
+    "id": 570,
+    "name_zh": "索罗亚",
+    "name_en": "Zorua",
+    "regional": [
+      {
+        "form": "zorua-hisui",
+        "region": "洗翠",
+        "is_default": false
+      }
+    ]
+  },
+  "571": {
+    "id": 571,
+    "name_zh": "索罗亚克",
+    "name_en": "Zoroark",
+    "regional": [
+      {
+        "form": "zoroark-hisui",
+        "region": "洗翠",
+        "is_default": false
+      }
+    ]
+  },
+  "572": {
+    "id": 572,
+    "name_zh": "泡沫栗鼠",
+    "name_en": "Minccino",
+    "regional": []
+  },
+  "573": {
+    "id": 573,
+    "name_zh": "奇诺栗鼠",
+    "name_en": "Cinccino",
+    "regional": []
+  },
+  "574": {
+    "id": 574,
+    "name_zh": "哥德宝宝",
+    "name_en": "Gothita",
+    "regional": []
+  },
+  "575": {
+    "id": 575,
+    "name_zh": "哥德小童",
+    "name_en": "Gothorita",
+    "regional": []
+  },
+  "576": {
+    "id": 576,
+    "name_zh": "哥德小姐",
+    "name_en": "Gothitelle",
+    "regional": []
+  },
+  "577": {
+    "id": 577,
+    "name_zh": "单卵细胞球",
+    "name_en": "Solosis",
+    "regional": []
+  },
+  "578": {
+    "id": 578,
+    "name_zh": "双卵细胞球",
+    "name_en": "Duosion",
+    "regional": []
+  },
+  "579": {
+    "id": 579,
+    "name_zh": "人造细胞卵",
+    "name_en": "Reuniclus",
+    "regional": []
+  },
+  "580": {
+    "id": 580,
+    "name_zh": "鸭宝宝",
+    "name_en": "Ducklett",
+    "regional": []
+  },
+  "581": {
+    "id": 581,
+    "name_zh": "舞天鹅",
+    "name_en": "Swanna",
+    "regional": []
+  },
+  "582": {
+    "id": 582,
+    "name_zh": "迷你冰",
+    "name_en": "Vanillite",
+    "regional": []
+  },
+  "583": {
+    "id": 583,
+    "name_zh": "多多冰",
+    "name_en": "Vanillish",
+    "regional": []
+  },
+  "584": {
+    "id": 584,
+    "name_zh": "双倍多多冰",
+    "name_en": "Vanilluxe",
+    "regional": []
+  },
+  "585": {
+    "id": 585,
+    "name_zh": "四季鹿",
+    "name_en": "Deerling",
+    "regional": []
+  },
+  "586": {
+    "id": 586,
+    "name_zh": "萌芽鹿",
+    "name_en": "Sawsbuck",
+    "regional": []
+  },
+  "587": {
+    "id": 587,
+    "name_zh": "电飞鼠",
+    "name_en": "Emolga",
+    "regional": []
+  },
+  "588": {
+    "id": 588,
+    "name_zh": "盖盖虫",
+    "name_en": "Karrablast",
+    "regional": []
+  },
+  "589": {
+    "id": 589,
+    "name_zh": "骑士蜗牛",
+    "name_en": "Escavalier",
+    "regional": []
+  },
+  "590": {
+    "id": 590,
+    "name_zh": "哎呀球菇",
+    "name_en": "Foongus",
+    "regional": []
+  },
+  "591": {
+    "id": 591,
+    "name_zh": "败露球菇",
+    "name_en": "Amoonguss",
+    "regional": []
+  },
+  "592": {
+    "id": 592,
+    "name_zh": "轻飘飘",
+    "name_en": "Frillish",
+    "regional": []
+  },
+  "593": {
+    "id": 593,
+    "name_zh": "胖嘟嘟",
+    "name_en": "Jellicent",
+    "regional": []
+  },
+  "594": {
+    "id": 594,
+    "name_zh": "保姆曼波",
+    "name_en": "Alomomola",
+    "regional": []
+  },
+  "595": {
+    "id": 595,
+    "name_zh": "电电虫",
+    "name_en": "Joltik",
+    "regional": []
+  },
+  "596": {
+    "id": 596,
+    "name_zh": "电蜘蛛",
+    "name_en": "Galvantula",
+    "regional": []
+  },
+  "597": {
+    "id": 597,
+    "name_zh": "种子铁球",
+    "name_en": "Ferroseed",
+    "regional": []
+  },
+  "598": {
+    "id": 598,
+    "name_zh": "坚果哑铃",
+    "name_en": "Ferrothorn",
+    "regional": []
+  },
+  "599": {
+    "id": 599,
+    "name_zh": "齿轮儿",
+    "name_en": "Klink",
+    "regional": []
+  },
+  "600": {
+    "id": 600,
+    "name_zh": "齿轮组",
+    "name_en": "Klang",
+    "regional": []
+  },
+  "601": {
+    "id": 601,
+    "name_zh": "齿轮怪",
+    "name_en": "Klinklang",
+    "regional": []
+  },
+  "602": {
+    "id": 602,
+    "name_zh": "麻麻小鱼",
+    "name_en": "Tynamo",
+    "regional": []
+  },
+  "603": {
+    "id": 603,
+    "name_zh": "麻麻鳗",
+    "name_en": "Eelektrik",
+    "regional": []
+  },
+  "604": {
+    "id": 604,
+    "name_zh": "麻麻鳗鱼王",
+    "name_en": "Eelektross",
+    "regional": []
+  },
+  "605": {
+    "id": 605,
+    "name_zh": "小灰怪",
+    "name_en": "Elgyem",
+    "regional": []
+  },
+  "606": {
+    "id": 606,
+    "name_zh": "大宇怪",
+    "name_en": "Beheeyem",
+    "regional": []
+  },
+  "607": {
+    "id": 607,
+    "name_zh": "烛光灵",
+    "name_en": "Litwick",
+    "regional": []
+  },
+  "608": {
+    "id": 608,
+    "name_zh": "灯火幽灵",
+    "name_en": "Lampent",
+    "regional": []
+  },
+  "609": {
+    "id": 609,
+    "name_zh": "水晶灯火灵",
+    "name_en": "Chandelure",
+    "regional": []
+  },
+  "610": {
+    "id": 610,
+    "name_zh": "牙牙",
+    "name_en": "Axew",
+    "regional": []
+  },
+  "611": {
+    "id": 611,
+    "name_zh": "斧牙龙",
+    "name_en": "Fraxure",
+    "regional": []
+  },
+  "612": {
+    "id": 612,
+    "name_zh": "双斧战龙",
+    "name_en": "Haxorus",
+    "regional": []
+  },
+  "613": {
+    "id": 613,
+    "name_zh": "喷嚏熊",
+    "name_en": "Cubchoo",
+    "regional": []
+  },
+  "614": {
+    "id": 614,
+    "name_zh": "冻原熊",
+    "name_en": "Beartic",
+    "regional": []
+  },
+  "615": {
+    "id": 615,
+    "name_zh": "几何雪花",
+    "name_en": "Cryogonal",
+    "regional": []
+  },
+  "616": {
+    "id": 616,
+    "name_zh": "小嘴蜗",
+    "name_en": "Shelmet",
+    "regional": []
+  },
+  "617": {
+    "id": 617,
+    "name_zh": "敏捷虫",
+    "name_en": "Accelgor",
+    "regional": []
+  },
+  "618": {
+    "id": 618,
+    "name_zh": "泥巴鱼",
+    "name_en": "Stunfisk",
+    "regional": [
+      {
+        "form": "stunfisk-galar",
+        "region": "伽勒尔",
+        "is_default": false
+      }
+    ]
+  },
+  "619": {
+    "id": 619,
+    "name_zh": "功夫鼬",
+    "name_en": "Mienfoo",
+    "regional": []
+  },
+  "620": {
+    "id": 620,
+    "name_zh": "师父鼬",
+    "name_en": "Mienshao",
+    "regional": []
+  },
+  "621": {
+    "id": 621,
+    "name_zh": "赤面龙",
+    "name_en": "Druddigon",
+    "regional": []
+  },
+  "622": {
+    "id": 622,
+    "name_zh": "泥偶小人",
+    "name_en": "Golett",
+    "regional": []
+  },
+  "623": {
+    "id": 623,
+    "name_zh": "泥偶巨人",
+    "name_en": "Golurk",
+    "regional": []
+  },
+  "624": {
+    "id": 624,
+    "name_zh": "驹刀小兵",
+    "name_en": "Pawniard",
+    "regional": []
+  },
+  "625": {
+    "id": 625,
+    "name_zh": "劈斩司令",
+    "name_en": "Bisharp",
+    "regional": []
+  },
+  "626": {
+    "id": 626,
+    "name_zh": "爆炸头水牛",
+    "name_en": "Bouffalant",
+    "regional": []
+  },
+  "627": {
+    "id": 627,
+    "name_zh": "毛头小鹰",
+    "name_en": "Rufflet",
+    "regional": []
+  },
+  "628": {
+    "id": 628,
+    "name_zh": "勇士雄鹰",
+    "name_en": "Braviary",
+    "regional": [
+      {
+        "form": "braviary-hisui",
+        "region": "洗翠",
+        "is_default": false
+      }
+    ]
+  },
+  "629": {
+    "id": 629,
+    "name_zh": "秃鹰丫头",
+    "name_en": "Vullaby",
+    "regional": []
+  },
+  "630": {
+    "id": 630,
+    "name_zh": "秃鹰娜",
+    "name_en": "Mandibuzz",
+    "regional": []
+  },
+  "631": {
+    "id": 631,
+    "name_zh": "熔蚁兽",
+    "name_en": "Heatmor",
+    "regional": []
+  },
+  "632": {
+    "id": 632,
+    "name_zh": "铁蚁",
+    "name_en": "Durant",
+    "regional": []
+  },
+  "633": {
+    "id": 633,
+    "name_zh": "单首龙",
+    "name_en": "Deino",
+    "regional": []
+  },
+  "634": {
+    "id": 634,
+    "name_zh": "双首暴龙",
+    "name_en": "Zweilous",
+    "regional": []
+  },
+  "635": {
+    "id": 635,
+    "name_zh": "三首恶龙",
+    "name_en": "Hydreigon",
+    "regional": []
+  },
+  "636": {
+    "id": 636,
+    "name_zh": "燃烧虫",
+    "name_en": "Larvesta",
+    "regional": []
+  },
+  "637": {
+    "id": 637,
+    "name_zh": "火神蛾",
+    "name_en": "Volcarona",
+    "regional": []
+  },
+  "638": {
+    "id": 638,
+    "name_zh": "勾帕路翁",
+    "name_en": "Cobalion",
+    "regional": []
+  },
+  "639": {
+    "id": 639,
+    "name_zh": "代拉基翁",
+    "name_en": "Terrakion",
+    "regional": []
+  },
+  "640": {
+    "id": 640,
+    "name_zh": "毕力吉翁",
+    "name_en": "Virizion",
+    "regional": []
+  },
+  "641": {
+    "id": 641,
+    "name_zh": "龙卷云",
+    "name_en": "Tornadus",
+    "regional": []
+  },
+  "642": {
+    "id": 642,
+    "name_zh": "雷电云",
+    "name_en": "Thundurus",
+    "regional": []
+  },
+  "643": {
+    "id": 643,
+    "name_zh": "莱希拉姆",
+    "name_en": "Reshiram",
+    "regional": []
+  },
+  "644": {
+    "id": 644,
+    "name_zh": "捷克罗姆",
+    "name_en": "Zekrom",
+    "regional": []
+  },
+  "645": {
+    "id": 645,
+    "name_zh": "土地云",
+    "name_en": "Landorus",
+    "regional": []
+  },
+  "646": {
+    "id": 646,
+    "name_zh": "酋雷姆",
+    "name_en": "Kyurem",
+    "regional": []
+  },
+  "647": {
+    "id": 647,
+    "name_zh": "凯路迪欧",
+    "name_en": "Keldeo",
+    "regional": []
+  },
+  "648": {
+    "id": 648,
+    "name_zh": "美洛耶塔",
+    "name_en": "Meloetta",
+    "regional": []
+  },
+  "649": {
+    "id": 649,
+    "name_zh": "盖诺赛克特",
+    "name_en": "Genesect",
+    "regional": []
+  },
+  "650": {
+    "id": 650,
+    "name_zh": "哈力栗",
+    "name_en": "Chespin",
+    "regional": []
+  },
+  "651": {
+    "id": 651,
+    "name_zh": "胖胖哈力",
+    "name_en": "Quilladin",
+    "regional": []
+  },
+  "652": {
+    "id": 652,
+    "name_zh": "布里卡隆",
+    "name_en": "Chesnaught",
+    "regional": []
+  },
+  "653": {
+    "id": 653,
+    "name_zh": "火狐狸",
+    "name_en": "Fennekin",
+    "regional": []
+  },
+  "654": {
+    "id": 654,
+    "name_zh": "长尾火狐",
+    "name_en": "Braixen",
+    "regional": []
+  },
+  "655": {
+    "id": 655,
+    "name_zh": "妖火红狐",
+    "name_en": "Delphox",
+    "regional": []
+  },
+  "656": {
+    "id": 656,
+    "name_zh": "呱呱泡蛙",
+    "name_en": "Froakie",
+    "regional": []
+  },
+  "657": {
+    "id": 657,
+    "name_zh": "呱头蛙",
+    "name_en": "Frogadier",
+    "regional": []
+  },
+  "658": {
+    "id": 658,
+    "name_zh": "甲贺忍蛙",
+    "name_en": "Greninja",
+    "regional": []
+  },
+  "659": {
+    "id": 659,
+    "name_zh": "掘掘兔",
+    "name_en": "Bunnelby",
+    "regional": []
+  },
+  "660": {
+    "id": 660,
+    "name_zh": "掘地兔",
+    "name_en": "Diggersby",
+    "regional": []
+  },
+  "661": {
+    "id": 661,
+    "name_zh": "小箭雀",
+    "name_en": "Fletchling",
+    "regional": []
+  },
+  "662": {
+    "id": 662,
+    "name_zh": "火箭雀",
+    "name_en": "Fletchinder",
+    "regional": []
+  },
+  "663": {
+    "id": 663,
+    "name_zh": "烈箭鹰",
+    "name_en": "Talonflame",
+    "regional": []
+  },
+  "664": {
+    "id": 664,
+    "name_zh": "粉蝶虫",
+    "name_en": "Scatterbug",
+    "regional": []
+  },
+  "665": {
+    "id": 665,
+    "name_zh": "粉蝶蛹",
+    "name_en": "Spewpa",
+    "regional": []
+  },
+  "666": {
+    "id": 666,
+    "name_zh": "彩粉蝶",
+    "name_en": "Vivillon",
+    "regional": []
+  },
+  "667": {
+    "id": 667,
+    "name_zh": "小狮狮",
+    "name_en": "Litleo",
+    "regional": []
+  },
+  "668": {
+    "id": 668,
+    "name_zh": "火炎狮",
+    "name_en": "Pyroar",
+    "regional": []
+  },
+  "669": {
+    "id": 669,
+    "name_zh": "花蓓蓓",
+    "name_en": "Flabébé",
+    "regional": []
+  },
+  "670": {
+    "id": 670,
+    "name_zh": "花叶蒂",
+    "name_en": "Floette",
+    "regional": []
+  },
+  "671": {
+    "id": 671,
+    "name_zh": "花洁夫人",
+    "name_en": "Florges",
+    "regional": []
+  },
+  "672": {
+    "id": 672,
+    "name_zh": "坐骑小羊",
+    "name_en": "Skiddo",
+    "regional": []
+  },
+  "673": {
+    "id": 673,
+    "name_zh": "坐骑山羊",
+    "name_en": "Gogoat",
+    "regional": []
+  },
+  "674": {
+    "id": 674,
+    "name_zh": "顽皮熊猫",
+    "name_en": "Pancham",
+    "regional": []
+  },
+  "675": {
+    "id": 675,
+    "name_zh": "霸道熊猫",
+    "name_en": "Pangoro",
+    "regional": []
+  },
+  "676": {
+    "id": 676,
+    "name_zh": "多丽米亚",
+    "name_en": "Furfrou",
+    "regional": []
+  },
+  "677": {
+    "id": 677,
+    "name_zh": "妙喵",
+    "name_en": "Espurr",
+    "regional": []
+  },
+  "678": {
+    "id": 678,
+    "name_zh": "超能妙喵",
+    "name_en": "Meowstic",
+    "regional": []
+  },
+  "679": {
+    "id": 679,
+    "name_zh": "独剑鞘",
+    "name_en": "Honedge",
+    "regional": []
+  },
+  "680": {
+    "id": 680,
+    "name_zh": "双剑鞘",
+    "name_en": "Doublade",
+    "regional": []
+  },
+  "681": {
+    "id": 681,
+    "name_zh": "坚盾剑怪",
+    "name_en": "Aegislash",
+    "regional": []
+  },
+  "682": {
+    "id": 682,
+    "name_zh": "粉香香",
+    "name_en": "Spritzee",
+    "regional": []
+  },
+  "683": {
+    "id": 683,
+    "name_zh": "芳香精",
+    "name_en": "Aromatisse",
+    "regional": []
+  },
+  "684": {
+    "id": 684,
+    "name_zh": "绵绵泡芙",
+    "name_en": "Swirlix",
+    "regional": []
+  },
+  "685": {
+    "id": 685,
+    "name_zh": "胖甜妮",
+    "name_en": "Slurpuff",
+    "regional": []
+  },
+  "686": {
+    "id": 686,
+    "name_zh": "好啦鱿",
+    "name_en": "Inkay",
+    "regional": []
+  },
+  "687": {
+    "id": 687,
+    "name_zh": "乌贼王",
+    "name_en": "Malamar",
+    "regional": []
+  },
+  "688": {
+    "id": 688,
+    "name_zh": "龟脚脚",
+    "name_en": "Binacle",
+    "regional": []
+  },
+  "689": {
+    "id": 689,
+    "name_zh": "龟足巨铠",
+    "name_en": "Barbaracle",
+    "regional": []
+  },
+  "690": {
+    "id": 690,
+    "name_zh": "垃垃藻",
+    "name_en": "Skrelp",
+    "regional": []
+  },
+  "691": {
+    "id": 691,
+    "name_zh": "毒藻龙",
+    "name_en": "Dragalge",
+    "regional": []
+  },
+  "692": {
+    "id": 692,
+    "name_zh": "铁臂枪虾",
+    "name_en": "Clauncher",
+    "regional": []
+  },
+  "693": {
+    "id": 693,
+    "name_zh": "钢炮臂虾",
+    "name_en": "Clawitzer",
+    "regional": []
+  },
+  "694": {
+    "id": 694,
+    "name_zh": "伞电蜥",
+    "name_en": "Helioptile",
+    "regional": []
+  },
+  "695": {
+    "id": 695,
+    "name_zh": "光电伞蜥",
+    "name_en": "Heliolisk",
+    "regional": []
+  },
+  "696": {
+    "id": 696,
+    "name_zh": "宝宝暴龙",
+    "name_en": "Tyrunt",
+    "regional": []
+  },
+  "697": {
+    "id": 697,
+    "name_zh": "怪颚龙",
+    "name_en": "Tyrantrum",
+    "regional": []
+  },
+  "698": {
+    "id": 698,
+    "name_zh": "冰雪龙",
+    "name_en": "Amaura",
+    "regional": []
+  },
+  "699": {
+    "id": 699,
+    "name_zh": "冰雪巨龙",
+    "name_en": "Aurorus",
+    "regional": []
+  },
+  "700": {
+    "id": 700,
+    "name_zh": "仙子伊布",
+    "name_en": "Sylveon",
+    "regional": []
+  },
+  "701": {
+    "id": 701,
+    "name_zh": "摔角鹰人",
+    "name_en": "Hawlucha",
+    "regional": []
+  },
+  "702": {
+    "id": 702,
+    "name_zh": "咚咚鼠",
+    "name_en": "Dedenne",
+    "regional": []
+  },
+  "703": {
+    "id": 703,
+    "name_zh": "小碎钻",
+    "name_en": "Carbink",
+    "regional": []
+  },
+  "704": {
+    "id": 704,
+    "name_zh": "黏黏宝",
+    "name_en": "Goomy",
+    "regional": []
+  },
+  "705": {
+    "id": 705,
+    "name_zh": "黏美儿",
+    "name_en": "Sliggoo",
+    "regional": [
+      {
+        "form": "sliggoo-hisui",
+        "region": "洗翠",
+        "is_default": false
+      }
+    ]
+  },
+  "706": {
+    "id": 706,
+    "name_zh": "黏美龙",
+    "name_en": "Goodra",
+    "regional": [
+      {
+        "form": "goodra-hisui",
+        "region": "洗翠",
+        "is_default": false
+      }
+    ]
+  },
+  "707": {
+    "id": 707,
+    "name_zh": "钥圈儿",
+    "name_en": "Klefki",
+    "regional": []
+  },
+  "708": {
+    "id": 708,
+    "name_zh": "小木灵",
+    "name_en": "Phantump",
+    "regional": []
+  },
+  "709": {
+    "id": 709,
+    "name_zh": "朽木妖",
+    "name_en": "Trevenant",
+    "regional": []
+  },
+  "710": {
+    "id": 710,
+    "name_zh": "南瓜精",
+    "name_en": "Pumpkaboo",
+    "regional": []
+  },
+  "711": {
+    "id": 711,
+    "name_zh": "南瓜怪人",
+    "name_en": "Gourgeist",
+    "regional": []
+  },
+  "712": {
+    "id": 712,
+    "name_zh": "冰宝",
+    "name_en": "Bergmite",
+    "regional": []
+  },
+  "713": {
+    "id": 713,
+    "name_zh": "冰岩怪",
+    "name_en": "Avalugg",
+    "regional": [
+      {
+        "form": "avalugg-hisui",
+        "region": "洗翠",
+        "is_default": false
+      }
+    ]
+  },
+  "714": {
+    "id": 714,
+    "name_zh": "嗡蝠",
+    "name_en": "Noibat",
+    "regional": []
+  },
+  "715": {
+    "id": 715,
+    "name_zh": "音波龙",
+    "name_en": "Noivern",
+    "regional": []
+  },
+  "716": {
+    "id": 716,
+    "name_zh": "哲尔尼亚斯",
+    "name_en": "Xerneas",
+    "regional": []
+  },
+  "717": {
+    "id": 717,
+    "name_zh": "伊裴尔塔尔",
+    "name_en": "Yveltal",
+    "regional": []
+  },
+  "718": {
+    "id": 718,
+    "name_zh": "基格尔德",
+    "name_en": "Zygarde",
+    "regional": []
+  },
+  "719": {
+    "id": 719,
+    "name_zh": "蒂安希",
+    "name_en": "Diancie",
+    "regional": []
+  },
+  "720": {
+    "id": 720,
+    "name_zh": "胡帕",
+    "name_en": "Hoopa",
+    "regional": []
+  },
+  "721": {
+    "id": 721,
+    "name_zh": "波尔凯尼恩",
+    "name_en": "Volcanion",
+    "regional": []
+  },
+  "722": {
+    "id": 722,
+    "name_zh": "木木枭",
+    "name_en": "Rowlet",
+    "regional": []
+  },
+  "723": {
+    "id": 723,
+    "name_zh": "投羽枭",
+    "name_en": "Dartrix",
+    "regional": []
+  },
+  "724": {
+    "id": 724,
+    "name_zh": "狙射树枭",
+    "name_en": "Decidueye",
+    "regional": [
+      {
+        "form": "decidueye-hisui",
+        "region": "洗翠",
+        "is_default": false
+      }
+    ]
+  },
+  "725": {
+    "id": 725,
+    "name_zh": "火斑喵",
+    "name_en": "Litten",
+    "regional": []
+  },
+  "726": {
+    "id": 726,
+    "name_zh": "炎热喵",
+    "name_en": "Torracat",
+    "regional": []
+  },
+  "727": {
+    "id": 727,
+    "name_zh": "炽焰咆哮虎",
+    "name_en": "Incineroar",
+    "regional": []
+  },
+  "728": {
+    "id": 728,
+    "name_zh": "球球海狮",
+    "name_en": "Popplio",
+    "regional": []
+  },
+  "729": {
+    "id": 729,
+    "name_zh": "花漾海狮",
+    "name_en": "Brionne",
+    "regional": []
+  },
+  "730": {
+    "id": 730,
+    "name_zh": "西狮海壬",
+    "name_en": "Primarina",
+    "regional": []
+  },
+  "731": {
+    "id": 731,
+    "name_zh": "小笃儿",
+    "name_en": "Pikipek",
+    "regional": []
+  },
+  "732": {
+    "id": 732,
+    "name_zh": "喇叭啄鸟",
+    "name_en": "Trumbeak",
+    "regional": []
+  },
+  "733": {
+    "id": 733,
+    "name_zh": "铳嘴大鸟",
+    "name_en": "Toucannon",
+    "regional": []
+  },
+  "734": {
+    "id": 734,
+    "name_zh": "猫鼬少",
+    "name_en": "Yungoos",
+    "regional": []
+  },
+  "735": {
+    "id": 735,
+    "name_zh": "猫鼬探长",
+    "name_en": "Gumshoos",
+    "regional": []
+  },
+  "736": {
+    "id": 736,
+    "name_zh": "强颚鸡母虫",
+    "name_en": "Grubbin",
+    "regional": []
+  },
+  "737": {
+    "id": 737,
+    "name_zh": "虫电宝",
+    "name_en": "Charjabug",
+    "regional": []
+  },
+  "738": {
+    "id": 738,
+    "name_zh": "锹农炮虫",
+    "name_en": "Vikavolt",
+    "regional": []
+  },
+  "739": {
+    "id": 739,
+    "name_zh": "好胜蟹",
+    "name_en": "Crabrawler",
+    "regional": []
+  },
+  "740": {
+    "id": 740,
+    "name_zh": "好胜毛蟹",
+    "name_en": "Crabominable",
+    "regional": []
+  },
+  "741": {
+    "id": 741,
+    "name_zh": "花舞鸟",
+    "name_en": "Oricorio",
+    "regional": []
+  },
+  "742": {
+    "id": 742,
+    "name_zh": "萌虻",
+    "name_en": "Cutiefly",
+    "regional": []
+  },
+  "743": {
+    "id": 743,
+    "name_zh": "蝶结萌虻",
+    "name_en": "Ribombee",
+    "regional": []
+  },
+  "744": {
+    "id": 744,
+    "name_zh": "岩狗狗",
+    "name_en": "Rockruff",
+    "regional": []
+  },
+  "745": {
+    "id": 745,
+    "name_zh": "鬃岩狼人",
+    "name_en": "Lycanroc",
+    "regional": []
+  },
+  "746": {
+    "id": 746,
+    "name_zh": "弱丁鱼",
+    "name_en": "Wishiwashi",
+    "regional": []
+  },
+  "747": {
+    "id": 747,
+    "name_zh": "好坏星",
+    "name_en": "Mareanie",
+    "regional": []
+  },
+  "748": {
+    "id": 748,
+    "name_zh": "超坏星",
+    "name_en": "Toxapex",
+    "regional": []
+  },
+  "749": {
+    "id": 749,
+    "name_zh": "泥驴仔",
+    "name_en": "Mudbray",
+    "regional": []
+  },
+  "750": {
+    "id": 750,
+    "name_zh": "重泥挽马",
+    "name_en": "Mudsdale",
+    "regional": []
+  },
+  "751": {
+    "id": 751,
+    "name_zh": "滴蛛",
+    "name_en": "Dewpider",
+    "regional": []
+  },
+  "752": {
+    "id": 752,
+    "name_zh": "滴蛛霸",
+    "name_en": "Araquanid",
+    "regional": []
+  },
+  "753": {
+    "id": 753,
+    "name_zh": "伪螳草",
+    "name_en": "Fomantis",
+    "regional": []
+  },
+  "754": {
+    "id": 754,
+    "name_zh": "兰螳花",
+    "name_en": "Lurantis",
+    "regional": []
+  },
+  "755": {
+    "id": 755,
+    "name_zh": "睡睡菇",
+    "name_en": "Morelull",
+    "regional": []
+  },
+  "756": {
+    "id": 756,
+    "name_zh": "灯罩夜菇",
+    "name_en": "Shiinotic",
+    "regional": []
+  },
+  "757": {
+    "id": 757,
+    "name_zh": "夜盗火蜥",
+    "name_en": "Salandit",
+    "regional": []
+  },
+  "758": {
+    "id": 758,
+    "name_zh": "焰后蜥",
+    "name_en": "Salazzle",
+    "regional": []
+  },
+  "759": {
+    "id": 759,
+    "name_zh": "童偶熊",
+    "name_en": "Stufful",
+    "regional": []
+  },
+  "760": {
+    "id": 760,
+    "name_zh": "穿着熊",
+    "name_en": "Bewear",
+    "regional": []
+  },
+  "761": {
+    "id": 761,
+    "name_zh": "甜竹竹",
+    "name_en": "Bounsweet",
+    "regional": []
+  },
+  "762": {
+    "id": 762,
+    "name_zh": "甜舞妮",
+    "name_en": "Steenee",
+    "regional": []
+  },
+  "763": {
+    "id": 763,
+    "name_zh": "甜冷美后",
+    "name_en": "Tsareena",
+    "regional": []
+  },
+  "764": {
+    "id": 764,
+    "name_zh": "花疗环环",
+    "name_en": "Comfey",
+    "regional": []
+  },
+  "765": {
+    "id": 765,
+    "name_zh": "智挥猩",
+    "name_en": "Oranguru",
+    "regional": []
+  },
+  "766": {
+    "id": 766,
+    "name_zh": "投掷猴",
+    "name_en": "Passimian",
+    "regional": []
+  },
+  "767": {
+    "id": 767,
+    "name_zh": "胆小虫",
+    "name_en": "Wimpod",
+    "regional": []
+  },
+  "768": {
+    "id": 768,
+    "name_zh": "具甲武者",
+    "name_en": "Golisopod",
+    "regional": []
+  },
+  "769": {
+    "id": 769,
+    "name_zh": "沙丘娃",
+    "name_en": "Sandygast",
+    "regional": []
+  },
+  "770": {
+    "id": 770,
+    "name_zh": "噬沙堡爷",
+    "name_en": "Palossand",
+    "regional": []
+  },
+  "771": {
+    "id": 771,
+    "name_zh": "拳海参",
+    "name_en": "Pyukumuku",
+    "regional": []
+  },
+  "772": {
+    "id": 772,
+    "name_zh": "属性：空",
+    "name_en": "Type: Null",
+    "regional": []
+  },
+  "773": {
+    "id": 773,
+    "name_zh": "银伴战兽",
+    "name_en": "Silvally",
+    "regional": []
+  },
+  "774": {
+    "id": 774,
+    "name_zh": "小陨星",
+    "name_en": "Minior",
+    "regional": []
+  },
+  "775": {
+    "id": 775,
+    "name_zh": "树枕尾熊",
+    "name_en": "Komala",
+    "regional": []
+  },
+  "776": {
+    "id": 776,
+    "name_zh": "爆焰龟兽",
+    "name_en": "Turtonator",
+    "regional": []
+  },
+  "777": {
+    "id": 777,
+    "name_zh": "托戈德玛尔",
+    "name_en": "Togedemaru",
+    "regional": []
+  },
+  "778": {
+    "id": 778,
+    "name_zh": "谜拟丘",
+    "name_en": "Mimikyu",
+    "regional": []
+  },
+  "779": {
+    "id": 779,
+    "name_zh": "磨牙彩皮鱼",
+    "name_en": "Bruxish",
+    "regional": []
+  },
+  "780": {
+    "id": 780,
+    "name_zh": "老翁龙",
+    "name_en": "Drampa",
+    "regional": []
+  },
+  "781": {
+    "id": 781,
+    "name_zh": "破破舵轮",
+    "name_en": "Dhelmise",
+    "regional": []
+  },
+  "782": {
+    "id": 782,
+    "name_zh": "心鳞宝",
+    "name_en": "Jangmo-o",
+    "regional": []
+  },
+  "783": {
+    "id": 783,
+    "name_zh": "鳞甲龙",
+    "name_en": "Hakamo-o",
+    "regional": []
+  },
+  "784": {
+    "id": 784,
+    "name_zh": "杖尾鳞甲龙",
+    "name_en": "Kommo-o",
+    "regional": []
+  },
+  "785": {
+    "id": 785,
+    "name_zh": "卡璞・鸣鸣",
+    "name_en": "Tapu Koko",
+    "regional": []
+  },
+  "786": {
+    "id": 786,
+    "name_zh": "卡璞・蝶蝶",
+    "name_en": "Tapu Lele",
+    "regional": []
+  },
+  "787": {
+    "id": 787,
+    "name_zh": "卡璞・哞哞",
+    "name_en": "Tapu Bulu",
+    "regional": []
+  },
+  "788": {
+    "id": 788,
+    "name_zh": "卡璞・鳍鳍",
+    "name_en": "Tapu Fini",
+    "regional": []
+  },
+  "789": {
+    "id": 789,
+    "name_zh": "科斯莫古",
+    "name_en": "Cosmog",
+    "regional": []
+  },
+  "790": {
+    "id": 790,
+    "name_zh": "科斯莫姆",
+    "name_en": "Cosmoem",
+    "regional": []
+  },
+  "791": {
+    "id": 791,
+    "name_zh": "索尔迦雷欧",
+    "name_en": "Solgaleo",
+    "regional": []
+  },
+  "792": {
+    "id": 792,
+    "name_zh": "露奈雅拉",
+    "name_en": "Lunala",
+    "regional": []
+  },
+  "793": {
+    "id": 793,
+    "name_zh": "虚吾伊德",
+    "name_en": "Nihilego",
+    "regional": []
+  },
+  "794": {
+    "id": 794,
+    "name_zh": "爆肌蚊",
+    "name_en": "Buzzwole",
+    "regional": []
+  },
+  "795": {
+    "id": 795,
+    "name_zh": "费洛美螂",
+    "name_en": "Pheromosa",
+    "regional": []
+  },
+  "796": {
+    "id": 796,
+    "name_zh": "电束木",
+    "name_en": "Xurkitree",
+    "regional": []
+  },
+  "797": {
+    "id": 797,
+    "name_zh": "铁火辉夜",
+    "name_en": "Celesteela",
+    "regional": []
+  },
+  "798": {
+    "id": 798,
+    "name_zh": "纸御剑",
+    "name_en": "Kartana",
+    "regional": []
+  },
+  "799": {
+    "id": 799,
+    "name_zh": "恶食大王",
+    "name_en": "Guzzlord",
+    "regional": []
+  },
+  "800": {
+    "id": 800,
+    "name_zh": "奈克洛兹玛",
+    "name_en": "Necrozma",
+    "regional": []
+  },
+  "801": {
+    "id": 801,
+    "name_zh": "玛机雅娜",
+    "name_en": "Magearna",
+    "regional": []
+  },
+  "802": {
+    "id": 802,
+    "name_zh": "玛夏多",
+    "name_en": "Marshadow",
+    "regional": []
+  },
+  "803": {
+    "id": 803,
+    "name_zh": "毒贝比",
+    "name_en": "Poipole",
+    "regional": []
+  },
+  "804": {
+    "id": 804,
+    "name_zh": "四颚针龙",
+    "name_en": "Naganadel",
+    "regional": []
+  },
+  "805": {
+    "id": 805,
+    "name_zh": "垒磊石",
+    "name_en": "Stakataka",
+    "regional": []
+  },
+  "806": {
+    "id": 806,
+    "name_zh": "砰头小丑",
+    "name_en": "Blacephalon",
+    "regional": []
+  },
+  "807": {
+    "id": 807,
+    "name_zh": "捷拉奥拉",
+    "name_en": "Zeraora",
+    "regional": []
+  },
+  "808": {
+    "id": 808,
+    "name_zh": "美录坦",
+    "name_en": "Meltan",
+    "regional": []
+  },
+  "809": {
+    "id": 809,
+    "name_zh": "美录梅塔",
+    "name_en": "Melmetal",
+    "regional": []
+  },
+  "810": {
+    "id": 810,
+    "name_zh": "敲音猴",
+    "name_en": "Grookey",
+    "regional": []
+  },
+  "811": {
+    "id": 811,
+    "name_zh": "啪咚猴",
+    "name_en": "Thwackey",
+    "regional": []
+  },
+  "812": {
+    "id": 812,
+    "name_zh": "轰擂金刚猩",
+    "name_en": "Rillaboom",
+    "regional": []
+  },
+  "813": {
+    "id": 813,
+    "name_zh": "炎兔儿",
+    "name_en": "Scorbunny",
+    "regional": []
+  },
+  "814": {
+    "id": 814,
+    "name_zh": "腾蹴小将",
+    "name_en": "Raboot",
+    "regional": []
+  },
+  "815": {
+    "id": 815,
+    "name_zh": "闪焰王牌",
+    "name_en": "Cinderace",
+    "regional": []
+  },
+  "816": {
+    "id": 816,
+    "name_zh": "泪眼蜥",
+    "name_en": "Sobble",
+    "regional": []
+  },
+  "817": {
+    "id": 817,
+    "name_zh": "变涩蜥",
+    "name_en": "Drizzile",
+    "regional": []
+  },
+  "818": {
+    "id": 818,
+    "name_zh": "千面避役",
+    "name_en": "Inteleon",
+    "regional": []
+  },
+  "819": {
+    "id": 819,
+    "name_zh": "贪心栗鼠",
+    "name_en": "Skwovet",
+    "regional": []
+  },
+  "820": {
+    "id": 820,
+    "name_zh": "藏饱栗鼠",
+    "name_en": "Greedent",
+    "regional": []
+  },
+  "821": {
+    "id": 821,
+    "name_zh": "稚山雀",
+    "name_en": "Rookidee",
+    "regional": []
+  },
+  "822": {
+    "id": 822,
+    "name_zh": "蓝鸦",
+    "name_en": "Corvisquire",
+    "regional": []
+  },
+  "823": {
+    "id": 823,
+    "name_zh": "钢铠鸦",
+    "name_en": "Corviknight",
+    "regional": []
+  },
+  "824": {
+    "id": 824,
+    "name_zh": "索侦虫",
+    "name_en": "Blipbug",
+    "regional": []
+  },
+  "825": {
+    "id": 825,
+    "name_zh": "天罩虫",
+    "name_en": "Dottler",
+    "regional": []
+  },
+  "826": {
+    "id": 826,
+    "name_zh": "以欧路普",
+    "name_en": "Orbeetle",
+    "regional": []
+  },
+  "827": {
+    "id": 827,
+    "name_zh": "狡小狐",
+    "name_en": "Nickit",
+    "regional": []
+  },
+  "828": {
+    "id": 828,
+    "name_zh": "猾大狐",
+    "name_en": "Thievul",
+    "regional": []
+  },
+  "829": {
+    "id": 829,
+    "name_zh": "幼棉棉",
+    "name_en": "Gossifleur",
+    "regional": []
+  },
+  "830": {
+    "id": 830,
+    "name_zh": "白蓬蓬",
+    "name_en": "Eldegoss",
+    "regional": []
+  },
+  "831": {
+    "id": 831,
+    "name_zh": "毛辫羊",
+    "name_en": "Wooloo",
+    "regional": []
+  },
+  "832": {
+    "id": 832,
+    "name_zh": "毛毛角羊",
+    "name_en": "Dubwool",
+    "regional": []
+  },
+  "833": {
+    "id": 833,
+    "name_zh": "咬咬龟",
+    "name_en": "Chewtle",
+    "regional": []
+  },
+  "834": {
+    "id": 834,
+    "name_zh": "暴噬龟",
+    "name_en": "Drednaw",
+    "regional": []
+  },
+  "835": {
+    "id": 835,
+    "name_zh": "来电汪",
+    "name_en": "Yamper",
+    "regional": []
+  },
+  "836": {
+    "id": 836,
+    "name_zh": "逐电犬",
+    "name_en": "Boltund",
+    "regional": []
+  },
+  "837": {
+    "id": 837,
+    "name_zh": "小炭仔",
+    "name_en": "Rolycoly",
+    "regional": []
+  },
+  "838": {
+    "id": 838,
+    "name_zh": "大炭车",
+    "name_en": "Carkol",
+    "regional": []
+  },
+  "839": {
+    "id": 839,
+    "name_zh": "巨炭山",
+    "name_en": "Coalossal",
+    "regional": []
+  },
+  "840": {
+    "id": 840,
+    "name_zh": "啃果虫",
+    "name_en": "Applin",
+    "regional": []
+  },
+  "841": {
+    "id": 841,
+    "name_zh": "苹裹龙",
+    "name_en": "Flapple",
+    "regional": []
+  },
+  "842": {
+    "id": 842,
+    "name_zh": "丰蜜龙",
+    "name_en": "Appletun",
+    "regional": []
+  },
+  "843": {
+    "id": 843,
+    "name_zh": "沙包蛇",
+    "name_en": "Silicobra",
+    "regional": []
+  },
+  "844": {
+    "id": 844,
+    "name_zh": "沙螺蟒",
+    "name_en": "Sandaconda",
+    "regional": []
+  },
+  "845": {
+    "id": 845,
+    "name_zh": "古月鸟",
+    "name_en": "Cramorant",
+    "regional": []
+  },
+  "846": {
+    "id": 846,
+    "name_zh": "刺梭鱼",
+    "name_en": "Arrokuda",
+    "regional": []
+  },
+  "847": {
+    "id": 847,
+    "name_zh": "戽斗尖梭",
+    "name_en": "Barraskewda",
+    "regional": []
+  },
+  "848": {
+    "id": 848,
+    "name_zh": "电音婴",
+    "name_en": "Toxel",
+    "regional": []
+  },
+  "849": {
+    "id": 849,
+    "name_zh": "颤弦蝾螈",
+    "name_en": "Toxtricity",
+    "regional": []
+  },
+  "850": {
+    "id": 850,
+    "name_zh": "烧火蚣",
+    "name_en": "Sizzlipede",
+    "regional": []
+  },
+  "851": {
+    "id": 851,
+    "name_zh": "焚焰蚣",
+    "name_en": "Centiskorch",
+    "regional": []
+  },
+  "852": {
+    "id": 852,
+    "name_zh": "拳拳蛸",
+    "name_en": "Clobbopus",
+    "regional": []
+  },
+  "853": {
+    "id": 853,
+    "name_zh": "八爪武师",
+    "name_en": "Grapploct",
+    "regional": []
+  },
+  "854": {
+    "id": 854,
+    "name_zh": "来悲茶",
+    "name_en": "Sinistea",
+    "regional": []
+  },
+  "855": {
+    "id": 855,
+    "name_zh": "怖思壶",
+    "name_en": "Polteageist",
+    "regional": []
+  },
+  "856": {
+    "id": 856,
+    "name_zh": "迷布莉姆",
+    "name_en": "Hatenna",
+    "regional": []
+  },
+  "857": {
+    "id": 857,
+    "name_zh": "提布莉姆",
+    "name_en": "Hattrem",
+    "regional": []
+  },
+  "858": {
+    "id": 858,
+    "name_zh": "布莉姆温",
+    "name_en": "Hatterene",
+    "regional": []
+  },
+  "859": {
+    "id": 859,
+    "name_zh": "捣蛋小妖",
+    "name_en": "Impidimp",
+    "regional": []
+  },
+  "860": {
+    "id": 860,
+    "name_zh": "诈唬魔",
+    "name_en": "Morgrem",
+    "regional": []
+  },
+  "861": {
+    "id": 861,
+    "name_zh": "长毛巨魔",
+    "name_en": "Grimmsnarl",
+    "regional": []
+  },
+  "862": {
+    "id": 862,
+    "name_zh": "堵拦熊",
+    "name_en": "Obstagoon",
+    "regional": []
+  },
+  "863": {
+    "id": 863,
+    "name_zh": "喵头目",
+    "name_en": "Perrserker",
+    "regional": []
+  },
+  "864": {
+    "id": 864,
+    "name_zh": "魔灵珊瑚",
+    "name_en": "Cursola",
+    "regional": []
+  },
+  "865": {
+    "id": 865,
+    "name_zh": "葱游兵",
+    "name_en": "Sirfetch’d",
+    "regional": []
+  },
+  "866": {
+    "id": 866,
+    "name_zh": "踏冰人偶",
+    "name_en": "Mr. Rime",
+    "regional": []
+  },
+  "867": {
+    "id": 867,
+    "name_zh": "迭失板",
+    "name_en": "Runerigus",
+    "regional": []
+  },
+  "868": {
+    "id": 868,
+    "name_zh": "小仙奶",
+    "name_en": "Milcery",
+    "regional": []
+  },
+  "869": {
+    "id": 869,
+    "name_zh": "霜奶仙",
+    "name_en": "Alcremie",
+    "regional": []
+  },
+  "870": {
+    "id": 870,
+    "name_zh": "列阵兵",
+    "name_en": "Falinks",
+    "regional": []
+  },
+  "871": {
+    "id": 871,
+    "name_zh": "啪嚓海胆",
+    "name_en": "Pincurchin",
+    "regional": []
+  },
+  "872": {
+    "id": 872,
+    "name_zh": "雪吞虫",
+    "name_en": "Snom",
+    "regional": []
+  },
+  "873": {
+    "id": 873,
+    "name_zh": "雪绒蛾",
+    "name_en": "Frosmoth",
+    "regional": []
+  },
+  "874": {
+    "id": 874,
+    "name_zh": "巨石丁",
+    "name_en": "Stonjourner",
+    "regional": []
+  },
+  "875": {
+    "id": 875,
+    "name_zh": "冰砌鹅",
+    "name_en": "Eiscue",
+    "regional": []
+  },
+  "876": {
+    "id": 876,
+    "name_zh": "爱管侍",
+    "name_en": "Indeedee",
+    "regional": []
+  },
+  "877": {
+    "id": 877,
+    "name_zh": "莫鲁贝可",
+    "name_en": "Morpeko",
+    "regional": []
+  },
+  "878": {
+    "id": 878,
+    "name_zh": "铜象",
+    "name_en": "Cufant",
+    "regional": []
+  },
+  "879": {
+    "id": 879,
+    "name_zh": "大王铜象",
+    "name_en": "Copperajah",
+    "regional": []
+  },
+  "880": {
+    "id": 880,
+    "name_zh": "雷鸟龙",
+    "name_en": "Dracozolt",
+    "regional": []
+  },
+  "881": {
+    "id": 881,
+    "name_zh": "雷鸟海兽",
+    "name_en": "Arctozolt",
+    "regional": []
+  },
+  "882": {
+    "id": 882,
+    "name_zh": "鳃鱼龙",
+    "name_en": "Dracovish",
+    "regional": []
+  },
+  "883": {
+    "id": 883,
+    "name_zh": "鳃鱼海兽",
+    "name_en": "Arctovish",
+    "regional": []
+  },
+  "884": {
+    "id": 884,
+    "name_zh": "铝钢龙",
+    "name_en": "Duraludon",
+    "regional": []
+  },
+  "885": {
+    "id": 885,
+    "name_zh": "多龙梅西亚",
+    "name_en": "Dreepy",
+    "regional": []
+  },
+  "886": {
+    "id": 886,
+    "name_zh": "多龙奇",
+    "name_en": "Drakloak",
+    "regional": []
+  },
+  "887": {
+    "id": 887,
+    "name_zh": "多龙巴鲁托",
+    "name_en": "Dragapult",
+    "regional": []
+  },
+  "888": {
+    "id": 888,
+    "name_zh": "苍响",
+    "name_en": "Zacian",
+    "regional": []
+  },
+  "889": {
+    "id": 889,
+    "name_zh": "藏玛然特",
+    "name_en": "Zamazenta",
+    "regional": []
+  },
+  "890": {
+    "id": 890,
+    "name_zh": "无极汰那",
+    "name_en": "Eternatus",
+    "regional": []
+  },
+  "891": {
+    "id": 891,
+    "name_zh": "熊徒弟",
+    "name_en": "Kubfu",
+    "regional": []
+  },
+  "892": {
+    "id": 892,
+    "name_zh": "武道熊师（一击流）",
+    "name_en": "Urshifu Single Strike",
+    "regional": []
+  },
+  "893": {
+    "id": 893,
+    "name_zh": "萨戮德",
+    "name_en": "Zarude",
+    "regional": []
+  },
+  "894": {
+    "id": 894,
+    "name_zh": "雷吉艾勒奇",
+    "name_en": "Regieleki",
+    "regional": []
+  },
+  "895": {
+    "id": 895,
+    "name_zh": "雷吉铎拉戈",
+    "name_en": "Regidrago",
+    "regional": []
+  },
+  "896": {
+    "id": 896,
+    "name_zh": "雪暴马",
+    "name_en": "Glastrier",
+    "regional": []
+  },
+  "897": {
+    "id": 897,
+    "name_zh": "灵幽马",
+    "name_en": "Spectrier",
+    "regional": []
+  },
+  "898": {
+    "id": 898,
+    "name_zh": "蕾冠王",
+    "name_en": "Calyrex",
+    "regional": []
+  },
+  "899": {
+    "id": 899,
+    "name_zh": "诡角鹿",
+    "name_en": "Wyrdeer",
+    "regional": []
+  },
+  "900": {
+    "id": 900,
+    "name_zh": "劈斧螳螂",
+    "name_en": "Kleavor",
+    "regional": []
+  },
+  "901": {
+    "id": 901,
+    "name_zh": "月月熊",
+    "name_en": "Ursaluna",
+    "regional": []
+  },
+  "902": {
+    "id": 902,
+    "name_zh": "幽尾玄鱼",
+    "name_en": "Basculegion",
+    "regional": []
+  },
+  "903": {
+    "id": 903,
+    "name_zh": "大狃拉",
+    "name_en": "Sneasler",
+    "regional": []
+  },
+  "904": {
+    "id": 904,
+    "name_zh": "万针鱼",
+    "name_en": "Overqwil",
+    "regional": []
+  },
+  "905": {
+    "id": 905,
+    "name_zh": "眷恋云",
+    "name_en": "Enamorus",
+    "regional": []
+  },
+  "906": {
+    "id": 906,
+    "name_zh": "新叶喵",
+    "name_en": "Sprigatito",
+    "regional": []
+  },
+  "907": {
+    "id": 907,
+    "name_zh": "蒂蕾喵",
+    "name_en": "Floragato",
+    "regional": []
+  },
+  "908": {
+    "id": 908,
+    "name_zh": "魔幻假面喵",
+    "name_en": "Meowscarada",
+    "regional": []
+  },
+  "909": {
+    "id": 909,
+    "name_zh": "呆火鳄",
+    "name_en": "Fuecoco",
+    "regional": []
+  },
+  "910": {
+    "id": 910,
+    "name_zh": "炙烫鳄",
+    "name_en": "Crocalor",
+    "regional": []
+  },
+  "911": {
+    "id": 911,
+    "name_zh": "骨纹巨声鳄",
+    "name_en": "Skeledirge",
+    "regional": []
+  },
+  "912": {
+    "id": 912,
+    "name_zh": "润水鸭",
+    "name_en": "Quaxly",
+    "regional": []
+  },
+  "913": {
+    "id": 913,
+    "name_zh": "涌跃鸭",
+    "name_en": "Quaxwell",
+    "regional": []
+  },
+  "914": {
+    "id": 914,
+    "name_zh": "狂欢浪舞鸭",
+    "name_en": "Quaquaval",
+    "regional": []
+  },
+  "915": {
+    "id": 915,
+    "name_zh": "爱吃豚",
+    "name_en": "Lechonk",
+    "regional": []
+  },
+  "916": {
+    "id": 916,
+    "name_zh": "飘香豚",
+    "name_en": "Oinkologne",
+    "regional": []
+  },
+  "917": {
+    "id": 917,
+    "name_zh": "团珠蛛",
+    "name_en": "Tarountula",
+    "regional": []
+  },
+  "918": {
+    "id": 918,
+    "name_zh": "操陷蛛",
+    "name_en": "Spidops",
+    "regional": []
+  },
+  "919": {
+    "id": 919,
+    "name_zh": "豆蟋蟀",
+    "name_en": "Nymble",
+    "regional": []
+  },
+  "920": {
+    "id": 920,
+    "name_zh": "烈腿蝗",
+    "name_en": "Lokix",
+    "regional": []
+  },
+  "921": {
+    "id": 921,
+    "name_zh": "布拨",
+    "name_en": "Pawmi",
+    "regional": []
+  },
+  "922": {
+    "id": 922,
+    "name_zh": "布土拨",
+    "name_en": "Pawmo",
+    "regional": []
+  },
+  "923": {
+    "id": 923,
+    "name_zh": "巴布土拨",
+    "name_en": "Pawmot",
+    "regional": []
+  },
+  "924": {
+    "id": 924,
+    "name_zh": "一对鼠",
+    "name_en": "Tandemaus",
+    "regional": []
+  },
+  "925": {
+    "id": 925,
+    "name_zh": "一家鼠",
+    "name_en": "Maushold",
+    "regional": []
+  },
+  "926": {
+    "id": 926,
+    "name_zh": "狗仔包",
+    "name_en": "Fidough",
+    "regional": []
+  },
+  "927": {
+    "id": 927,
+    "name_zh": "麻花犬",
+    "name_en": "Dachsbun",
+    "regional": []
+  },
+  "928": {
+    "id": 928,
+    "name_zh": "迷你芙",
+    "name_en": "Smoliv",
+    "regional": []
+  },
+  "929": {
+    "id": 929,
+    "name_zh": "奥利纽",
+    "name_en": "Dolliv",
+    "regional": []
+  },
+  "930": {
+    "id": 930,
+    "name_zh": "奥利瓦",
+    "name_en": "Arboliva",
+    "regional": []
+  },
+  "931": {
+    "id": 931,
+    "name_zh": "怒鹦哥",
+    "name_en": "Squawkabilly",
+    "regional": []
+  },
+  "932": {
+    "id": 932,
+    "name_zh": "盐石宝",
+    "name_en": "Nacli",
+    "regional": []
+  },
+  "933": {
+    "id": 933,
+    "name_zh": "盐石垒",
+    "name_en": "Naclstack",
+    "regional": []
+  },
+  "934": {
+    "id": 934,
+    "name_zh": "盐石巨灵",
+    "name_en": "Garganacl",
+    "regional": []
+  },
+  "935": {
+    "id": 935,
+    "name_zh": "炭小侍",
+    "name_en": "Charcadet",
+    "regional": []
+  },
+  "936": {
+    "id": 936,
+    "name_zh": "红莲铠骑",
+    "name_en": "Armarouge",
+    "regional": []
+  },
+  "937": {
+    "id": 937,
+    "name_zh": "苍炎刃鬼",
+    "name_en": "Ceruledge",
+    "regional": []
+  },
+  "938": {
+    "id": 938,
+    "name_zh": "光蚪仔",
+    "name_en": "Tadbulb",
+    "regional": []
+  },
+  "939": {
+    "id": 939,
+    "name_zh": "电肚蛙",
+    "name_en": "Bellibolt",
+    "regional": []
+  },
+  "940": {
+    "id": 940,
+    "name_zh": "电海燕",
+    "name_en": "Wattrel",
+    "regional": []
+  },
+  "941": {
+    "id": 941,
+    "name_zh": "大电海燕",
+    "name_en": "Kilowattrel",
+    "regional": []
+  },
+  "942": {
+    "id": 942,
+    "name_zh": "偶叫獒",
+    "name_en": "Maschiff",
+    "regional": []
+  },
+  "943": {
+    "id": 943,
+    "name_zh": "獒教父",
+    "name_en": "Mabosstiff",
+    "regional": []
+  },
+  "944": {
+    "id": 944,
+    "name_zh": "滋汁鼹",
+    "name_en": "Shroodle",
+    "regional": []
+  },
+  "945": {
+    "id": 945,
+    "name_zh": "涂标客",
+    "name_en": "Grafaiai",
+    "regional": []
+  },
+  "946": {
+    "id": 946,
+    "name_zh": "纳噬草",
+    "name_en": "Bramblin",
+    "regional": []
+  },
+  "947": {
+    "id": 947,
+    "name_zh": "怖纳噬草",
+    "name_en": "Brambleghast",
+    "regional": []
+  },
+  "948": {
+    "id": 948,
+    "name_zh": "原野水母",
+    "name_en": "Toedscool",
+    "regional": []
+  },
+  "949": {
+    "id": 949,
+    "name_zh": "陆地水母",
+    "name_en": "Toedscruel",
+    "regional": []
+  },
+  "950": {
+    "id": 950,
+    "name_zh": "毛崖蟹",
+    "name_en": "Klawf",
+    "regional": []
+  },
+  "951": {
+    "id": 951,
+    "name_zh": "热辣娃",
+    "name_en": "Capsakid",
+    "regional": []
+  },
+  "952": {
+    "id": 952,
+    "name_zh": "狠辣椒",
+    "name_en": "Scovillain",
+    "regional": []
+  },
+  "953": {
+    "id": 953,
+    "name_zh": "虫滚泥",
+    "name_en": "Rellor",
+    "regional": []
+  },
+  "954": {
+    "id": 954,
+    "name_zh": "虫甲圣",
+    "name_en": "Rabsca",
+    "regional": []
+  },
+  "955": {
+    "id": 955,
+    "name_zh": "飘飘雏",
+    "name_en": "Flittle",
+    "regional": []
+  },
+  "956": {
+    "id": 956,
+    "name_zh": "超能艳鸵",
+    "name_en": "Espathra",
+    "regional": []
+  },
+  "957": {
+    "id": 957,
+    "name_zh": "小锻匠",
+    "name_en": "Tinkatink",
+    "regional": []
+  },
+  "958": {
+    "id": 958,
+    "name_zh": "巧锻匠",
+    "name_en": "Tinkatuff",
+    "regional": []
+  },
+  "959": {
+    "id": 959,
+    "name_zh": "巨锻匠",
+    "name_en": "Tinkaton",
+    "regional": []
+  },
+  "960": {
+    "id": 960,
+    "name_zh": "海地鼠",
+    "name_en": "Wiglett",
+    "regional": []
+  },
+  "961": {
+    "id": 961,
+    "name_zh": "三海地鼠",
+    "name_en": "Wugtrio",
+    "regional": []
+  },
+  "962": {
+    "id": 962,
+    "name_zh": "下石鸟",
+    "name_en": "Bombirdier",
+    "regional": []
+  },
+  "963": {
+    "id": 963,
+    "name_zh": "波普海豚",
+    "name_en": "Finizen",
+    "regional": []
+  },
+  "964": {
+    "id": 964,
+    "name_zh": "海豚侠",
+    "name_en": "Palafin",
+    "regional": []
+  },
+  "965": {
+    "id": 965,
+    "name_zh": "噗隆隆",
+    "name_en": "Varoom",
+    "regional": []
+  },
+  "966": {
+    "id": 966,
+    "name_zh": "普隆隆姆",
+    "name_en": "Revavroom",
+    "regional": []
+  },
+  "967": {
+    "id": 967,
+    "name_zh": "摩托蜥",
+    "name_en": "Cyclizar",
+    "regional": []
+  },
+  "968": {
+    "id": 968,
+    "name_zh": "拖拖蚓",
+    "name_en": "Orthworm",
+    "regional": []
+  },
+  "969": {
+    "id": 969,
+    "name_zh": "晶光芽",
+    "name_en": "Glimmet",
+    "regional": []
+  },
+  "970": {
+    "id": 970,
+    "name_zh": "晶光花",
+    "name_en": "Glimmora",
+    "regional": []
+  },
+  "971": {
+    "id": 971,
+    "name_zh": "墓仔狗",
+    "name_en": "Greavard",
+    "regional": []
+  },
+  "972": {
+    "id": 972,
+    "name_zh": "墓扬犬",
+    "name_en": "Houndstone",
+    "regional": []
+  },
+  "973": {
+    "id": 973,
+    "name_zh": "纏红鹤",
+    "name_en": "Flamigo",
+    "regional": []
+  },
+  "974": {
+    "id": 974,
+    "name_zh": "走鲸",
+    "name_en": "Cetoddle",
+    "regional": []
+  },
+  "975": {
+    "id": 975,
+    "name_zh": "浩大鲸",
+    "name_en": "Cetitan",
+    "regional": []
+  },
+  "976": {
+    "id": 976,
+    "name_zh": "轻身鳕",
+    "name_en": "Veluza",
+    "regional": []
+  },
+  "977": {
+    "id": 977,
+    "name_zh": "吃吼霸",
+    "name_en": "Dondozo",
+    "regional": []
+  },
+  "978": {
+    "id": 978,
+    "name_zh": "米立龙",
+    "name_en": "Tatsugiri",
+    "regional": []
+  },
+  "979": {
+    "id": 979,
+    "name_zh": "弃世猴",
+    "name_en": "Annihilape",
+    "regional": []
+  },
+  "980": {
+    "id": 980,
+    "name_zh": "土王",
+    "name_en": "Clodsire",
+    "regional": []
+  },
+  "981": {
+    "id": 981,
+    "name_zh": "奇麒麟",
+    "name_en": "Farigiraf",
+    "regional": []
+  },
+  "982": {
+    "id": 982,
+    "name_zh": "土龙节节",
+    "name_en": "Dudunsparce",
+    "regional": []
+  },
+  "983": {
+    "id": 983,
+    "name_zh": "仆刀将军",
+    "name_en": "Kingambit",
+    "regional": []
+  },
+  "984": {
+    "id": 984,
+    "name_zh": "雄伟牙",
+    "name_en": "Great Tusk",
+    "regional": []
+  },
+  "985": {
+    "id": 985,
+    "name_zh": "吼叫尾",
+    "name_en": "Scream Tail",
+    "regional": []
+  },
+  "986": {
+    "id": 986,
+    "name_zh": "猛恶菇",
+    "name_en": "Brute Bonnet",
+    "regional": []
+  },
+  "987": {
+    "id": 987,
+    "name_zh": "振翼发",
+    "name_en": "Flutter Mane",
+    "regional": []
+  },
+  "988": {
+    "id": 988,
+    "name_zh": "爬地翅",
+    "name_en": "Slither Wing",
+    "regional": []
+  },
+  "989": {
+    "id": 989,
+    "name_zh": "沙铁皮",
+    "name_en": "Sandy Shocks",
+    "regional": []
+  },
+  "990": {
+    "id": 990,
+    "name_zh": "铁轍迹",
+    "name_en": "Iron Treads",
+    "regional": []
+  },
+  "991": {
+    "id": 991,
+    "name_zh": "铁包袱",
+    "name_en": "Iron Bundle",
+    "regional": []
+  },
+  "992": {
+    "id": 992,
+    "name_zh": "铁臂膀",
+    "name_en": "Iron Hands",
+    "regional": []
+  },
+  "993": {
+    "id": 993,
+    "name_zh": "铁脖颈",
+    "name_en": "Iron Jugulis",
+    "regional": []
+  },
+  "994": {
+    "id": 994,
+    "name_zh": "铁毒蛾",
+    "name_en": "Iron Moth",
+    "regional": []
+  },
+  "995": {
+    "id": 995,
+    "name_zh": "铁荆棘",
+    "name_en": "Iron Thorns",
+    "regional": []
+  },
+  "996": {
+    "id": 996,
+    "name_zh": "凉脊龙",
+    "name_en": "Frigibax",
+    "regional": []
+  },
+  "997": {
+    "id": 997,
+    "name_zh": "冻脊龙",
+    "name_en": "Arctibax",
+    "regional": []
+  },
+  "998": {
+    "id": 998,
+    "name_zh": "戟脊龙",
+    "name_en": "Baxcalibur",
+    "regional": []
+  },
+  "999": {
+    "id": 999,
+    "name_zh": "索财灵",
+    "name_en": "Gimmighoul",
+    "regional": []
+  },
+  "1000": {
+    "id": 1000,
+    "name_zh": "赛富豪",
+    "name_en": "Gholdengo",
+    "regional": []
+  },
+  "1001": {
+    "id": 1001,
+    "name_zh": "古简蜗",
+    "name_en": "Wo-Chien",
+    "regional": []
+  },
+  "1002": {
+    "id": 1002,
+    "name_zh": "古剑豹",
+    "name_en": "Chien-Pao",
+    "regional": []
+  },
+  "1003": {
+    "id": 1003,
+    "name_zh": "古鼎鹿",
+    "name_en": "Ting-Lu",
+    "regional": []
+  },
+  "1004": {
+    "id": 1004,
+    "name_zh": "古玉鱼",
+    "name_en": "Chi-Yu",
+    "regional": []
+  },
+  "1005": {
+    "id": 1005,
+    "name_zh": "轰鸣月",
+    "name_en": "Roaring Moon",
+    "regional": []
+  },
+  "1006": {
+    "id": 1006,
+    "name_zh": "铁武者",
+    "name_en": "Iron Valiant",
+    "regional": []
+  },
+  "1007": {
+    "id": 1007,
+    "name_zh": "故勒顿",
+    "name_en": "Koraidon",
+    "regional": []
+  },
+  "1008": {
+    "id": 1008,
+    "name_zh": "密勒顿",
+    "name_en": "Miraidon",
+    "regional": []
+  },
+  "1009": {
+    "id": 1009,
+    "name_zh": "波荡水",
+    "name_en": "Walking Wake",
+    "regional": []
+  },
+  "1010": {
+    "id": 1010,
+    "name_zh": "铁斑叶",
+    "name_en": "Iron Leaves",
+    "regional": []
+  },
+  "1011": {
+    "id": 1011,
+    "name_zh": "裹蜜虫",
+    "name_en": "Dipplin",
+    "regional": []
+  },
+  "1012": {
+    "id": 1012,
+    "name_zh": "斯魔茶",
+    "name_en": "Poltchageist",
+    "regional": []
+  },
+  "1013": {
+    "id": 1013,
+    "name_zh": "来悲粗茶",
+    "name_en": "Sinistcha",
+    "regional": []
+  },
+  "1014": {
+    "id": 1014,
+    "name_zh": "够赞狗",
+    "name_en": "Okidogi",
+    "regional": []
+  },
+  "1015": {
+    "id": 1015,
+    "name_zh": "愿增猿",
+    "name_en": "Munkidori",
+    "regional": []
+  },
+  "1016": {
+    "id": 1016,
+    "name_zh": "吉雉鸡",
+    "name_en": "Fezandipiti",
+    "regional": []
+  },
+  "1017": {
+    "id": 1017,
+    "name_zh": "厄诡椪",
+    "name_en": "Ogerpon",
+    "regional": []
+  },
+  "1018": {
+    "id": 1018,
+    "name_zh": "铝钢桥龙",
+    "name_en": "Archaludon",
+    "regional": []
+  },
+  "1019": {
+    "id": 1019,
+    "name_zh": "蜜集大蛇",
+    "name_en": "Hydrapple",
+    "regional": []
+  },
+  "1020": {
+    "id": 1020,
+    "name_zh": "破空焰",
+    "name_en": "Gouging Fire",
+    "regional": []
+  },
+  "1021": {
+    "id": 1021,
+    "name_zh": "猛雷鼓",
+    "name_en": "Raging Bolt",
+    "regional": []
+  },
+  "1022": {
+    "id": 1022,
+    "name_zh": "铁磐岩",
+    "name_en": "Iron Boulder",
+    "regional": []
+  },
+  "1023": {
+    "id": 1023,
+    "name_zh": "铁头壳",
+    "name_en": "Iron Crown",
+    "regional": []
+  },
+  "1024": {
+    "id": 1024,
+    "name_zh": "太乐巴戈斯",
+    "name_en": "Terapagos",
+    "regional": []
+  },
+  "1025": {
+    "id": 1025,
+    "name_zh": "桃歹郎",
+    "name_en": "Pecharunt",
+    "regional": []
+  }
+}

@@ -1,0 +1,831 @@
+{
+  "10001": {
+    "id": 10001,
+    "identifier": "deoxys-attack",
+    "species_id": 386,
+    "types": [
+      "psychic"
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 180,
+      "defense": 20,
+      "special-attack": 180,
+      "special-defense": 20,
+      "speed": 150
+    },
+    "total": 600,
+    "capture_rate": 3,
+    "is_legendary": false,
+    "is_mythical": true
+  },
+  "10002": {
+    "id": 10002,
+    "identifier": "deoxys-defense",
+    "species_id": 386,
+    "types": [
+      "psychic"
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 70,
+      "defense": 160,
+      "special-attack": 70,
+      "special-defense": 160,
+      "speed": 90
+    },
+    "total": 600,
+    "capture_rate": 3,
+    "is_legendary": false,
+    "is_mythical": true
+  },
+  "10003": {
+    "id": 10003,
+    "identifier": "deoxys-speed",
+    "species_id": 386,
+    "types": [
+      "psychic"
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 95,
+      "defense": 90,
+      "special-attack": 95,
+      "special-defense": 90,
+      "speed": 180
+    },
+    "total": 600,
+    "capture_rate": 3,
+    "is_legendary": false,
+    "is_mythical": true
+  },
+  "10006": {
+    "id": 10006,
+    "identifier": "shaymin-sky",
+    "species_id": 492,
+    "types": [
+      "grass",
+      "flying"
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 103,
+      "defense": 75,
+      "special-attack": 120,
+      "special-defense": 75,
+      "speed": 127
+    },
+    "total": 600,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": true
+  },
+  "10007": {
+    "id": 10007,
+    "identifier": "giratina-origin",
+    "species_id": 487,
+    "types": [
+      "ghost",
+      "dragon"
+    ],
+    "stats": {
+      "hp": 150,
+      "attack": 120,
+      "defense": 100,
+      "special-attack": 120,
+      "special-defense": 100,
+      "speed": 90
+    },
+    "total": 680,
+    "capture_rate": 3,
+    "is_legendary": true,
+    "is_mythical": false
+  },
+  "10008": {
+    "id": 10008,
+    "identifier": "rotom-heat",
+    "species_id": 479,
+    "types": [
+      "electric",
+      "fire"
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 107,
+      "special-attack": 105,
+      "special-defense": 107,
+      "speed": 86
+    },
+    "total": 520,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false
+  },
+  "10009": {
+    "id": 10009,
+    "identifier": "rotom-wash",
+    "species_id": 479,
+    "types": [
+      "electric",
+      "water"
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 107,
+      "special-attack": 105,
+      "special-defense": 107,
+      "speed": 86
+    },
+    "total": 520,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false
+  },
+  "10010": {
+    "id": 10010,
+    "identifier": "rotom-frost",
+    "species_id": 479,
+    "types": [
+      "electric",
+      "ice"
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 107,
+      "special-attack": 105,
+      "special-defense": 107,
+      "speed": 86
+    },
+    "total": 520,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false
+  },
+  "10011": {
+    "id": 10011,
+    "identifier": "rotom-fan",
+    "species_id": 479,
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 107,
+      "special-attack": 105,
+      "special-defense": 107,
+      "speed": 86
+    },
+    "total": 520,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false
+  },
+  "10012": {
+    "id": 10012,
+    "identifier": "rotom-mow",
+    "species_id": 479,
+    "types": [
+      "electric",
+      "grass"
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 107,
+      "special-attack": 105,
+      "special-defense": 107,
+      "speed": 86
+    },
+    "total": 520,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false
+  },
+  "10018": {
+    "id": 10018,
+    "identifier": "meloetta-pirouette",
+    "species_id": 648,
+    "types": [
+      "normal",
+      "fighting"
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 128,
+      "defense": 90,
+      "special-attack": 77,
+      "special-defense": 77,
+      "speed": 128
+    },
+    "total": 600,
+    "capture_rate": 3,
+    "is_legendary": false,
+    "is_mythical": true
+  },
+  "10019": {
+    "id": 10019,
+    "identifier": "tornadus-therian",
+    "species_id": 641,
+    "types": [
+      "flying"
+    ],
+    "stats": {
+      "hp": 79,
+      "attack": 100,
+      "defense": 80,
+      "special-attack": 110,
+      "special-defense": 90,
+      "speed": 121
+    },
+    "total": 580,
+    "capture_rate": 3,
+    "is_legendary": true,
+    "is_mythical": false
+  },
+  "10020": {
+    "id": 10020,
+    "identifier": "thundurus-therian",
+    "species_id": 642,
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "stats": {
+      "hp": 79,
+      "attack": 105,
+      "defense": 70,
+      "special-attack": 145,
+      "special-defense": 80,
+      "speed": 101
+    },
+    "total": 580,
+    "capture_rate": 3,
+    "is_legendary": true,
+    "is_mythical": false
+  },
+  "10021": {
+    "id": 10021,
+    "identifier": "landorus-therian",
+    "species_id": 645,
+    "types": [
+      "ground",
+      "flying"
+    ],
+    "stats": {
+      "hp": 89,
+      "attack": 145,
+      "defense": 90,
+      "special-attack": 105,
+      "special-defense": 80,
+      "speed": 91
+    },
+    "total": 600,
+    "capture_rate": 3,
+    "is_legendary": true,
+    "is_mythical": false
+  },
+  "10022": {
+    "id": 10022,
+    "identifier": "kyurem-black",
+    "species_id": 646,
+    "types": [
+      "dragon",
+      "ice"
+    ],
+    "stats": {
+      "hp": 125,
+      "attack": 170,
+      "defense": 100,
+      "special-attack": 120,
+      "special-defense": 90,
+      "speed": 95
+    },
+    "total": 700,
+    "capture_rate": 3,
+    "is_legendary": true,
+    "is_mythical": false
+  },
+  "10023": {
+    "id": 10023,
+    "identifier": "kyurem-white",
+    "species_id": 646,
+    "types": [
+      "dragon",
+      "ice"
+    ],
+    "stats": {
+      "hp": 125,
+      "attack": 120,
+      "defense": 90,
+      "special-attack": 170,
+      "special-defense": 100,
+      "speed": 95
+    },
+    "total": 700,
+    "capture_rate": 3,
+    "is_legendary": true,
+    "is_mythical": false
+  },
+  "10024": {
+    "id": 10024,
+    "identifier": "keldeo-resolute",
+    "species_id": 647,
+    "types": [
+      "water",
+      "fighting"
+    ],
+    "stats": {
+      "hp": 91,
+      "attack": 72,
+      "defense": 90,
+      "special-attack": 129,
+      "special-defense": 90,
+      "speed": 108
+    },
+    "total": 580,
+    "capture_rate": 3,
+    "is_legendary": false,
+    "is_mythical": true
+  },
+  "10061": {
+    "id": 10061,
+    "identifier": "floette-eternal",
+    "species_id": 670,
+    "types": [
+      "fairy"
+    ],
+    "stats": {
+      "hp": 74,
+      "attack": 65,
+      "defense": 67,
+      "special-attack": 125,
+      "special-defense": 128,
+      "speed": 92
+    },
+    "total": 551,
+    "capture_rate": 120,
+    "is_legendary": false,
+    "is_mythical": false
+  },
+  "10077": {
+    "id": 10077,
+    "identifier": "kyogre-primal",
+    "species_id": 382,
+    "types": [
+      "water"
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 150,
+      "defense": 90,
+      "special-attack": 180,
+      "special-defense": 160,
+      "speed": 90
+    },
+    "total": 770,
+    "capture_rate": 3,
+    "is_legendary": true,
+    "is_mythical": false
+  },
+  "10078": {
+    "id": 10078,
+    "identifier": "groudon-primal",
+    "species_id": 383,
+    "types": [
+      "ground",
+      "fire"
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 180,
+      "defense": 160,
+      "special-attack": 150,
+      "special-defense": 90,
+      "speed": 90
+    },
+    "total": 770,
+    "capture_rate": 3,
+    "is_legendary": true,
+    "is_mythical": false
+  },
+  "10086": {
+    "id": 10086,
+    "identifier": "hoopa-unbound",
+    "species_id": 720,
+    "types": [
+      "psychic",
+      "dark"
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 160,
+      "defense": 60,
+      "special-attack": 170,
+      "special-defense": 130,
+      "speed": 80
+    },
+    "total": 680,
+    "capture_rate": 3,
+    "is_legendary": false,
+    "is_mythical": true
+  },
+  "10117": {
+    "id": 10117,
+    "identifier": "greninja-ash",
+    "species_id": 658,
+    "types": [
+      "water",
+      "dark"
+    ],
+    "stats": {
+      "hp": 72,
+      "attack": 145,
+      "defense": 67,
+      "special-attack": 153,
+      "special-defense": 71,
+      "speed": 132
+    },
+    "total": 640,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false
+  },
+  "10120": {
+    "id": 10120,
+    "identifier": "zygarde-complete",
+    "species_id": 718,
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "stats": {
+      "hp": 216,
+      "attack": 100,
+      "defense": 121,
+      "special-attack": 91,
+      "special-defense": 95,
+      "speed": 85
+    },
+    "total": 708,
+    "capture_rate": 3,
+    "is_legendary": true,
+    "is_mythical": false
+  },
+  "10127": {
+    "id": 10127,
+    "identifier": "wishiwashi-school",
+    "species_id": 746,
+    "types": [
+      "water"
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 140,
+      "defense": 130,
+      "special-attack": 140,
+      "special-defense": 135,
+      "speed": 30
+    },
+    "total": 620,
+    "capture_rate": 60,
+    "is_legendary": false,
+    "is_mythical": false
+  },
+  "10152": {
+    "id": 10152,
+    "identifier": "lycanroc-dusk",
+    "species_id": 745,
+    "types": [
+      "rock"
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 117,
+      "defense": 65,
+      "special-attack": 55,
+      "special-defense": 65,
+      "speed": 110
+    },
+    "total": 487,
+    "capture_rate": 90,
+    "is_legendary": false,
+    "is_mythical": false
+  },
+  "10155": {
+    "id": 10155,
+    "identifier": "necrozma-dusk",
+    "species_id": 800,
+    "types": [
+      "psychic",
+      "steel"
+    ],
+    "stats": {
+      "hp": 97,
+      "attack": 157,
+      "defense": 127,
+      "special-attack": 113,
+      "special-defense": 109,
+      "speed": 77
+    },
+    "total": 680,
+    "capture_rate": 255,
+    "is_legendary": true,
+    "is_mythical": false
+  },
+  "10156": {
+    "id": 10156,
+    "identifier": "necrozma-dawn",
+    "species_id": 800,
+    "types": [
+      "psychic",
+      "ghost"
+    ],
+    "stats": {
+      "hp": 97,
+      "attack": 113,
+      "defense": 109,
+      "special-attack": 157,
+      "special-defense": 127,
+      "speed": 77
+    },
+    "total": 680,
+    "capture_rate": 255,
+    "is_legendary": true,
+    "is_mythical": false
+  },
+  "10157": {
+    "id": 10157,
+    "identifier": "necrozma-ultra",
+    "species_id": 800,
+    "types": [
+      "psychic",
+      "dragon"
+    ],
+    "stats": {
+      "hp": 97,
+      "attack": 167,
+      "defense": 97,
+      "special-attack": 167,
+      "special-defense": 97,
+      "speed": 129
+    },
+    "total": 754,
+    "capture_rate": 255,
+    "is_legendary": true,
+    "is_mythical": false
+  },
+  "10181": {
+    "id": 10181,
+    "identifier": "zygarde-10",
+    "species_id": 718,
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "stats": {
+      "hp": 54,
+      "attack": 100,
+      "defense": 71,
+      "special-attack": 61,
+      "special-defense": 85,
+      "speed": 115
+    },
+    "total": 486,
+    "capture_rate": 3,
+    "is_legendary": true,
+    "is_mythical": false
+  },
+  "10188": {
+    "id": 10188,
+    "identifier": "zacian-crowned",
+    "species_id": 888,
+    "types": [
+      "fairy",
+      "steel"
+    ],
+    "stats": {
+      "hp": 92,
+      "attack": 150,
+      "defense": 115,
+      "special-attack": 80,
+      "special-defense": 115,
+      "speed": 148
+    },
+    "total": 700,
+    "capture_rate": 10,
+    "is_legendary": true,
+    "is_mythical": false
+  },
+  "10189": {
+    "id": 10189,
+    "identifier": "zamazenta-crowned",
+    "species_id": 889,
+    "types": [
+      "fighting",
+      "steel"
+    ],
+    "stats": {
+      "hp": 92,
+      "attack": 120,
+      "defense": 140,
+      "special-attack": 80,
+      "special-defense": 140,
+      "speed": 128
+    },
+    "total": 700,
+    "capture_rate": 10,
+    "is_legendary": true,
+    "is_mythical": false
+  },
+  "10190": {
+    "id": 10190,
+    "identifier": "eternatus-eternamax",
+    "species_id": 890,
+    "types": [
+      "poison",
+      "dragon"
+    ],
+    "stats": {
+      "hp": 255,
+      "attack": 115,
+      "defense": 250,
+      "special-attack": 125,
+      "special-defense": 250,
+      "speed": 130
+    },
+    "total": 1125,
+    "capture_rate": 255,
+    "is_legendary": true,
+    "is_mythical": false
+  },
+  "10193": {
+    "id": 10193,
+    "identifier": "calyrex-ice",
+    "species_id": 898,
+    "types": [
+      "psychic",
+      "ice"
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 165,
+      "defense": 150,
+      "special-attack": 85,
+      "special-defense": 130,
+      "speed": 50
+    },
+    "total": 680,
+    "capture_rate": 3,
+    "is_legendary": true,
+    "is_mythical": false
+  },
+  "10194": {
+    "id": 10194,
+    "identifier": "calyrex-shadow",
+    "species_id": 898,
+    "types": [
+      "psychic",
+      "ghost"
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 85,
+      "defense": 80,
+      "special-attack": 165,
+      "special-defense": 100,
+      "speed": 150
+    },
+    "total": 680,
+    "capture_rate": 3,
+    "is_legendary": true,
+    "is_mythical": false
+  },
+  "10245": {
+    "id": 10245,
+    "identifier": "dialga-origin",
+    "species_id": 483,
+    "types": [
+      "steel",
+      "dragon"
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 100,
+      "defense": 120,
+      "special-attack": 150,
+      "special-defense": 120,
+      "speed": 90
+    },
+    "total": 680,
+    "capture_rate": 3,
+    "is_legendary": true,
+    "is_mythical": false
+  },
+  "10246": {
+    "id": 10246,
+    "identifier": "palkia-origin",
+    "species_id": 484,
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 100,
+      "defense": 100,
+      "special-attack": 150,
+      "special-defense": 120,
+      "speed": 120
+    },
+    "total": 680,
+    "capture_rate": 3,
+    "is_legendary": true,
+    "is_mythical": false
+  },
+  "10249": {
+    "id": 10249,
+    "identifier": "enamorus-therian",
+    "species_id": 905,
+    "types": [
+      "fairy",
+      "flying"
+    ],
+    "stats": {
+      "hp": 74,
+      "attack": 115,
+      "defense": 110,
+      "special-attack": 135,
+      "special-defense": 100,
+      "speed": 46
+    },
+    "total": 580,
+    "capture_rate": 3,
+    "is_legendary": true,
+    "is_mythical": false
+  },
+  "10256": {
+    "id": 10256,
+    "identifier": "palafin-hero",
+    "species_id": 964,
+    "types": [
+      "water"
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 160,
+      "defense": 97,
+      "special-attack": 106,
+      "special-defense": 87,
+      "speed": 100
+    },
+    "total": 650,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false
+  },
+  "10276": {
+    "id": 10276,
+    "identifier": "terapagos-terastal",
+    "species_id": 1024,
+    "types": [
+      "normal"
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 95,
+      "defense": 110,
+      "special-attack": 105,
+      "special-defense": 110,
+      "speed": 85
+    },
+    "total": 600,
+    "capture_rate": 255,
+    "is_legendary": true,
+    "is_mythical": false
+  },
+  "10277": {
+    "id": 10277,
+    "identifier": "terapagos-stellar",
+    "species_id": 1024,
+    "types": [
+      "normal"
+    ],
+    "stats": {
+      "hp": 160,
+      "attack": 105,
+      "defense": 110,
+      "special-attack": 130,
+      "special-defense": 110,
+      "speed": 85
+    },
+    "total": 700,
+    "capture_rate": 255,
+    "is_legendary": true,
+    "is_mythical": false
+  }
+}

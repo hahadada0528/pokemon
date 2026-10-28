@@ -7,20 +7,25 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="./styles.css?v=17" />
+  <link rel="stylesheet" href="./styles.css?v=45" />
 </head>
 <body>
   <div class="atmosphere" aria-hidden="true"></div>
 
   <div class="sticky-chrome">
     <div class="sticky-inner">
-      <p class="brand">Pokédex</p>
+      <div class="sticky-head">
+        <p class="brand">Pokédex</p>
+        <button type="button" class="help-open" id="btn-help">帮助</button>
+      </div>
       <nav class="controls" aria-label="图鉴控制">
         <div class="tabs" role="tablist">
           <button type="button" class="tab is-active" role="tab" aria-selected="true" data-mode="normal">普通图鉴</button>
           <button type="button" class="tab" role="tab" aria-selected="false" data-mode="shiny">闪光图鉴</button>
           <button type="button" class="tab" id="view-shop" aria-pressed="false">商店</button>
           <button type="button" class="tab" id="view-explore" aria-pressed="false">探索</button>
+          <button type="button" class="tab" id="view-league" aria-pressed="false">道馆战</button>
+          <button type="button" class="tab" id="view-finale" aria-pressed="false" hidden>最终挑战</button>
         </div>
 
         <div class="filters" id="filters">
@@ -35,20 +40,29 @@
             <option value="caught">已抓获</option>
             <option value="uncaught">未抓获</option>
           </select>
-          <select id="gen-filter" aria-label="按世代筛选">
-            <option value="0">全部世代</option>
-            <option value="1">第1世代</option>
-            <option value="2">第2世代</option>
-            <option value="3">第3世代</option>
-            <option value="4">第4世代</option>
-            <option value="5">第5世代</option>
-            <option value="6">第6世代</option>
-            <option value="7">第7世代</option>
-            <option value="8">第8世代</option>
+          <select id="gen-filter" aria-label="按地区筛选">
+            <option value="0">全部地区</option>
+            <option value="关都">关都</option>
+            <option value="城都">城都</option>
+            <option value="丰缘">丰缘</option>
+            <option value="神奥">神奥</option>
+            <option value="合众">合众</option>
+            <option value="卡洛斯">卡洛斯</option>
+            <option value="阿罗拉">阿罗拉</option>
+            <option value="伽勒尔">伽勒尔</option>
+            <option value="洗翠">洗翠</option>
+            <option value="帕底亚">帕底亚</option>
+            <option value="special">特殊形态</option>
           </select>
           <select id="legend-filter" aria-label="按神兽筛选">
             <option value="all">全部</option>
             <option value="legend">神兽</option>
+          </select>
+          <select id="sort-filter" aria-label="按编号、等级或战力检索">
+            <option value="id">图鉴编号</option>
+            <option value="level-desc">等级正序 · 高到低</option>
+            <option value="level-asc">等级倒序 · 低到高</option>
+            <option value="power-desc">战力正序 · 高到低</option>
           </select>
         </div>
       </nav>
@@ -58,7 +72,6 @@
   <header class="top">
     <div class="brand-block">
       <h1 id="dex-title">普通图鉴</h1>
-      <p class="tagline">点亮条目 · 记录抓获 · 检索收藏</p>
     </div>
 
     <div class="stats" id="stats">
@@ -67,20 +80,22 @@
         <span class="stat-value" id="stat-power-total">0</span>
         <div class="stat-tip" id="stat-power-tip" role="tooltip">普通战力 0 · 闪光战力 0</div>
       </div>
-      <div class="stat">
+      <div class="stat stat-seen" tabindex="0">
         <span class="stat-label">普通图鉴已点亮</span>
-        <span class="stat-value" id="stat-seen">0 / 898</span>
+        <span class="stat-value" id="stat-seen">0 / 1082</span>
+        <div class="stat-tip" id="stat-seen-tip" role="tooltip">普通图鉴 0 · 形态图鉴 0</div>
       </div>
-      <div class="stat">
+      <div class="stat stat-seen" tabindex="0">
         <span class="stat-label">闪光图鉴已点亮</span>
-        <span class="stat-value" id="stat-seen-shiny">0 / 898</span>
+        <span class="stat-value" id="stat-seen-shiny">0 / 1082</span>
+        <div class="stat-tip" id="stat-seen-shiny-tip" role="tooltip">普通图鉴 0 · 形态图鉴 0</div>
       </div>
       <div class="stat">
         <span class="stat-label">金币</span>
         <span class="stat-value" id="stat-coins">0</span>
       </div>
       <div class="stat">
-        <span class="stat-label">高级球</span>
+        <span class="stat-label">精灵球</span>
         <span class="stat-value" id="stat-balls">0</span>
       </div>
     </div>
@@ -93,15 +108,22 @@
   <section class="device" id="shop" hidden>
     <div class="device-panel">
       <h2>商店</h2>
-      <p class="device-lead">终极形态（含闪光）每次获得会升 1 级并自动卖出，最高 100 级。增益道具购买后立即生效 24 小时，重复购买会顺延。进化卡只对闪光精灵有效。每天打开会自动签到，获得一个较弱的当日增益，可与商店增益叠加，持续到当天结束。</p>
       <div id="shop-catalog" class="shop-grid"></div>
+    </div>
+    <div class="device-panel">
+      <h2>存档</h2>
+      <p class="device-lead" id="save-path-label">上次导出：尚未选择</p>
+      <div class="ball-row">
+        <button type="button" class="action" id="btn-export-save">导出存档</button>
+        <button type="button" class="action ghost" id="btn-import-save">导入存档</button>
+        <input id="import-save-file" type="file" accept="application/json,.json" hidden />
+      </div>
     </div>
   </section>
 
   <section class="device" id="explore" hidden>
     <div class="device-panel">
       <h2>每日 Boss</h2>
-      <p class="device-lead">每天随机一只神兽，血量无限，闪光概率 1/8。每天可挑战 5 次，按你的战力总和造成伤害；每次攻击有 1/10 概率暴击（伤害 ×2）。攻击后若有 Boss 球会自动投掷。Boss 球最多 10 颗（5万起递进翻倍）。抓住或挑战次数用完，今日即结束。Boss 球抓捕率不吃任何增益。</p>
       <div class="boss-card" id="boss-card">
         <img id="boss-img" class="boss-art" alt="" width="160" height="160" />
         <div class="boss-body">
@@ -120,10 +142,9 @@
     </div>
     <div class="device-panel">
       <h2>探索</h2>
-      <p class="device-lead">先选地区图鉴（关都 / 城都 / 丰缘 / 神奥 / 合众 / 卡洛斯 / 阿罗拉 / 伽勒尔），再投入高级球。每颗球按该精灵在此地区图鉴中的出现权重抽取，各地区权重相同。抓住与否仍按高级球、半血计算。基础闪光概率 1/1024。</p>
       <div id="explore-areas" class="area-row"></div>
       <div class="ball-row">
-        <label for="ball-count">投入高级球</label>
+        <label for="ball-count">投入精灵球</label>
         <input id="ball-count" type="number" min="1" max="9999" value="1" />
         <button type="button" class="action" id="btn-hunt">开始抓捕</button>
         <button type="button" class="action ghost" id="btn-hunt-all">一键扔球</button>
@@ -131,9 +152,33 @@
     </div>
   </section>
 
+  <section class="device" id="league" hidden>
+    <div id="league-root"></div>
+  </section>
+
+  <section class="device" id="finale" hidden>
+    <div id="finale-root"></div>
+  </section>
+
   <main class="grid" id="grid" aria-live="polite"></main>
 
-  <div class="toast" id="toast" hidden></div>
+  <dialog id="league-picker" class="league-picker">
+    <button type="button" class="detail-close" id="league-picker-close" aria-label="关闭">×</button>
+    <div class="league-picker-head">
+      <p class="league-note" id="league-picker-lead">只显示这个地区已经点亮、并且有战力的宝可梦。还能进化的不会出现。普通和闪光分开选，同一只只能选一只。</p>
+      <div class="league-picker-colors">
+        <button type="button" class="action is-on" id="league-picker-normal" data-picker-color="0">普通</button>
+        <button type="button" class="action ghost" id="league-picker-shiny" data-picker-color="1">闪光</button>
+      </div>
+      <label class="league-search">
+        <span class="sr-only">搜索已点亮的宝可梦</span>
+        <input id="league-picker-query" type="search" placeholder="搜索已点亮的宝可梦" autocomplete="off" />
+      </label>
+    </div>
+    <div class="league-picker-scroll">
+      <div id="league-picker-list" class="league-picker-grid"></div>
+    </div>
+  </dialog>
 
   <dialog id="hunt-report" class="detail hunt-report">
     <form method="dialog" class="hunt-report-inner">
@@ -157,19 +202,39 @@
         <p class="detail-evo" id="detail-evo"></p>
         <div class="detail-spawns" id="detail-spawns"></div>
         <div class="detail-actions">
-          <button type="button" id="btn-evo-card" class="action">进化卡</button>
-          <button type="button" id="btn-upgrade-card" class="action ghost">升级卡</button>
-          <button type="button" id="btn-legend-upgrade-card" class="action ghost">神兽升级卡</button>
+          <button type="button" id="btn-upgrade-card" class="action" hidden>升级</button>
           <div class="catch-ctrl">
             <span id="detail-caught">0</span>
           </div>
         </div>
-        <div id="evo-card-choices" class="evo-choices"></div>
-        <p class="detail-hint">精灵只能通过抓捕获得。未抓住时形象为剪影，名字与地区图鉴始终可见。集满 3 只自动进化，有多条路线时等概率变成其中一只。终极形态每次获得升 1 级并自动卖出（最高 100 级）。升级卡只能给非神兽的闪光最终形态再升 1 级；神兽升级卡只能给闪光神兽 / 幻兽最终形态再升 1 级。进化卡只能用在闪光精灵上。</p>
+        <div id="mega-unlocks" class="mega-unlocks" hidden></div>
+        <p class="detail-hint">精灵只能通过抓捕获得。未抓住时形象为剪影，名字与地区图鉴始终可见。集满 3 只自动进化，有多条路线时等概率变成其中一只。终极形态每次获得升 1 级并自动卖出（最高 100 级）。已获得的最终形态可花金币再升 1 级：普通 3000 金币、神兽 5000 金币、闪光 5000 金币、闪光神兽 10000 金币，满 100 级后按钮变为已满级。超级进化与特殊形态不出现在探索中：在本体详情花费金币解锁。普通图鉴只能解锁普通形态，闪光图鉴只能解锁闪光形态。普通与闪光是两个独立槽位，各花一次金币；闪光形态必须先有闪光本体（需要两只以上时，闪光必须全是闪光，普通必须全是普通）。已解锁按钮变灰。闪光形态的等级只同步闪光本体，普通只同步普通本体，不能单独升级。</p>
       </div>
     </form>
   </dialog>
 
-  <script src="./app.js?v=46"></script>
+  <dialog id="help" class="help-dialog">
+    <div class="help-card">
+      <div class="help-head">
+        <h2>游戏简介</h2>
+        <button type="button" class="detail-close" id="help-close" aria-label="关闭">×</button>
+      </div>
+      <label class="help-search">
+        <span class="sr-only">检索帮助</span>
+        <input id="help-query" type="search" placeholder="检索：怎么玩、机制、概率…" autocomplete="off" />
+      </label>
+      <div class="help-chips" id="help-chips"></div>
+      <div class="help-body" id="help-body"></div>
+    </div>
+  </dialog>
+
+  <dialog id="toast" class="toast-dialog">
+    <form method="dialog" class="toast-card">
+      <p id="toast-text"></p>
+      <button type="submit" class="action">知道了</button>
+    </form>
+  </dialog>
+
+  <script src="./app.js?v=140"></script>
 </body>
 </html>

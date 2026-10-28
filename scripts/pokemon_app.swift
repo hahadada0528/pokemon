@@ -13,17 +13,43 @@ func bundledRoot() -> URL? {
 
 let rootURL = bundledRoot() ?? URL(fileURLWithPath: "/Users/hhdd/pokemon", isDirectory: true)
 
-func makePressURL() -> URL {
+func makeSaveDir() -> URL {
   if bundledRoot() != nil {
-    let dir = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask)[0]
-      .appendingPathComponent("宝可梦图鉴", isDirectory: true)
-    return dir.appendingPathComponent("key_presses.json")
+    return FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask)[0]
+      .appendingPathComponent("PokemonPokedex", isDirectory: true)
   }
-  return rootURL.appendingPathComponent("data/key_presses.json")
+  return rootURL.appendingPathComponent("data", isDirectory: true)
+}
+
+func makePressURL() -> URL {
+  let dir = makeSaveDir()
+  let primary = dir.appendingPathComponent("key_presses.json")
+  // Migrate older Mac path once (宝可梦图鉴 → PokemonPokedex).
+  if bundledRoot() != nil {
+    let legacy = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask)[0]
+      .appendingPathComponent("宝可梦图鉴", isDirectory: true)
+      .appendingPathComponent("key_presses.json")
+    if !FileManager.default.fileExists(atPath: primary.path),
+       FileManager.default.fileExists(atPath: legacy.path) {
+      try? FileManager.default.createDirectory(at: dir, withIntermediateDirectories: true)
+      try? FileManager.default.copyItem(at: legacy, to: primary)
+    }
+  }
+  return primary
+}
+
+func makeProgressURL() -> URL {
+  makeSaveDir().appendingPathComponent("progress.json")
+}
+
+func makePrefsURL() -> URL {
+  makeSaveDir().appendingPathComponent("save_prefs.json")
 }
 
 let pressURL = makePressURL()
-let pageURL = URL(string: "http://127.0.0.1:8080/pokedex/?v=29")!
+let progressURL = makeProgressURL()
+let prefsURL = makePrefsURL()
+let pageURL = URL(string: "http://127.0.0.1:8080/pokedex/?v=32")!
 let logURL = URL(fileURLWithPath: "/tmp/pokemon-app.log")
 
 var presses = 0
@@ -31,6 +57,8 @@ var keyedThisWindow = false
 let pressLock = NSLock()
 var listening = false
 var serverProcess: Process?
+var mouseGlobalMonitor: Any?
+var mouseLocalMonitor: Any?
 
 func log(_ message: String) {
   let line = message + "\n"
@@ -92,6 +120,8 @@ func ensureServer() {
       script.path,
       "--root", rootURL.path,
       "--presses", pressURL.path,
+      "--progress", progressURL.path,
+      "--prefs", prefsURL.path,
       "--port", "8080",
     ]
   } else {
@@ -137,7 +167,15 @@ func requestAccessIfMissing() {
   log("listen request \(granted) preflight now \(CGPreflightListenEventAccess())")
 }
 
+func markKeyedThisWindow() {
+  pressLock.lock()
+  keyedThisWindow = true
+  pressLock.unlock()
+}
+
 func startTap() -> Bool {
+  // keyDown-only: expanding the CGEvent mask to mouse/scroll can make tapCreate fail
+  // entirely (no keyboard counting either). Mouse is handled via NSEvent monitors.
   let mask = CGEventMask(1 << CGEventType.keyDown.rawValue)
   guard let tap = CGEvent.tapCreate(
     tap: .cgSessionEventTap,
@@ -146,9 +184,7 @@ func startTap() -> Bool {
     eventsOfInterest: mask,
     callback: { _, type, event, _ in
       if type == .keyDown && event.getIntegerValueField(.keyboardEventAutorepeat) == 0 {
-        pressLock.lock()
-        keyedThisWindow = true
-        pressLock.unlock()
+        markKeyedThisWindow()
       }
       return Unmanaged.passUnretained(event)
     },
@@ -160,6 +196,22 @@ func startTap() -> Bool {
   CFRunLoopAddSource(CFRunLoopGetCurrent(), source, .commonModes)
   CGEvent.tapEnable(tap: tap, enable: true)
   return true
+}
+
+func startMouseMonitors() {
+  // Buttons + scroll only — not mouseMoved. Global misses frontmost app; local covers it.
+  let mask: NSEvent.EventTypeMask = [.leftMouseDown, .rightMouseDown, .otherMouseDown, .scrollWheel]
+  if mouseGlobalMonitor == nil {
+    mouseGlobalMonitor = NSEvent.addGlobalMonitorForEvents(matching: mask) { _ in
+      markKeyedThisWindow()
+    }
+  }
+  if mouseLocalMonitor == nil {
+    mouseLocalMonitor = NSEvent.addLocalMonitorForEvents(matching: mask) { event in
+      markKeyedThisWindow()
+      return event
+    }
+  }
 }
 
 final class AppDelegate: NSObject, NSApplicationDelegate, WKNavigationDelegate {
@@ -178,11 +230,13 @@ final class AppDelegate: NSObject, NSApplicationDelegate, WKNavigationDelegate {
     window?.makeKeyAndOrderFront(nil)
     NSApp.activate(ignoringOtherApps: true)
     listening = startTap()
+    startMouseMonitors()
     if listening && CGPreflightListenEventAccess() {
       log("listening true")
     } else if !CGPreflightListenEventAccess() {
       requestAccessIfMissing()
       listening = startTap()
+      startMouseMonitors()
       log("listening \(listening)")
       if !listening {
         NSWorkspace.shared.open(URL(string: "x-apple.systempreferences:com.apple.preference.security?Privacy_ListenEvent")!)
@@ -192,13 +246,13 @@ final class AppDelegate: NSObject, NSApplicationDelegate, WKNavigationDelegate {
     }
     updateNotice()
     loadPage()
-    // 每 10 秒结算一次：期间只要按过键，就记 20 个球（写入 presses，页面按差值补球）。
+    // 每 10 秒结算一次：期间有键盘按键、鼠标按键或滚轮，就记 10 个球（写入 presses，页面按差值补球）。鼠标移动不算。
     Timer.scheduledTimer(withTimeInterval: 10, repeats: true) { _ in
       pressLock.lock()
       let keyed = keyedThisWindow
       keyedThisWindow = false
       if keyed {
-        presses += 20
+        presses += 10
         writeCount()
       }
       pressLock.unlock()
@@ -226,7 +280,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, WKNavigationDelegate {
     pressLock.lock()
     if keyedThisWindow {
       keyedThisWindow = false
-      presses += 20
+      presses += 10
       writeCount()
     }
     pressLock.unlock()
@@ -243,13 +297,16 @@ final class AppDelegate: NSObject, NSApplicationDelegate, WKNavigationDelegate {
     window.title = "宝可梦图鉴"
     window.minSize = NSSize(width: 860, height: 640)
     window.center()
-    window.backgroundColor = NSColor(srgbRed: 13 / 255, green: 26 / 255, blue: 20 / 255, alpha: 1)
+    let pageColor = NSColor(srgbRed: 13 / 255, green: 26 / 255, blue: 20 / 255, alpha: 1)
+    window.backgroundColor = pageColor
 
-    // 必须用默认持久化存储，否则 localStorage（进度 / 每日 Boss）重启就丢
+    // 必须用默认持久化存储，否则 localStorage（进度 / 每日 Boss）重启就丢。
+    // 网页视图保持不透明。设成透明后，滚动和重绘时会闪一下黑屏。
     let web = WKWebView(frame: window.contentView?.bounds ?? .zero)
     web.autoresizingMask = [.width, .height]
     web.navigationDelegate = self
-    web.setValue(false, forKey: "drawsBackground")
+    web.setValue(true, forKey: "drawsBackground")
+    web.underPageBackgroundColor = pageColor
     window.contentView?.addSubview(web)
     let note = NSTextField(wrappingLabelWithString: "还不能读取按键。请在「系统设置 → 隐私与安全性 → 输入监视」里打开「宝可梦图鉴」。打开后会自动开始计数。")
     note.font = .systemFont(ofSize: 13, weight: .medium)
@@ -284,6 +341,12 @@ final class AppDelegate: NSObject, NSApplicationDelegate, WKNavigationDelegate {
 
   func webView(_ webView: WKWebView, didFailProvisionalNavigation navigation: WKNavigation!, withError error: Error) {
     retry(error)
+  }
+
+  func webViewWebContentProcessDidTerminate(_ webView: WKWebView) {
+    log("web content terminated")
+    loadAttempts = 0
+    loadPage()
   }
 
   func retry(_ error: Error) {

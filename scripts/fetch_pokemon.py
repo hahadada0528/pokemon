@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Fetch Pokémon #1–898 (through Sword/Shield + DLC): id, name, capture rate, artwork.
+"""Fetch Pokémon #1–1025 (through PLA + Scarlet/Violet DLC): id, name, capture rate, artwork.
 
 Uses curl for HTTPS (macOS Python often lacks CA certs for urllib).
 Images from jsDelivr CDN (faster than raw.githubusercontent.com).
+Prefer scripts/extend_hisui_paldea.py to append #899–1025 onto an existing enriched dex.
 """
 
 from __future__ import annotations
@@ -18,7 +19,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"
 IMG_DIR = DATA_DIR / "images"
-MAX_ID = 898  # Calyrex — last National Dex entry through Sw/Sh Crown Tundra
+MAX_ID = 1025  # Pecharunt — National Dex through SV Indigo Disk
 WORKERS = 24
 MIN_ARTWORK_BYTES = 20_000  # official-artwork is typically 50–300KB; 96px fallback is ~1KB
 

@@ -17,13 +17,14 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"
 IMG_DIR = DATA_DIR / "images"
 SHINY_DIR = IMG_DIR / "shiny"
-MAX_ID = 898
+MAX_ID = 1025
 WORKERS = 24
 MIN_ARTWORK_BYTES = 20_000
 
 # 注意：线上 spawn_areas 已改为「地区图鉴」权重（见 scripts 或 data/pokemon.json）。
 # 下列旧生物群系仅作历史 enrich 参考，勿再覆盖现行地区图鉴数据。
-AREAS = ["关都", "城都", "丰缘", "神奥", "合众", "卡洛斯", "阿罗拉", "伽勒尔"]
+# 洗翠 / 帕底亚 由 scripts/extend_hisui_paldea.py 按地区图鉴写入，勿用本脚本覆盖。
+AREAS = ["关都", "城都", "丰缘", "神奥", "合众", "卡洛斯", "阿罗拉", "伽勒尔", "洗翠", "帕底亚"]
 
 # Type → preferred spawn areas (ordered, higher preference first)
 TYPE_AREAS: dict[str, list[str]] = {
@@ -357,11 +358,18 @@ def evolution_for(poke_id: int, chain_id: int, chains: dict[int, dict]) -> dict:
         walk(ch["tree"], 1)
         stage = depth.get(poke_id, 1)
 
-    # 图鉴只到剑盾 #898，去掉传说阿尔宙斯 / 朱紫才出现的分支。
-    to_list = [t for t in to_list if t["id"] <= 898]
-    family = [i for i in ch["family"] if i <= 898]
-    if from_id is not None and from_id > 898:
+    # 图鉴到 #1025（PLA + 朱紫含 DLC）。霏欧纳不连玛纳霏（项目规则）。
+    to_list = [t for t in to_list if t["id"] <= MAX_ID]
+    family = [i for i in ch["family"] if i <= MAX_ID]
+    if from_id is not None and from_id > MAX_ID:
         from_id = None
+    if poke_id == 489:  # Phione
+        to_list = [t for t in to_list if t["id"] != 490]
+        family = [i for i in family if i != 490] or [489]
+    if poke_id == 490:  # Manaphy
+        if from_id == 489:
+            from_id = None
+        family = [i for i in family if i != 489] or [490]
     return {
         "chain_id": chain_id,
         "family": family,

@@ -1,0 +1,2311 @@
+{
+  "10033": {
+    "id": 10033,
+    "identifier": "venusaur-mega",
+    "species_id": 3,
+    "name_zh": "超级venusaur-mega",
+    "name_en": "Mega Venusaur",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 100,
+      "defense": 123,
+      "special-attack": 122,
+      "special-defense": 120,
+      "speed": 80
+    },
+    "total": 625,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10034": {
+    "id": 10034,
+    "identifier": "charizard-mega-x",
+    "species_id": 6,
+    "name_zh": "超级charizard-mega-xX",
+    "name_en": "Mega Charizard X",
+    "types": [
+      "fire",
+      "dragon"
+    ],
+    "stats": {
+      "hp": 78,
+      "attack": 130,
+      "defense": 111,
+      "special-attack": 130,
+      "special-defense": 85,
+      "speed": 100
+    },
+    "total": 634,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10035": {
+    "id": 10035,
+    "identifier": "charizard-mega-y",
+    "species_id": 6,
+    "name_zh": "超级charizard-mega-yY",
+    "name_en": "Mega Charizard Y",
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "stats": {
+      "hp": 78,
+      "attack": 104,
+      "defense": 78,
+      "special-attack": 159,
+      "special-defense": 115,
+      "speed": 100
+    },
+    "total": 634,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10036": {
+    "id": 10036,
+    "identifier": "blastoise-mega",
+    "species_id": 9,
+    "name_zh": "超级blastoise-mega",
+    "name_en": "Mega Blastoise",
+    "types": [
+      "water"
+    ],
+    "stats": {
+      "hp": 79,
+      "attack": 103,
+      "defense": 120,
+      "special-attack": 135,
+      "special-defense": 115,
+      "speed": 78
+    },
+    "total": 630,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10037": {
+    "id": 10037,
+    "identifier": "alakazam-mega",
+    "species_id": 65,
+    "name_zh": "超级alakazam-mega",
+    "name_en": "Mega Alakazam",
+    "types": [
+      "psychic"
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 50,
+      "defense": 65,
+      "special-attack": 175,
+      "special-defense": 105,
+      "speed": 150
+    },
+    "total": 600,
+    "capture_rate": 50,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10038": {
+    "id": 10038,
+    "identifier": "gengar-mega",
+    "species_id": 94,
+    "name_zh": "超级gengar-mega",
+    "name_en": "Mega Gengar",
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 65,
+      "defense": 80,
+      "special-attack": 170,
+      "special-defense": 95,
+      "speed": 130
+    },
+    "total": 600,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10039": {
+    "id": 10039,
+    "identifier": "kangaskhan-mega",
+    "species_id": 115,
+    "name_zh": "超级kangaskhan-mega",
+    "name_en": "Mega Kangaskhan",
+    "types": [
+      "normal"
+    ],
+    "stats": {
+      "hp": 105,
+      "attack": 125,
+      "defense": 100,
+      "special-attack": 60,
+      "special-defense": 100,
+      "speed": 100
+    },
+    "total": 590,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10040": {
+    "id": 10040,
+    "identifier": "pinsir-mega",
+    "species_id": 127,
+    "name_zh": "超级pinsir-mega",
+    "name_en": "Mega Pinsir",
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 155,
+      "defense": 120,
+      "special-attack": 65,
+      "special-defense": 90,
+      "speed": 105
+    },
+    "total": 600,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10041": {
+    "id": 10041,
+    "identifier": "gyarados-mega",
+    "species_id": 130,
+    "name_zh": "超级gyarados-mega",
+    "name_en": "Mega Gyarados",
+    "types": [
+      "water",
+      "dark"
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 155,
+      "defense": 109,
+      "special-attack": 70,
+      "special-defense": 130,
+      "speed": 81
+    },
+    "total": 640,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10042": {
+    "id": 10042,
+    "identifier": "aerodactyl-mega",
+    "species_id": 142,
+    "name_zh": "超级aerodactyl-mega",
+    "name_en": "Mega Aerodactyl",
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 135,
+      "defense": 85,
+      "special-attack": 70,
+      "special-defense": 95,
+      "speed": 150
+    },
+    "total": 615,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10043": {
+    "id": 10043,
+    "identifier": "mewtwo-mega-x",
+    "species_id": 150,
+    "name_zh": "超级mewtwo-mega-xX",
+    "name_en": "Mega Mewtwo X",
+    "types": [
+      "psychic",
+      "fighting"
+    ],
+    "stats": {
+      "hp": 106,
+      "attack": 190,
+      "defense": 100,
+      "special-attack": 154,
+      "special-defense": 100,
+      "speed": 130
+    },
+    "total": 780,
+    "capture_rate": 3,
+    "is_legendary": true,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10044": {
+    "id": 10044,
+    "identifier": "mewtwo-mega-y",
+    "species_id": 150,
+    "name_zh": "超级mewtwo-mega-yY",
+    "name_en": "Mega Mewtwo Y",
+    "types": [
+      "psychic"
+    ],
+    "stats": {
+      "hp": 106,
+      "attack": 150,
+      "defense": 70,
+      "special-attack": 194,
+      "special-defense": 120,
+      "speed": 140
+    },
+    "total": 780,
+    "capture_rate": 3,
+    "is_legendary": true,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10045": {
+    "id": 10045,
+    "identifier": "ampharos-mega",
+    "species_id": 181,
+    "name_zh": "超级ampharos-mega",
+    "name_en": "Mega Ampharos",
+    "types": [
+      "electric",
+      "dragon"
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 95,
+      "defense": 105,
+      "special-attack": 165,
+      "special-defense": 110,
+      "speed": 45
+    },
+    "total": 610,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10046": {
+    "id": 10046,
+    "identifier": "scizor-mega",
+    "species_id": 212,
+    "name_zh": "超级scizor-mega",
+    "name_en": "Mega Scizor",
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 150,
+      "defense": 140,
+      "special-attack": 65,
+      "special-defense": 100,
+      "speed": 75
+    },
+    "total": 600,
+    "capture_rate": 25,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10047": {
+    "id": 10047,
+    "identifier": "heracross-mega",
+    "species_id": 214,
+    "name_zh": "超级heracross-mega",
+    "name_en": "Mega Heracross",
+    "types": [
+      "bug",
+      "fighting"
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 185,
+      "defense": 115,
+      "special-attack": 40,
+      "special-defense": 105,
+      "speed": 75
+    },
+    "total": 600,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10048": {
+    "id": 10048,
+    "identifier": "houndoom-mega",
+    "species_id": 229,
+    "name_zh": "超级houndoom-mega",
+    "name_en": "Mega Houndoom",
+    "types": [
+      "dark",
+      "fire"
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 90,
+      "defense": 90,
+      "special-attack": 140,
+      "special-defense": 90,
+      "speed": 115
+    },
+    "total": 600,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10049": {
+    "id": 10049,
+    "identifier": "tyranitar-mega",
+    "species_id": 248,
+    "name_zh": "超级tyranitar-mega",
+    "name_en": "Mega Tyranitar",
+    "types": [
+      "rock",
+      "dark"
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 164,
+      "defense": 150,
+      "special-attack": 95,
+      "special-defense": 120,
+      "speed": 71
+    },
+    "total": 700,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10050": {
+    "id": 10050,
+    "identifier": "blaziken-mega",
+    "species_id": 257,
+    "name_zh": "超级blaziken-mega",
+    "name_en": "Mega Blaziken",
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 160,
+      "defense": 80,
+      "special-attack": 130,
+      "special-defense": 80,
+      "speed": 100
+    },
+    "total": 630,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10051": {
+    "id": 10051,
+    "identifier": "gardevoir-mega",
+    "species_id": 282,
+    "name_zh": "超级gardevoir-mega",
+    "name_en": "Mega Gardevoir",
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "stats": {
+      "hp": 68,
+      "attack": 85,
+      "defense": 65,
+      "special-attack": 165,
+      "special-defense": 135,
+      "speed": 100
+    },
+    "total": 618,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10052": {
+    "id": 10052,
+    "identifier": "mawile-mega",
+    "species_id": 303,
+    "name_zh": "超级mawile-mega",
+    "name_en": "Mega Mawile",
+    "types": [
+      "steel",
+      "fairy"
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 105,
+      "defense": 125,
+      "special-attack": 55,
+      "special-defense": 95,
+      "speed": 50
+    },
+    "total": 480,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10053": {
+    "id": 10053,
+    "identifier": "aggron-mega",
+    "species_id": 306,
+    "name_zh": "超级aggron-mega",
+    "name_en": "Mega Aggron",
+    "types": [
+      "steel"
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 140,
+      "defense": 230,
+      "special-attack": 60,
+      "special-defense": 80,
+      "speed": 50
+    },
+    "total": 630,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10054": {
+    "id": 10054,
+    "identifier": "medicham-mega",
+    "species_id": 308,
+    "name_zh": "超级medicham-mega",
+    "name_en": "Mega Medicham",
+    "types": [
+      "fighting",
+      "psychic"
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 100,
+      "defense": 85,
+      "special-attack": 80,
+      "special-defense": 85,
+      "speed": 100
+    },
+    "total": 510,
+    "capture_rate": 90,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10055": {
+    "id": 10055,
+    "identifier": "manectric-mega",
+    "species_id": 310,
+    "name_zh": "超级manectric-mega",
+    "name_en": "Mega Manectric",
+    "types": [
+      "electric"
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 75,
+      "defense": 80,
+      "special-attack": 135,
+      "special-defense": 80,
+      "speed": 135
+    },
+    "total": 575,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10056": {
+    "id": 10056,
+    "identifier": "banette-mega",
+    "species_id": 354,
+    "name_zh": "超级banette-mega",
+    "name_en": "Mega Banette",
+    "types": [
+      "ghost"
+    ],
+    "stats": {
+      "hp": 64,
+      "attack": 165,
+      "defense": 75,
+      "special-attack": 93,
+      "special-defense": 83,
+      "speed": 75
+    },
+    "total": 555,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10057": {
+    "id": 10057,
+    "identifier": "absol-mega",
+    "species_id": 359,
+    "name_zh": "超级absol-mega",
+    "name_en": "Mega Absol",
+    "types": [
+      "dark"
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 150,
+      "defense": 60,
+      "special-attack": 115,
+      "special-defense": 60,
+      "speed": 115
+    },
+    "total": 565,
+    "capture_rate": 30,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10058": {
+    "id": 10058,
+    "identifier": "garchomp-mega",
+    "species_id": 445,
+    "name_zh": "超级garchomp-mega",
+    "name_en": "Mega Garchomp",
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "stats": {
+      "hp": 108,
+      "attack": 170,
+      "defense": 115,
+      "special-attack": 120,
+      "special-defense": 95,
+      "speed": 92
+    },
+    "total": 700,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10059": {
+    "id": 10059,
+    "identifier": "lucario-mega",
+    "species_id": 448,
+    "name_zh": "超级lucario-mega",
+    "name_en": "Mega Lucario",
+    "types": [
+      "fighting",
+      "steel"
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 145,
+      "defense": 88,
+      "special-attack": 140,
+      "special-defense": 70,
+      "speed": 112
+    },
+    "total": 625,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10060": {
+    "id": 10060,
+    "identifier": "abomasnow-mega",
+    "species_id": 460,
+    "name_zh": "超级abomasnow-mega",
+    "name_en": "Mega Abomasnow",
+    "types": [
+      "grass",
+      "ice"
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 132,
+      "defense": 105,
+      "special-attack": 132,
+      "special-defense": 105,
+      "speed": 30
+    },
+    "total": 594,
+    "capture_rate": 60,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10062": {
+    "id": 10062,
+    "identifier": "latias-mega",
+    "species_id": 380,
+    "name_zh": "超级latias-mega",
+    "name_en": "Mega Latias",
+    "types": [
+      "dragon",
+      "psychic"
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 100,
+      "defense": 120,
+      "special-attack": 140,
+      "special-defense": 150,
+      "speed": 110
+    },
+    "total": 700,
+    "capture_rate": 3,
+    "is_legendary": true,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10063": {
+    "id": 10063,
+    "identifier": "latios-mega",
+    "species_id": 381,
+    "name_zh": "超级latios-mega",
+    "name_en": "Mega Latios",
+    "types": [
+      "dragon",
+      "psychic"
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 130,
+      "defense": 100,
+      "special-attack": 160,
+      "special-defense": 120,
+      "speed": 110
+    },
+    "total": 700,
+    "capture_rate": 3,
+    "is_legendary": true,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10064": {
+    "id": 10064,
+    "identifier": "swampert-mega",
+    "species_id": 260,
+    "name_zh": "超级swampert-mega",
+    "name_en": "Mega Swampert",
+    "types": [
+      "water",
+      "ground"
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 150,
+      "defense": 110,
+      "special-attack": 95,
+      "special-defense": 110,
+      "speed": 70
+    },
+    "total": 635,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10065": {
+    "id": 10065,
+    "identifier": "sceptile-mega",
+    "species_id": 254,
+    "name_zh": "超级sceptile-mega",
+    "name_en": "Mega Sceptile",
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 110,
+      "defense": 75,
+      "special-attack": 145,
+      "special-defense": 85,
+      "speed": 145
+    },
+    "total": 630,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10066": {
+    "id": 10066,
+    "identifier": "sableye-mega",
+    "species_id": 302,
+    "name_zh": "超级sableye-mega",
+    "name_en": "Mega Sableye",
+    "types": [
+      "dark",
+      "ghost"
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 85,
+      "defense": 125,
+      "special-attack": 85,
+      "special-defense": 115,
+      "speed": 20
+    },
+    "total": 480,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10067": {
+    "id": 10067,
+    "identifier": "altaria-mega",
+    "species_id": 334,
+    "name_zh": "超级altaria-mega",
+    "name_en": "Mega Altaria",
+    "types": [
+      "dragon",
+      "fairy"
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 110,
+      "defense": 110,
+      "special-attack": 110,
+      "special-defense": 105,
+      "speed": 80
+    },
+    "total": 590,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10068": {
+    "id": 10068,
+    "identifier": "gallade-mega",
+    "species_id": 475,
+    "name_zh": "超级gallade-mega",
+    "name_en": "Mega Gallade",
+    "types": [
+      "psychic",
+      "fighting"
+    ],
+    "stats": {
+      "hp": 68,
+      "attack": 165,
+      "defense": 95,
+      "special-attack": 65,
+      "special-defense": 115,
+      "speed": 110
+    },
+    "total": 618,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10069": {
+    "id": 10069,
+    "identifier": "audino-mega",
+    "species_id": 531,
+    "name_zh": "超级audino-mega",
+    "name_en": "Mega Audino",
+    "types": [
+      "normal",
+      "fairy"
+    ],
+    "stats": {
+      "hp": 103,
+      "attack": 60,
+      "defense": 126,
+      "special-attack": 80,
+      "special-defense": 126,
+      "speed": 50
+    },
+    "total": 545,
+    "capture_rate": 255,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10070": {
+    "id": 10070,
+    "identifier": "sharpedo-mega",
+    "species_id": 319,
+    "name_zh": "超级sharpedo-mega",
+    "name_en": "Mega Sharpedo",
+    "types": [
+      "water",
+      "dark"
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 140,
+      "defense": 70,
+      "special-attack": 110,
+      "special-defense": 65,
+      "speed": 105
+    },
+    "total": 560,
+    "capture_rate": 60,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10071": {
+    "id": 10071,
+    "identifier": "slowbro-mega",
+    "species_id": 80,
+    "name_zh": "超级slowbro-mega",
+    "name_en": "Mega Slowbro",
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 75,
+      "defense": 180,
+      "special-attack": 130,
+      "special-defense": 80,
+      "speed": 30
+    },
+    "total": 590,
+    "capture_rate": 75,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10072": {
+    "id": 10072,
+    "identifier": "steelix-mega",
+    "species_id": 208,
+    "name_zh": "超级steelix-mega",
+    "name_en": "Mega Steelix",
+    "types": [
+      "steel",
+      "ground"
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 125,
+      "defense": 230,
+      "special-attack": 55,
+      "special-defense": 95,
+      "speed": 30
+    },
+    "total": 610,
+    "capture_rate": 25,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10073": {
+    "id": 10073,
+    "identifier": "pidgeot-mega",
+    "species_id": 18,
+    "name_zh": "超级pidgeot-mega",
+    "name_en": "Mega Pidgeot",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "stats": {
+      "hp": 83,
+      "attack": 80,
+      "defense": 80,
+      "special-attack": 135,
+      "special-defense": 80,
+      "speed": 121
+    },
+    "total": 579,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10074": {
+    "id": 10074,
+    "identifier": "glalie-mega",
+    "species_id": 362,
+    "name_zh": "超级glalie-mega",
+    "name_en": "Mega Glalie",
+    "types": [
+      "ice"
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 120,
+      "defense": 80,
+      "special-attack": 120,
+      "special-defense": 80,
+      "speed": 100
+    },
+    "total": 580,
+    "capture_rate": 75,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10075": {
+    "id": 10075,
+    "identifier": "diancie-mega",
+    "species_id": 719,
+    "name_zh": "超级diancie-mega",
+    "name_en": "Mega Diancie",
+    "types": [
+      "rock",
+      "fairy"
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 160,
+      "defense": 110,
+      "special-attack": 160,
+      "special-defense": 110,
+      "speed": 110
+    },
+    "total": 700,
+    "capture_rate": 3,
+    "is_legendary": false,
+    "is_mythical": true,
+    "generation": 6
+  },
+  "10076": {
+    "id": 10076,
+    "identifier": "metagross-mega",
+    "species_id": 376,
+    "name_zh": "超级metagross-mega",
+    "name_en": "Mega Metagross",
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 145,
+      "defense": 150,
+      "special-attack": 105,
+      "special-defense": 110,
+      "speed": 110
+    },
+    "total": 700,
+    "capture_rate": 3,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10079": {
+    "id": 10079,
+    "identifier": "rayquaza-mega",
+    "species_id": 384,
+    "name_zh": "超级rayquaza-mega",
+    "name_en": "Mega Rayquaza",
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "stats": {
+      "hp": 105,
+      "attack": 180,
+      "defense": 100,
+      "special-attack": 180,
+      "special-defense": 100,
+      "speed": 115
+    },
+    "total": 780,
+    "capture_rate": 45,
+    "is_legendary": true,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10087": {
+    "id": 10087,
+    "identifier": "camerupt-mega",
+    "species_id": 323,
+    "name_zh": "超级camerupt-mega",
+    "name_en": "Mega Camerupt",
+    "types": [
+      "fire",
+      "ground"
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 120,
+      "defense": 100,
+      "special-attack": 145,
+      "special-defense": 105,
+      "speed": 20
+    },
+    "total": 560,
+    "capture_rate": 150,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10088": {
+    "id": 10088,
+    "identifier": "lopunny-mega",
+    "species_id": 428,
+    "name_zh": "超级lopunny-mega",
+    "name_en": "Mega Lopunny",
+    "types": [
+      "normal",
+      "fighting"
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 136,
+      "defense": 94,
+      "special-attack": 54,
+      "special-defense": 96,
+      "speed": 135
+    },
+    "total": 580,
+    "capture_rate": 60,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10089": {
+    "id": 10089,
+    "identifier": "salamence-mega",
+    "species_id": 373,
+    "name_zh": "超级salamence-mega",
+    "name_en": "Mega Salamence",
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 145,
+      "defense": 130,
+      "special-attack": 120,
+      "special-defense": 90,
+      "speed": 120
+    },
+    "total": 700,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10090": {
+    "id": 10090,
+    "identifier": "beedrill-mega",
+    "species_id": 15,
+    "name_zh": "超级beedrill-mega",
+    "name_en": "Mega Beedrill",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 150,
+      "defense": 40,
+      "special-attack": 15,
+      "special-defense": 80,
+      "speed": 145
+    },
+    "total": 495,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10278": {
+    "id": 10278,
+    "identifier": "clefable-mega",
+    "species_id": 36,
+    "name_zh": "超级clefable-mega",
+    "name_en": "Mega Clefable",
+    "types": [
+      "fairy",
+      "flying"
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 80,
+      "defense": 93,
+      "special-attack": 135,
+      "special-defense": 110,
+      "speed": 70
+    },
+    "total": 583,
+    "capture_rate": 25,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10279": {
+    "id": 10279,
+    "identifier": "victreebel-mega",
+    "species_id": 71,
+    "name_zh": "超级victreebel-mega",
+    "name_en": "Mega Victreebel",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 125,
+      "defense": 85,
+      "special-attack": 135,
+      "special-defense": 95,
+      "speed": 70
+    },
+    "total": 590,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10280": {
+    "id": 10280,
+    "identifier": "starmie-mega",
+    "species_id": 121,
+    "name_zh": "超级starmie-mega",
+    "name_en": "Mega Starmie",
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 100,
+      "defense": 105,
+      "special-attack": 130,
+      "special-defense": 105,
+      "speed": 120
+    },
+    "total": 620,
+    "capture_rate": 60,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10281": {
+    "id": 10281,
+    "identifier": "dragonite-mega",
+    "species_id": 149,
+    "name_zh": "超级dragonite-mega",
+    "name_en": "Mega Dragonite",
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "stats": {
+      "hp": 91,
+      "attack": 124,
+      "defense": 115,
+      "special-attack": 145,
+      "special-defense": 125,
+      "speed": 100
+    },
+    "total": 700,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10282": {
+    "id": 10282,
+    "identifier": "meganium-mega",
+    "species_id": 154,
+    "name_zh": "超级meganium-mega",
+    "name_en": "Mega Meganium",
+    "types": [
+      "grass",
+      "fairy"
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 92,
+      "defense": 115,
+      "special-attack": 143,
+      "special-defense": 115,
+      "speed": 80
+    },
+    "total": 625,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10283": {
+    "id": 10283,
+    "identifier": "feraligatr-mega",
+    "species_id": 160,
+    "name_zh": "超级feraligatr-mega",
+    "name_en": "Mega Feraligatr",
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 160,
+      "defense": 125,
+      "special-attack": 89,
+      "special-defense": 93,
+      "speed": 78
+    },
+    "total": 630,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10284": {
+    "id": 10284,
+    "identifier": "skarmory-mega",
+    "species_id": 227,
+    "name_zh": "超级skarmory-mega",
+    "name_en": "Mega Skarmory",
+    "types": [
+      "steel",
+      "flying"
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 140,
+      "defense": 110,
+      "special-attack": 40,
+      "special-defense": 100,
+      "speed": 110
+    },
+    "total": 565,
+    "capture_rate": 25,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10285": {
+    "id": 10285,
+    "identifier": "froslass-mega",
+    "species_id": 478,
+    "name_zh": "超级froslass-mega",
+    "name_en": "Mega Froslass",
+    "types": [
+      "ice",
+      "ghost"
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 80,
+      "defense": 70,
+      "special-attack": 140,
+      "special-defense": 100,
+      "speed": 120
+    },
+    "total": 580,
+    "capture_rate": 75,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10286": {
+    "id": 10286,
+    "identifier": "emboar-mega",
+    "species_id": 500,
+    "name_zh": "超级emboar-mega",
+    "name_en": "Mega Emboar",
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "stats": {
+      "hp": 110,
+      "attack": 148,
+      "defense": 75,
+      "special-attack": 110,
+      "special-defense": 110,
+      "speed": 75
+    },
+    "total": 628,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10287": {
+    "id": 10287,
+    "identifier": "excadrill-mega",
+    "species_id": 530,
+    "name_zh": "超级excadrill-mega",
+    "name_en": "Mega Excadrill",
+    "types": [
+      "ground",
+      "steel"
+    ],
+    "stats": {
+      "hp": 110,
+      "attack": 165,
+      "defense": 100,
+      "special-attack": 65,
+      "special-defense": 65,
+      "speed": 103
+    },
+    "total": 608,
+    "capture_rate": 60,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10288": {
+    "id": 10288,
+    "identifier": "scolipede-mega",
+    "species_id": 545,
+    "name_zh": "超级scolipede-mega",
+    "name_en": "Mega Scolipede",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 140,
+      "defense": 149,
+      "special-attack": 75,
+      "special-defense": 99,
+      "speed": 62
+    },
+    "total": 585,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10289": {
+    "id": 10289,
+    "identifier": "scrafty-mega",
+    "species_id": 560,
+    "name_zh": "超级scrafty-mega",
+    "name_en": "Mega Scrafty",
+    "types": [
+      "dark",
+      "fighting"
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 130,
+      "defense": 135,
+      "special-attack": 55,
+      "special-defense": 135,
+      "speed": 68
+    },
+    "total": 588,
+    "capture_rate": 90,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10290": {
+    "id": 10290,
+    "identifier": "eelektross-mega",
+    "species_id": 604,
+    "name_zh": "超级eelektross-mega",
+    "name_en": "Mega Eelektross",
+    "types": [
+      "electric"
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 145,
+      "defense": 80,
+      "special-attack": 135,
+      "special-defense": 90,
+      "speed": 80
+    },
+    "total": 615,
+    "capture_rate": 30,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10291": {
+    "id": 10291,
+    "identifier": "chandelure-mega",
+    "species_id": 609,
+    "name_zh": "超级chandelure-mega",
+    "name_en": "Mega Chandelure",
+    "types": [
+      "ghost",
+      "fire"
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 110,
+      "special-attack": 175,
+      "special-defense": 110,
+      "speed": 90
+    },
+    "total": 620,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10292": {
+    "id": 10292,
+    "identifier": "chesnaught-mega",
+    "species_id": 652,
+    "name_zh": "超级chesnaught-mega",
+    "name_en": "Mega Chesnaught",
+    "types": [
+      "grass",
+      "fighting"
+    ],
+    "stats": {
+      "hp": 88,
+      "attack": 137,
+      "defense": 172,
+      "special-attack": 74,
+      "special-defense": 115,
+      "speed": 44
+    },
+    "total": 630,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10293": {
+    "id": 10293,
+    "identifier": "delphox-mega",
+    "species_id": 655,
+    "name_zh": "超级delphox-mega",
+    "name_en": "Mega Delphox",
+    "types": [
+      "fire",
+      "psychic"
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 69,
+      "defense": 72,
+      "special-attack": 159,
+      "special-defense": 125,
+      "speed": 134
+    },
+    "total": 634,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10294": {
+    "id": 10294,
+    "identifier": "greninja-mega",
+    "species_id": 658,
+    "name_zh": "超级greninja-mega",
+    "name_en": "Mega Greninja",
+    "types": [
+      "water",
+      "dark"
+    ],
+    "stats": {
+      "hp": 72,
+      "attack": 125,
+      "defense": 77,
+      "special-attack": 133,
+      "special-defense": 81,
+      "speed": 142
+    },
+    "total": 630,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10295": {
+    "id": 10295,
+    "identifier": "pyroar-mega",
+    "species_id": 668,
+    "name_zh": "超级pyroar-mega",
+    "name_en": "Mega Pyroar",
+    "types": [
+      "fire",
+      "normal"
+    ],
+    "stats": {
+      "hp": 86,
+      "attack": 88,
+      "defense": 92,
+      "special-attack": 129,
+      "special-defense": 86,
+      "speed": 126
+    },
+    "total": 607,
+    "capture_rate": 65,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10296": {
+    "id": 10296,
+    "identifier": "floette-mega",
+    "species_id": 670,
+    "name_zh": "超级floette-mega",
+    "name_en": "Mega Floette",
+    "types": [
+      "fairy"
+    ],
+    "stats": {
+      "hp": 74,
+      "attack": 85,
+      "defense": 87,
+      "special-attack": 155,
+      "special-defense": 148,
+      "speed": 102
+    },
+    "total": 651,
+    "capture_rate": 120,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10297": {
+    "id": 10297,
+    "identifier": "malamar-mega",
+    "species_id": 687,
+    "name_zh": "超级malamar-mega",
+    "name_en": "Mega Malamar",
+    "types": [
+      "dark",
+      "psychic"
+    ],
+    "stats": {
+      "hp": 86,
+      "attack": 102,
+      "defense": 88,
+      "special-attack": 98,
+      "special-defense": 120,
+      "speed": 88
+    },
+    "total": 582,
+    "capture_rate": 80,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10298": {
+    "id": 10298,
+    "identifier": "barbaracle-mega",
+    "species_id": 689,
+    "name_zh": "超级barbaracle-mega",
+    "name_en": "Mega Barbaracle",
+    "types": [
+      "rock",
+      "fighting"
+    ],
+    "stats": {
+      "hp": 72,
+      "attack": 140,
+      "defense": 130,
+      "special-attack": 64,
+      "special-defense": 106,
+      "speed": 88
+    },
+    "total": 600,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10299": {
+    "id": 10299,
+    "identifier": "dragalge-mega",
+    "species_id": 691,
+    "name_zh": "超级dragalge-mega",
+    "name_en": "Mega Dragalge",
+    "types": [
+      "poison",
+      "dragon"
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 85,
+      "defense": 105,
+      "special-attack": 132,
+      "special-defense": 163,
+      "speed": 44
+    },
+    "total": 594,
+    "capture_rate": 55,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10300": {
+    "id": 10300,
+    "identifier": "hawlucha-mega",
+    "species_id": 701,
+    "name_zh": "超级hawlucha-mega",
+    "name_en": "Mega Hawlucha",
+    "types": [
+      "fighting",
+      "flying"
+    ],
+    "stats": {
+      "hp": 78,
+      "attack": 137,
+      "defense": 100,
+      "special-attack": 74,
+      "special-defense": 93,
+      "speed": 118
+    },
+    "total": 600,
+    "capture_rate": 100,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10301": {
+    "id": 10301,
+    "identifier": "zygarde-mega",
+    "species_id": 718,
+    "name_zh": "超级zygarde-mega",
+    "name_en": "Mega Zygarde",
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "stats": {
+      "hp": 216,
+      "attack": 70,
+      "defense": 91,
+      "special-attack": 216,
+      "special-defense": 85,
+      "speed": 100
+    },
+    "total": 778,
+    "capture_rate": 3,
+    "is_legendary": true,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10302": {
+    "id": 10302,
+    "identifier": "drampa-mega",
+    "species_id": 780,
+    "name_zh": "超级drampa-mega",
+    "name_en": "Mega Drampa",
+    "types": [
+      "normal",
+      "dragon"
+    ],
+    "stats": {
+      "hp": 78,
+      "attack": 85,
+      "defense": 110,
+      "special-attack": 160,
+      "special-defense": 116,
+      "speed": 36
+    },
+    "total": 585,
+    "capture_rate": 70,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10303": {
+    "id": 10303,
+    "identifier": "falinks-mega",
+    "species_id": 870,
+    "name_zh": "超级falinks-mega",
+    "name_en": "Mega Falinks",
+    "types": [
+      "fighting"
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 135,
+      "defense": 135,
+      "special-attack": 70,
+      "special-defense": 65,
+      "speed": 100
+    },
+    "total": 570,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10304": {
+    "id": 10304,
+    "identifier": "raichu-mega-x",
+    "species_id": 26,
+    "name_zh": "超级raichu-mega-xX",
+    "name_en": "Mega Raichu X",
+    "types": [
+      "electric"
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 135,
+      "defense": 95,
+      "special-attack": 90,
+      "special-defense": 95,
+      "speed": 110
+    },
+    "total": 585,
+    "capture_rate": 75,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10305": {
+    "id": 10305,
+    "identifier": "raichu-mega-y",
+    "species_id": 26,
+    "name_zh": "超级raichu-mega-yY",
+    "name_en": "Mega Raichu Y",
+    "types": [
+      "electric"
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 100,
+      "defense": 55,
+      "special-attack": 160,
+      "special-defense": 80,
+      "speed": 130
+    },
+    "total": 585,
+    "capture_rate": 75,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10306": {
+    "id": 10306,
+    "identifier": "chimecho-mega",
+    "species_id": 358,
+    "name_zh": "超级chimecho-mega",
+    "name_en": "Mega Chimecho",
+    "types": [
+      "psychic",
+      "steel"
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 50,
+      "defense": 110,
+      "special-attack": 135,
+      "special-defense": 120,
+      "speed": 65
+    },
+    "total": 555,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10307": {
+    "id": 10307,
+    "identifier": "absol-mega-z",
+    "species_id": 359,
+    "name_zh": "超级absol-mega-z",
+    "name_en": "Mega Absol Z",
+    "types": [
+      "dark",
+      "ghost"
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 154,
+      "defense": 60,
+      "special-attack": 75,
+      "special-defense": 60,
+      "speed": 151
+    },
+    "total": 565,
+    "capture_rate": 30,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10308": {
+    "id": 10308,
+    "identifier": "staraptor-mega",
+    "species_id": 398,
+    "name_zh": "超级staraptor-mega",
+    "name_en": "Mega Staraptor",
+    "types": [
+      "fighting",
+      "flying"
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 140,
+      "defense": 100,
+      "special-attack": 60,
+      "special-defense": 90,
+      "speed": 110
+    },
+    "total": 585,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10309": {
+    "id": 10309,
+    "identifier": "garchomp-mega-z",
+    "species_id": 445,
+    "name_zh": "超级garchomp-mega-z",
+    "name_en": "Mega Garchomp Z",
+    "types": [
+      "dragon"
+    ],
+    "stats": {
+      "hp": 108,
+      "attack": 130,
+      "defense": 85,
+      "special-attack": 141,
+      "special-defense": 85,
+      "speed": 151
+    },
+    "total": 700,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10310": {
+    "id": 10310,
+    "identifier": "lucario-mega-z",
+    "species_id": 448,
+    "name_zh": "超级lucario-mega-z",
+    "name_en": "Mega Lucario Z",
+    "types": [
+      "fighting",
+      "steel"
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 100,
+      "defense": 70,
+      "special-attack": 164,
+      "special-defense": 70,
+      "speed": 151
+    },
+    "total": 625,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10311": {
+    "id": 10311,
+    "identifier": "heatran-mega",
+    "species_id": 485,
+    "name_zh": "超级heatran-mega",
+    "name_en": "Mega Heatran",
+    "types": [
+      "fire",
+      "steel"
+    ],
+    "stats": {
+      "hp": 91,
+      "attack": 120,
+      "defense": 106,
+      "special-attack": 175,
+      "special-defense": 141,
+      "speed": 67
+    },
+    "total": 700,
+    "capture_rate": 3,
+    "is_legendary": true,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10312": {
+    "id": 10312,
+    "identifier": "darkrai-mega",
+    "species_id": 491,
+    "name_zh": "超级darkrai-mega",
+    "name_en": "Mega Darkrai",
+    "types": [
+      "dark"
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 120,
+      "defense": 130,
+      "special-attack": 165,
+      "special-defense": 130,
+      "speed": 85
+    },
+    "total": 700,
+    "capture_rate": 3,
+    "is_legendary": false,
+    "is_mythical": true,
+    "generation": 6
+  },
+  "10313": {
+    "id": 10313,
+    "identifier": "golurk-mega",
+    "species_id": 623,
+    "name_zh": "超级golurk-mega",
+    "name_en": "Mega Golurk",
+    "types": [
+      "ground",
+      "ghost"
+    ],
+    "stats": {
+      "hp": 89,
+      "attack": 159,
+      "defense": 105,
+      "special-attack": 70,
+      "special-defense": 105,
+      "speed": 55
+    },
+    "total": 583,
+    "capture_rate": 90,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10314": {
+    "id": 10314,
+    "identifier": "meowstic-male-mega",
+    "species_id": 678,
+    "name_zh": "超级meowstic-male-mega",
+    "name_en": "Mega Meowstic",
+    "types": [
+      "psychic"
+    ],
+    "stats": {
+      "hp": 74,
+      "attack": 48,
+      "defense": 76,
+      "special-attack": 143,
+      "special-defense": 101,
+      "speed": 124
+    },
+    "total": 566,
+    "capture_rate": 75,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10315": {
+    "id": 10315,
+    "identifier": "crabominable-mega",
+    "species_id": 740,
+    "name_zh": "超级crabominable-mega",
+    "name_en": "Mega Crabominable",
+    "types": [
+      "fighting",
+      "ice"
+    ],
+    "stats": {
+      "hp": 97,
+      "attack": 157,
+      "defense": 122,
+      "special-attack": 62,
+      "special-defense": 107,
+      "speed": 33
+    },
+    "total": 578,
+    "capture_rate": 60,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10316": {
+    "id": 10316,
+    "identifier": "golisopod-mega",
+    "species_id": 768,
+    "name_zh": "超级golisopod-mega",
+    "name_en": "Mega Golisopod",
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 150,
+      "defense": 175,
+      "special-attack": 70,
+      "special-defense": 120,
+      "speed": 40
+    },
+    "total": 630,
+    "capture_rate": 45,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10317": {
+    "id": 10317,
+    "identifier": "magearna-mega",
+    "species_id": 801,
+    "name_zh": "超级magearna-mega",
+    "name_en": "Mega Magearna",
+    "types": [
+      "steel",
+      "fairy"
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 125,
+      "defense": 115,
+      "special-attack": 170,
+      "special-defense": 115,
+      "speed": 95
+    },
+    "total": 700,
+    "capture_rate": 3,
+    "is_legendary": false,
+    "is_mythical": true,
+    "generation": 6
+  },
+  "10318": {
+    "id": 10318,
+    "identifier": "magearna-original-mega",
+    "species_id": 801,
+    "name_zh": "超级magearna-original-mega",
+    "name_en": "Mega Original Magearna",
+    "types": [
+      "steel",
+      "fairy"
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 125,
+      "defense": 115,
+      "special-attack": 170,
+      "special-defense": 115,
+      "speed": 95
+    },
+    "total": 700,
+    "capture_rate": 3,
+    "is_legendary": false,
+    "is_mythical": true,
+    "generation": 6
+  },
+  "10319": {
+    "id": 10319,
+    "identifier": "zeraora-mega",
+    "species_id": 807,
+    "name_zh": "超级zeraora-mega",
+    "name_en": "Mega Zeraora",
+    "types": [
+      "electric"
+    ],
+    "stats": {
+      "hp": 88,
+      "attack": 157,
+      "defense": 75,
+      "special-attack": 147,
+      "special-defense": 80,
+      "speed": 153
+    },
+    "total": 700,
+    "capture_rate": 3,
+    "is_legendary": false,
+    "is_mythical": true,
+    "generation": 6
+  },
+  "10320": {
+    "id": 10320,
+    "identifier": "scovillain-mega",
+    "species_id": 952,
+    "name_zh": "超级scovillain-mega",
+    "name_en": "Mega Scovillain",
+    "types": [
+      "grass",
+      "fire"
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 138,
+      "defense": 85,
+      "special-attack": 138,
+      "special-defense": 85,
+      "speed": 75
+    },
+    "total": 586,
+    "capture_rate": 75,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10321": {
+    "id": 10321,
+    "identifier": "glimmora-mega",
+    "species_id": 970,
+    "name_zh": "超级glimmora-mega",
+    "name_en": "Mega Glimmora",
+    "types": [
+      "rock",
+      "poison"
+    ],
+    "stats": {
+      "hp": 83,
+      "attack": 90,
+      "defense": 105,
+      "special-attack": 150,
+      "special-defense": 96,
+      "speed": 101
+    },
+    "total": 625,
+    "capture_rate": 25,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10322": {
+    "id": 10322,
+    "identifier": "tatsugiri-curly-mega",
+    "species_id": 978,
+    "name_zh": "超级tatsugiri-curly-mega",
+    "name_en": "Mega Curly Tatsugiri",
+    "types": [
+      "dragon",
+      "water"
+    ],
+    "stats": {
+      "hp": 68,
+      "attack": 65,
+      "defense": 90,
+      "special-attack": 135,
+      "special-defense": 125,
+      "speed": 92
+    },
+    "total": 575,
+    "capture_rate": 100,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10323": {
+    "id": 10323,
+    "identifier": "tatsugiri-droopy-mega",
+    "species_id": 978,
+    "name_zh": "超级tatsugiri-droopy-mega",
+    "name_en": "Mega Droopy Tatsugiri",
+    "types": [
+      "dragon",
+      "water"
+    ],
+    "stats": {
+      "hp": 68,
+      "attack": 65,
+      "defense": 90,
+      "special-attack": 135,
+      "special-defense": 125,
+      "speed": 92
+    },
+    "total": 575,
+    "capture_rate": 100,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10324": {
+    "id": 10324,
+    "identifier": "tatsugiri-stretchy-mega",
+    "species_id": 978,
+    "name_zh": "超级tatsugiri-stretchy-mega",
+    "name_en": "Mega Stretchy Tatsugiri",
+    "types": [
+      "dragon",
+      "water"
+    ],
+    "stats": {
+      "hp": 68,
+      "attack": 65,
+      "defense": 90,
+      "special-attack": 135,
+      "special-defense": 125,
+      "speed": 92
+    },
+    "total": 575,
+    "capture_rate": 100,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10325": {
+    "id": 10325,
+    "identifier": "baxcalibur-mega",
+    "species_id": 998,
+    "name_zh": "超级baxcalibur-mega",
+    "name_en": "Mega Baxcalibur",
+    "types": [
+      "dragon",
+      "ice"
+    ],
+    "stats": {
+      "hp": 115,
+      "attack": 175,
+      "defense": 117,
+      "special-attack": 105,
+      "special-defense": 101,
+      "speed": 87
+    },
+    "total": 700,
+    "capture_rate": 10,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  },
+  "10326": {
+    "id": 10326,
+    "identifier": "meowstic-female-mega",
+    "species_id": 678,
+    "name_zh": "超级meowstic-female-mega",
+    "name_en": "Mega Meowstic",
+    "types": [
+      "psychic"
+    ],
+    "stats": {
+      "hp": 74,
+      "attack": 48,
+      "defense": 76,
+      "special-attack": 143,
+      "special-defense": 101,
+      "speed": 124
+    },
+    "total": 566,
+    "capture_rate": 75,
+    "is_legendary": false,
+    "is_mythical": false,
+    "generation": 6
+  }
+}

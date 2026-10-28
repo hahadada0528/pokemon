@@ -1,0 +1,179 @@
+{
+  "trainers": [
+    {
+      "slug": "hero-red",
+      "name_zh": "赤红",
+      "office": "关都主角",
+      "region": "关都",
+      "role": "finale",
+      "image": "images/trainers/hero-red.png",
+      "pokemon": [
+        { "id": 10043, "name_zh": "超级超梦X", "shiny": true },
+        { "id": 144, "name_zh": "急冻鸟" },
+        { "id": 145, "name_zh": "闪电鸟" },
+        { "id": 146, "name_zh": "火焰鸟" },
+        { "id": 809, "name_zh": "美录梅塔" },
+        { "id": 151, "name_zh": "梦幻", "shiny": true }
+      ]
+    },
+    {
+      "slug": "hero-gold",
+      "name_zh": "阿金",
+      "office": "城都主角",
+      "region": "城都",
+      "role": "finale",
+      "image": "images/trainers/hero-gold.png",
+      "pokemon": [
+        { "id": 10044, "name_zh": "超级超梦Y", "shiny": true },
+        { "id": 243, "name_zh": "雷公" },
+        { "id": 244, "name_zh": "炎帝" },
+        { "id": 245, "name_zh": "水君" },
+        { "id": 249, "name_zh": "洛奇亚" },
+        { "id": 250, "name_zh": "凤王", "shiny": true }
+      ]
+    },
+    {
+      "slug": "hero-brendan",
+      "name_zh": "小悠",
+      "office": "丰缘主角",
+      "region": "丰缘",
+      "role": "finale",
+      "image": "images/trainers/hero-brendan.png",
+      "pokemon": [
+        { "id": 10079, "name_zh": "超级烈空坐", "shiny": true },
+        { "id": 382, "name_zh": "盖欧卡" },
+        { "id": 383, "name_zh": "固拉多" },
+        { "id": 381, "name_zh": "拉帝欧斯" },
+        { "id": 380, "name_zh": "拉帝亚斯" },
+        { "id": 385, "name_zh": "基拉祈", "shiny": true }
+      ]
+    },
+    {
+      "slug": "hero-lucas",
+      "name_zh": "明辉",
+      "office": "神奥主角",
+      "region": "神奥",
+      "role": "finale",
+      "image": "images/trainers/hero-lucas.png",
+      "pokemon": [
+        { "id": 10312, "name_zh": "超级达克莱伊", "shiny": true },
+        { "id": 483, "name_zh": "帝牙卢卡" },
+        { "id": 484, "name_zh": "帕路奇亚" },
+        { "id": 487, "name_zh": "骑拉帝纳" },
+        { "id": 485, "name_zh": "席多蓝恩", "shiny": true },
+        { "id": 493, "name_zh": "阿尔宙斯" }
+      ]
+    },
+    {
+      "slug": "hero-hilbert",
+      "name_zh": "斗也",
+      "office": "合众主角",
+      "region": "合众",
+      "role": "finale",
+      "image": "images/trainers/hero-hilbert.png",
+      "pokemon": [
+        { "id": 10023, "name_zh": "焰白酋雷姆", "shiny": true },
+        { "id": 643, "name_zh": "莱希拉姆" },
+        { "id": 644, "name_zh": "捷克罗姆" },
+        { "id": 645, "name_zh": "土地云" },
+        { "id": 647, "name_zh": "凯路迪欧" },
+        { "id": 494, "name_zh": "比克提尼", "shiny": true }
+      ]
+    },
+    {
+      "slug": "hero-calem",
+      "name_zh": "卡鲁穆",
+      "office": "卡洛斯主角",
+      "region": "卡洛斯",
+      "role": "finale",
+      "image": "images/trainers/hero-calem.png",
+      "pokemon": [
+        { "id": 10301, "name_zh": "超级基格尔德", "shiny": true },
+        { "id": 716, "name_zh": "哲尔尼亚斯" },
+        { "id": 717, "name_zh": "伊裴尔塔尔" },
+        { "id": 720, "name_zh": "胡帕" },
+        { "id": 721, "name_zh": "波尔凯尼恩" },
+        { "id": 719, "name_zh": "蒂安希", "shiny": true }
+      ]
+    },
+    {
+      "slug": "hero-elio",
+      "name_zh": "小阳",
+      "office": "阿罗拉主角",
+      "region": "阿罗拉",
+      "role": "finale",
+      "image": "images/trainers/hero-elio.png",
+      "pokemon": [
+        { "id": 10157, "name_zh": "究极奈克洛兹玛", "shiny": true },
+        { "id": 791, "name_zh": "索尔迦雷欧" },
+        { "id": 792, "name_zh": "露奈雅拉" },
+        { "id": 802, "name_zh": "玛夏多" },
+        { "id": 807, "name_zh": "捷拉奥拉" },
+        { "id": 801, "name_zh": "玛机雅娜", "shiny": true }
+      ]
+    },
+    {
+      "slug": "hero-victor",
+      "name_zh": "小优",
+      "office": "伽勒尔主角",
+      "region": "伽勒尔",
+      "role": "finale",
+      "image": "images/trainers/hero-victor.png",
+      "pokemon": [
+        { "id": 10188, "name_zh": "苍响（剑之王）", "shiny": true },
+        { "id": 892, "name_zh": "武道熊师（一击流）" },
+        { "id": 10189, "name_zh": "藏玛然特（盾之王）", "shiny": true },
+        { "id": 890, "name_zh": "无极汰那" },
+        { "id": 10193, "name_zh": "白马蕾冠王" },
+        { "id": 893, "name_zh": "萨戮德" }
+      ]
+    },
+    {
+      "slug": "hero-akari",
+      "name_zh": "小照",
+      "office": "洗翠主角",
+      "region": "洗翠",
+      "role": "finale",
+      "image": "images/trainers/hero-akari.png",
+      "pokemon": [
+        { "id": 10311, "name_zh": "超级席多蓝恩", "shiny": true },
+        { "id": 10245, "name_zh": "帝牙卢卡（起源）" },
+        { "id": 10246, "name_zh": "帕路奇亚（起源）" },
+        { "id": 10007, "name_zh": "骑拉帝纳（起源）" },
+        { "id": 493, "name_zh": "阿尔宙斯" },
+        { "id": 905, "name_zh": "眷恋云", "shiny": true }
+      ]
+    },
+    {
+      "slug": "hero-florian",
+      "name_zh": "丹瑜",
+      "office": "帕底亚主角",
+      "region": "帕底亚",
+      "role": "finale",
+      "image": "images/trainers/hero-florian.png",
+      "pokemon": [
+        { "id": 10277, "name_zh": "太乐巴戈斯（星晶形态）", "shiny": true },
+        { "id": 1007, "name_zh": "故勒顿" },
+        { "id": 1008, "name_zh": "密勒顿" },
+        { "id": 1017, "name_zh": "厄诡椪" },
+        { "id": 1014, "name_zh": "够赞狗" },
+        { "id": 1025, "name_zh": "桃歹郎", "shiny": true }
+      ]
+    }
+  ],
+  "ash": {
+    "slug": "hero-ash",
+    "name_zh": "小智",
+    "office": "隐藏挑战",
+    "role": "finale",
+    "image": "images/trainers/hero-ash.png",
+    "pokemon": [
+      { "id": 493, "name_zh": "阿尔宙斯", "shiny": true },
+      { "id": 10079, "name_zh": "超级烈空坐", "shiny": true },
+      { "id": 10157, "name_zh": "究极奈克洛兹玛", "shiny": true },
+      { "id": 10190, "name_zh": "无极汰那（无极巨化）", "shiny": true },
+      { "id": 10277, "name_zh": "太乐巴戈斯（星晶形态）", "shiny": true },
+      { "id": 10120, "name_zh": "基格尔德（100%）", "shiny": true }
+    ]
+  }
+}
