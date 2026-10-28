@@ -199,7 +199,10 @@
   let omitBaseOnce = false;
   /** Import replaces the whole save. Ordinary writes must not drop a win or a higher frame. */
   let replaceProgressOnce = false;
-  let leagueRewrite = false;
+  /** One progress write at a time. Overlapping saves were answering 409 by
+   *  reloading the whole grid and rolling the key-press ball grant back. */
+  let progressDirty = false;
+  let progressWait = null;
   /** @type {ProgressStore} */
   let store = loadStore();
   let localUpdatedAt = Number(store.updatedAt) || 0;
@@ -251,10 +254,7 @@
     }
   }
 
-  function restoreParsed(parsed) {
-    applyProgressPayload(parsed, { takeCursor: true, baselinePresses: false });
-    const rev = Number(parsed?.updatedAt) || 0;
-    if (rev > 0) diskRev = rev;
+  function writeLocalSnapshot() {
     const text = JSON.stringify(snapshotLocal(true));
     try {
       localStorage.setItem(STORAGE_KEY, text);
@@ -262,10 +262,19 @@
     } catch {
       // ignore quota
     }
-    if (pokemon.length) {
-      renderGrid();
-      updateStats();
-    }
+  }
+
+  function restoreParsed(parsed) {
+    const beforeDex = `${JSON.stringify(store.normal)}|${JSON.stringify(store.shiny)}`;
+    applyProgressPayload(parsed, { takeCursor: true, baselinePresses: false });
+    const rev = Number(parsed?.updatedAt) || 0;
+    if (rev > 0) diskRev = rev;
+    writeLocalSnapshot();
+    if (!pokemon.length) return;
+    const afterDex = `${JSON.stringify(store.normal)}|${JSON.stringify(store.shiny)}`;
+    if (beforeDex !== afterDex) renderGrid();
+    else updateStats();
+    refreshPetals();
   }
 
   function snapshotLocal(includeCursor) {
@@ -334,21 +343,46 @@
   }
 
   /** Authoritative save lives in launcher file (LOCALAPPDATA / Application Support), not Edge origin.
-   *  A blank Edge profile (new port) must not overwrite a non-empty progress.json. */
-  async function pushProgressFile() {
+   *  A blank Edge profile (new port) must not overwrite a non-empty progress.json.
+   *  Writes are queued so a slower save cannot 409 the ball grant and rebuild the grid. */
+  function pushProgressFile() {
+    progressDirty = true;
+    if (!progressWait) {
+      progressWait = drainProgressWrites().finally(() => {
+        progressWait = null;
+        if (progressDirty) pushProgressFile();
+      });
+    }
+    return progressWait;
+  }
+
+  async function drainProgressWrites() {
+    let last = false;
+    let conflicts = 0;
+    while (progressDirty && conflicts < 4) {
+      progressDirty = false;
+      const result = await writeProgressOnce();
+      last = result === "ok";
+      if (result === "conflict") conflicts += 1;
+      else conflicts = 0;
+    }
+    return last;
+  }
+
+  async function writeProgressOnce() {
     try {
       if (isStoreEmpty(store)) {
         const disk = await readProgressFile();
         if (disk.status === "full" && disk.parsed) {
           restoreParsed(disk.parsed);
-          return true;
+          return "ok";
         }
-        if (disk.status === "error") return false;
+        if (disk.status === "error") return "fail";
         const bak = readLocalBackup();
         if (bak) {
           restoreParsed(bak);
         } else if (disk.status !== "missing") {
-          return false;
+          return "fail";
         }
       }
       const body = snapshotLocal(true);
@@ -370,27 +404,30 @@
       if (res.status === 409) {
         const disk = await readProgressFile();
         if (disk.status === "full" && disk.parsed) {
+          const localCursor = Math.max(0, Math.floor(Number(store.ballCursor) || 0));
+          const localBalls = Math.max(0, Math.floor(Number(store.balls) || 0));
           restoreParsed(disk.parsed);
+          const diskCursor = Math.max(0, Math.floor(Number(store.ballCursor) || 0));
+          if (localCursor > diskCursor) {
+            const gained = localCursor - diskCursor;
+            store.balls = Math.max(0, Math.min(localBalls, (Number(store.balls) || 0) + gained));
+            store.ballCursor = localCursor;
+            writeLocalSnapshot();
+            updateStats();
+            progressDirty = true;
+          }
+          if (view === "finale" || view === "league") renderBattleView();
           const diskLeague = JSON.stringify(normalizeLeague(disk.parsed.league));
           const kept = JSON.stringify(normalizeLeague(store.league));
-          refreshPetals();
-          if (view === "finale" || view === "league") renderBattleView();
-          if (kept !== diskLeague && !leagueRewrite) {
-            leagueRewrite = true;
-            try {
-              await pushProgressFile();
-            } finally {
-              leagueRewrite = false;
-            }
-          }
+          if (kept !== diskLeague) progressDirty = true;
         }
-        return false;
+        return "conflict";
       }
       if (res.ok || res.status === 204) diskRev = body.updatedAt;
       if ((res.ok || res.status === 204) && !isStoreEmpty(store)) rememberLocalBackup();
-      return res.ok || res.status === 204;
+      return res.ok || res.status === 204 ? "ok" : "fail";
     } catch {
-      return false;
+      return "fail";
     }
   }
 
@@ -2653,13 +2690,11 @@
     const colors = ["#ffd6e2", "#f7a8be", "#fff7f4", "#f28aa4", "#ffe4b8"];
     for (let i = 0; i < 56; i += 1) {
       const petal = document.createElement("span");
-      petal.className = "petal";
+      petal.className = `petal petal-v${i % 10}`;
       const size = 10 + (i % 5) * 3;
       petal.style.left = `${(i * 17) % 100}%`;
       petal.style.animationDelay = `${-((i * 0.73) % 16)}s`;
       petal.style.animationDuration = `${9 + (i % 8)}s`;
-      petal.style.setProperty("--drift", `${(i % 2 === 0 ? -1 : 1) * (24 + (i % 5) * 14)}px`);
-      petal.style.setProperty("--spin", `${i % 2 === 0 ? 280 : -320}deg`);
       petal.style.width = `${size}px`;
       petal.style.height = `${Math.round(size * 1.35)}px`;
       petal.style.background = colors[i % colors.length];
@@ -4199,7 +4234,6 @@
       const converted = convertFinalStock();
       saveStore();
       runAutoEvolve();
-      syncFinaleFrames();
       refreshFinaleNav();
       renderGrid();
       refreshPetals();
