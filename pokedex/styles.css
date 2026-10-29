@@ -103,12 +103,11 @@ body {
 .top {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0.9rem 1.25rem 0.35rem;
+  padding: 0.85rem 1.25rem 0.15rem;
   display: flex;
-  flex-wrap: wrap;
-  gap: 1rem 1.5rem;
-  justify-content: space-between;
-  align-items: flex-end;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.35rem;
   background: var(--paper);
 }
 
@@ -137,15 +136,33 @@ body {
   font-size: 0.92rem;
 }
 
+.nav-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.75rem 1rem;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
 .stats {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.35rem 1.15rem;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.45rem 1.65rem;
+  margin-left: auto;
+  padding: 0;
   background: transparent;
   border: 0;
+  font-family: "Songti SC", "STSong", "SimSun", "Noto Serif SC", serif;
 }
 
 .stat {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.12rem;
   min-width: 0;
   padding: 0;
   background: transparent;
@@ -156,20 +173,24 @@ body {
 
 .stat-label {
   display: block;
-  font-size: 0.72rem;
-  color: var(--muted);
+  font-family: inherit;
+  font-size: 0.86rem;
+  font-weight: 600;
+  line-height: 1.15;
+  color: #c5d4cb;
   letter-spacing: 0;
   white-space: nowrap;
 }
 
 .stat-value {
   display: block;
-  margin-top: 0.05rem;
-  font-family: var(--font-body);
-  font-size: 1.05rem;
+  margin: 0;
+  font-family: inherit;
+  font-size: 1.42rem;
   font-weight: 700;
+  line-height: 1.05;
   font-variant-numeric: tabular-nums;
-  color: var(--ink);
+  color: #fff;
 }
 
 .stat-power-total {
@@ -183,14 +204,15 @@ body {
 }
 
 .stat-power-total .stat-value {
-  font-size: 1.35rem;
+  font-size: 1.42rem;
+  font-weight: 700;
 }
 
 .stat-tip {
   position: absolute;
-  left: 50%;
-  top: calc(100% + 0.4rem);
-  transform: translateX(-50%) translateY(0.15rem);
+  left: 0;
+  top: calc(100% + 0.35rem);
+  transform: translateY(0.15rem);
   z-index: 40;
   min-width: max-content;
   padding: 0.45rem 0.7rem;
@@ -211,9 +233,8 @@ body {
 .stat-tip::before {
   content: "";
   position: absolute;
-  left: 50%;
+  left: 0.85rem;
   bottom: 100%;
-  transform: translateX(-50%);
   border: 6px solid transparent;
   border-bottom-color: #152019;
 }
@@ -224,17 +245,16 @@ body {
 .stat-seen:focus-within .stat-tip {
   opacity: 1;
   visibility: visible;
-  transform: translateX(-50%) translateY(0);
+  transform: translateY(0);
 }
 
 .controls {
   margin: 0;
   padding: 0;
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.85rem;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.55rem;
 }
 
 .tabs {
@@ -277,15 +297,16 @@ body.is-shiny .tab.is-active {
 .filters {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.55rem;
-  flex: 1;
-  justify-content: flex-end;
+  align-items: center;
+  gap: 0.4rem;
+  width: 100%;
+  justify-content: flex-start;
 }
 
 .search-wrap {
-  flex: 1;
-  min-width: 180px;
-  max-width: 320px;
+  flex: 1 1 14rem;
+  min-width: 11rem;
+  max-width: 18rem;
 }
 
 #search,
@@ -310,7 +331,7 @@ body.is-shiny .tab.is-active {
 #legend-filter,
 #sort-filter {
   width: auto;
-  min-width: 8rem;
+  max-width: 100%;
 }
 
 .sticky-chrome #search,
@@ -318,6 +339,11 @@ body.is-shiny .tab.is-active {
 .sticky-chrome #gen-filter,
 .sticky-chrome #legend-filter,
 .sticky-chrome #sort-filter {
+  height: 2rem;
+  padding: 0.2rem 0.55rem;
+  font-family: var(--font-body);
+  font-size: 0.86rem;
+  line-height: 1.25;
   color: #e7efe9;
   background: #163028;
   border-color: #2a4a3c;
@@ -1949,10 +1975,11 @@ dialog.help-dialog {
   }
 
   .filters {
-    justify-content: stretch;
+    justify-content: flex-start;
   }
 
   .search-wrap {
+    flex-basis: 100%;
     max-width: none;
   }
 }

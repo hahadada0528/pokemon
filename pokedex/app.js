@@ -199,6 +199,9 @@
   let omitBaseOnce = false;
   /** Import replaces the whole save. Ordinary writes must not drop a win or a higher frame. */
   let replaceProgressOnce = false;
+  /** Bumped on import so an older in-flight save cannot merge the previous league back. */
+  let progressGen = 0;
+  let replaceAttempts = 0;
   /** One progress write at a time. Overlapping saves were answering 409 by
    *  reloading the whole grid and rolling the key-press ball grant back. */
   let progressDirty = false;
@@ -264,9 +267,9 @@
     }
   }
 
-  function restoreParsed(parsed) {
+  function restoreParsed(parsed, { replaceLeague = false } = {}) {
     const beforeDex = `${JSON.stringify(store.normal)}|${JSON.stringify(store.shiny)}`;
-    applyProgressPayload(parsed, { takeCursor: true, baselinePresses: false });
+    applyProgressPayload(parsed, { takeCursor: true, baselinePresses: false, replaceLeague });
     const rev = Number(parsed?.updatedAt) || 0;
     if (rev > 0) diskRev = rev;
     writeLocalSnapshot();
@@ -370,9 +373,12 @@
   }
 
   async function writeProgressOnce() {
+    const gen = progressGen;
+    const replacing = replaceProgressOnce;
     try {
-      if (isStoreEmpty(store)) {
+      if (!replacing && isStoreEmpty(store)) {
         const disk = await readProgressFile();
+        if (progressGen !== gen) return "ok";
         if (disk.status === "full" && disk.parsed) {
           restoreParsed(disk.parsed);
           return "ok";
@@ -385,24 +391,29 @@
           return "fail";
         }
       }
+      if (progressGen !== gen) return "ok";
       const body = snapshotLocal(true);
       body.updatedAt = Date.now();
       localUpdatedAt = body.updatedAt;
       store.updatedAt = body.updatedAt;
-      if (!omitBaseOnce && diskRev > 0) body.baseUpdatedAt = diskRev;
+      if (!replacing && !omitBaseOnce && diskRev > 0) body.baseUpdatedAt = diskRev;
       omitBaseOnce = false;
-      if (replaceProgressOnce) {
-        body.replaceProgress = true;
-        replaceProgressOnce = false;
-      }
+      if (replacing) body.replaceProgress = true;
       const res = await fetch(PROGRESS_URL, {
         method: "PUT",
         headers: { "Content-Type": "application/json; charset=utf-8" },
         body: JSON.stringify(body),
         cache: "no-store",
       });
+      if (progressGen !== gen) return res.ok || res.status === 204 ? "ok" : "fail";
       if (res.status === 409) {
+        if (replacing) {
+          replaceAttempts += 1;
+          if (replaceAttempts < 4) progressDirty = true;
+          return "conflict";
+        }
         const disk = await readProgressFile();
+        if (progressGen !== gen) return "conflict";
         if (disk.status === "full" && disk.parsed) {
           const localCursor = Math.max(0, Math.floor(Number(store.ballCursor) || 0));
           const localBalls = Math.max(0, Math.floor(Number(store.balls) || 0));
@@ -423,7 +434,13 @@
         }
         return "conflict";
       }
-      if (res.ok || res.status === 204) diskRev = body.updatedAt;
+      if (res.ok || res.status === 204) {
+        diskRev = body.updatedAt;
+        if (replacing) {
+          replaceProgressOnce = false;
+          replaceAttempts = 0;
+        }
+      }
       if ((res.ok || res.status === 204) && !isStoreEmpty(store)) rememberLocalBackup();
       return res.ok || res.status === 204 ? "ok" : "fail";
     } catch {
@@ -451,7 +468,9 @@
         }
       }
       if (!disk.parsed) return false;
-      restoreParsed(disk.parsed);
+      // Disk is the save the page just loaded. A stale browser copy must not
+      // fill a league that was cleared in that file. Later play still merges.
+      restoreParsed(disk.parsed, { replaceLeague: true });
       return !isStoreEmpty(store) || disk.status === "empty";
     } catch {
       return false;
@@ -4127,9 +4146,11 @@
   async function applyImportedText(text) {
     const parsed = JSON.parse(text);
     if (!parsed || typeof parsed !== "object") throw new Error("bad save");
+    progressGen += 1;
     applyProgressPayload(parsed, { baselinePresses: true, replaceLeague: true });
     omitBaseOnce = true;
     replaceProgressOnce = true;
+    replaceAttempts = 0;
     saveStore();
     ensureBossDay();
     claimDailyIfNeeded();

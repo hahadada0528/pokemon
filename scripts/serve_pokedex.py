@@ -86,6 +86,24 @@ def _merge_cleared(left, right):
     return out
 
 
+def _league_blank(league) -> bool:
+    """True when this object is a league with no badges, frames, clears, people, or Ash day."""
+    if not isinstance(league, dict):
+        return False
+    ash = league.get("ashDay")
+    if isinstance(ash, str) and ash.strip():
+        return False
+    for key in ("badges", "frames", "cleared", "people"):
+        value = league.get(key)
+        if isinstance(value, dict) and len(value) > 0:
+            return False
+    return True
+
+
+def _empty_league():
+    return {"badges": {}, "frames": {}, "cleared": {}, "people": {}, "ashDay": ""}
+
+
 def merge_league(disk, incoming):
     """A later save must not clear today's Ash win or downgrade a frame."""
     disk = disk if isinstance(disk, dict) else {}
@@ -478,7 +496,13 @@ class Handler(SimpleHTTPRequestHandler):
             except (OSError, json.JSONDecodeError):
                 disk = None
             if isinstance(disk, dict):
-                incoming["league"] = merge_league(disk.get("league"), incoming.get("league"))
+                # The page loaded this revision and saved an empty league.
+                # Keep it empty. Two non-empty leagues still merge so a second
+                # live page cannot drop a newer win.
+                if _league_blank(incoming.get("league")) and "baseUpdatedAt" in incoming:
+                    incoming["league"] = _empty_league()
+                else:
+                    incoming["league"] = merge_league(disk.get("league"), incoming.get("league"))
         return json.dumps(incoming, ensure_ascii=False, separators=(",", ":")).encode("utf-8")
 
     def serve_progress_put(self):

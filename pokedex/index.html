@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>宝可梦图鉴</title>
-  <link rel="stylesheet" href="./styles.css?v=59" />
+  <link rel="stylesheet" href="./styles.css?v=65" />
 </head>
 <body>
   <div class="atmosphere" aria-hidden="true"></div>
@@ -16,13 +16,41 @@
         <button type="button" class="help-open" id="btn-help">帮助</button>
       </div>
       <nav class="controls" aria-label="图鉴控制">
-        <div class="tabs" role="tablist">
-          <button type="button" class="tab is-active" role="tab" aria-selected="true" data-mode="normal">普通图鉴</button>
-          <button type="button" class="tab" role="tab" aria-selected="false" data-mode="shiny">闪光图鉴</button>
-          <button type="button" class="tab" id="view-shop" aria-pressed="false">商店</button>
-          <button type="button" class="tab" id="view-explore" aria-pressed="false">探索</button>
-          <button type="button" class="tab" id="view-league" aria-pressed="false">道馆战</button>
-          <button type="button" class="tab" id="view-finale" aria-pressed="false" hidden>最终挑战</button>
+        <div class="nav-row">
+          <div class="tabs" role="tablist">
+            <button type="button" class="tab is-active" role="tab" aria-selected="true" data-mode="normal">普通图鉴</button>
+            <button type="button" class="tab" role="tab" aria-selected="false" data-mode="shiny">闪光图鉴</button>
+            <button type="button" class="tab" id="view-shop" aria-pressed="false">商店</button>
+            <button type="button" class="tab" id="view-explore" aria-pressed="false">探索</button>
+            <button type="button" class="tab" id="view-league" aria-pressed="false">道馆战</button>
+            <button type="button" class="tab" id="view-finale" aria-pressed="false" hidden>最终挑战</button>
+          </div>
+
+          <div class="stats" id="stats">
+            <div class="stat stat-power-total" id="stat-power-wrap">
+              <span class="stat-label">战力总和</span>
+              <span class="stat-value" id="stat-power-total">0</span>
+              <div class="stat-tip" id="stat-power-tip" role="tooltip">普通战力 0 · 闪光战力 0</div>
+            </div>
+            <div class="stat stat-seen" tabindex="0">
+              <span class="stat-label">普通图鉴已点亮</span>
+              <span class="stat-value" id="stat-seen">0 / 1082</span>
+              <div class="stat-tip" id="stat-seen-tip" role="tooltip">普通图鉴 0 · 形态图鉴 0</div>
+            </div>
+            <div class="stat stat-seen" tabindex="0">
+              <span class="stat-label">闪光图鉴已点亮</span>
+              <span class="stat-value" id="stat-seen-shiny">0 / 1082</span>
+              <div class="stat-tip" id="stat-seen-shiny-tip" role="tooltip">普通图鉴 0 · 形态图鉴 0</div>
+            </div>
+            <div class="stat">
+              <span class="stat-label">金币</span>
+              <span class="stat-value" id="stat-coins">0</span>
+            </div>
+            <div class="stat">
+              <span class="stat-label">精灵球</span>
+              <span class="stat-value" id="stat-balls">0</span>
+            </div>
+          </div>
         </div>
 
         <div class="filters" id="filters">
@@ -69,32 +97,6 @@
   <header class="top">
     <div class="brand-block">
       <h1 id="dex-title">普通图鉴</h1>
-    </div>
-
-    <div class="stats" id="stats">
-      <div class="stat stat-power-total" id="stat-power-wrap">
-        <span class="stat-label">战力总和</span>
-        <span class="stat-value" id="stat-power-total">0</span>
-        <div class="stat-tip" id="stat-power-tip" role="tooltip">普通战力 0 · 闪光战力 0</div>
-      </div>
-      <div class="stat stat-seen" tabindex="0">
-        <span class="stat-label">普通图鉴已点亮</span>
-        <span class="stat-value" id="stat-seen">0 / 1082</span>
-        <div class="stat-tip" id="stat-seen-tip" role="tooltip">普通图鉴 0 · 形态图鉴 0</div>
-      </div>
-      <div class="stat stat-seen" tabindex="0">
-        <span class="stat-label">闪光图鉴已点亮</span>
-        <span class="stat-value" id="stat-seen-shiny">0 / 1082</span>
-        <div class="stat-tip" id="stat-seen-shiny-tip" role="tooltip">普通图鉴 0 · 形态图鉴 0</div>
-      </div>
-      <div class="stat">
-        <span class="stat-label">金币</span>
-        <span class="stat-value" id="stat-coins">0</span>
-      </div>
-      <div class="stat">
-        <span class="stat-label">精灵球</span>
-        <span class="stat-value" id="stat-balls">0</span>
-      </div>
     </div>
   </header>
 
@@ -232,6 +234,6 @@
     </form>
   </dialog>
 
-  <script src="./app.js?v=143"></script>
+  <script src="./app.js?v=145"></script>
 </body>
 </html>
