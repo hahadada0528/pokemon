@@ -84,8 +84,8 @@
 
 | 系统 | 文件 |
 | --- | --- |
-| macOS | `宝可梦图鉴-mac.zip` |
-| Windows | `宝可梦图鉴-win.zip` |
+| macOS | `pokedex-mac.zip` |
+| Windows | `pokedex-win.zip` |
 
 ### macOS
 
